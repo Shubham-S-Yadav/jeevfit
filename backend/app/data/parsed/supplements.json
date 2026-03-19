@@ -1,0 +1,649 @@
+[
+  {
+    "id": "vitamin_d3",
+    "name": "Vitamin D3",
+    "also_known_as": "Cholecalciferol",
+    "tier": 1,
+    "indian_deficiency_pct": "70-100%",
+    "why_needed": "Despite being a tropical country with abundant sunlight, indoor lifestyles, dark skin pigmentation (more melanin = less UVB absorption), air pollution (blocks UVB), and vegetarian diets (few dietary D3 sources) cause rampant Vitamin D deficiency across all age groups and socioeconomic strata in India.",
+    "dosage": {
+      "maintenance": "600-1000 IU/day",
+      "deficient": "1000-2000 IU/day for 8-12 weeks, then maintenance",
+      "severe_deficiency": "60,000 IU/week for 8-12 weeks (physician-supervised)",
+      "elderly": "1000-2000 IU/day",
+      "pregnant_lactating": "1000-2000 IU/day",
+      "children": "600-1000 IU/day",
+      "upper_limit": "4000 IU/day"
+    },
+    "when_to_take": "With the largest fat-containing meal of the day (D3 is fat-soluble; absorption increases ~50% with fat). Lunch or dinner for most Indians. Morning or afternoon preferred.",
+    "forms": ["Cholecalciferol (D3)", "Ergocalciferol (D2) - less effective"],
+    "contraindications": [
+      "Hypercalcemia (elevated blood calcium)",
+      "Granulomatous diseases (sarcoidosis, tuberculosis) - can cause excessive conversion to active form",
+      "Kidney disease - altered metabolism; physician supervision needed",
+      "Excessive doses (>4000 IU/day long-term without monitoring) can cause toxicity: hypercalcemia, kidney stones, soft tissue calcification",
+      "Take with Vitamin K2 (MK-7) if supplementing >2000 IU/day to direct calcium to bones"
+    ],
+    "who_should_take": [
+      "Virtually every Indian adult without 20-30 min midday sun on bare arms/legs",
+      "Urban office workers",
+      "Women (especially those wearing full coverage clothing)",
+      "Elderly (>65 years)",
+      "Pregnant/lactating women",
+      "Children",
+      "Vegetarians"
+    ],
+    "brands_india": [
+      { "name": "HealthKart HK Vitals", "product": "Vitamin D3 2000 IU, 60 tablets", "price_inr": "350-400" },
+      { "name": "Carbamide Forte", "product": "Vitamin D3 2000 IU + K2 (MK-7), 120 tablets", "price_inr": "400-500" },
+      { "name": "NOW Foods (imported)", "product": "Vitamin D3 2000 IU, 240 softgels", "price_inr": "800-1000" },
+      { "name": "Dr. Morepen", "product": "Vitamin D3 1000 IU, 60 tablets", "price_inr": "250-300" },
+      { "name": "SunBright (sachets)", "product": "60,000 IU cholecalciferol (prescription)", "price_inr": "30-40/sachet" },
+      { "name": "Tata 1mg", "product": "Vitamin D3 2000 IU, 60 capsules", "price_inr": "300-350" }
+    ],
+    "research": [
+      { "author": "Aparna P et al.", "journal": "JFMPC", "year": 2018, "pmid": "30271775", "finding": "Vitamin D deficiency widespread across India" },
+      { "author": "Ritu G & Gupta A", "journal": "Indian J Med Res", "year": 2014, "pmid": "24718393", "finding": "70-100% of Indians across all demographics are Vitamin D deficient" }
+    ],
+    "goals": ["general_health", "bone_health", "immunity", "hair_health", "muscle_function"]
+  },
+  {
+    "id": "vitamin_b12",
+    "name": "Vitamin B12",
+    "also_known_as": "Methylcobalamin / Cyanocobalamin",
+    "tier": 1,
+    "indian_deficiency_pct": "47-75%",
+    "why_needed": "Predominantly vegetarian/lacto-vegetarian Indian diet causes widespread B12 deficiency. B12 is found almost exclusively in animal products, and dairy alone is often insufficient. Vegans face near-universal deficiency without supplementation. Deficiency causes megaloblastic anemia, peripheral neuropathy, cognitive decline, fatigue, elevated homocysteine, and infertility.",
+    "dosage": {
+      "maintenance": "2.4 mcg/day (ICMR RDA)",
+      "supplementation_vegetarian": "250-500 mcg/day oral",
+      "deficient": "1000-2000 mcg/day for 1-2 months, then 250-500 mcg",
+      "elderly": "500-1000 mcg/day",
+      "pregnant_lactating": "250-500 mcg/day supplement",
+      "upper_limit": "No established UL (water-soluble; excess excreted)"
+    },
+    "when_to_take": "Morning, on empty stomach or with breakfast. B12 is water-soluble; no fat needed. Morning helps with energy levels throughout the day.",
+    "forms": [
+      "Methylcobalamin - active form, better retained, preferred",
+      "Cyanocobalamin - synthetic, cheaper, well-studied, requires conversion",
+      "Hydroxocobalamin - injection form for severe deficiency",
+      "Sublingual tablets may have slightly better absorption"
+    ],
+    "contraindications": [
+      "Extremely safe even at high doses (water-soluble; excess excreted)",
+      "Rare allergic reactions to cyanocobalamin",
+      "Leber's hereditary optic neuropathy - may worsen (very rare genetic condition)",
+      "Very high doses (>5000 mcg/day) - some concern about acne in susceptible individuals"
+    ],
+    "who_should_take": [
+      "All vegetarians and vegans (near-mandatory)",
+      "Anyone with confirmed deficiency",
+      "Elderly populations (reduced intrinsic factor)",
+      "People on metformin (diabetes drug depletes B12)",
+      "People on long-term PPIs (reduces absorption)"
+    ],
+    "brands_india": [
+      { "name": "HealthKart HK Vitals", "product": "B12 1500 mcg methylcobalamin, 60 tablets", "price_inr": "350-400" },
+      { "name": "Carbamide Forte", "product": "Methylcobalamin 1500 mcg + B1, B6, Folic Acid, 100 tablets", "price_inr": "400" },
+      { "name": "SBL", "product": "B12 drops", "price_inr": "150-200" },
+      { "name": "Neurobion Forte (prescription)", "product": "B1+B6+B12 combination", "price_inr": "30-35/strip" },
+      { "name": "Nature Made (imported)", "product": "B12 1000 mcg, 90 tablets", "price_inr": "600-800" },
+      { "name": "Fast&Up", "product": "B12 effervescent tablets", "price_inr": "500-600" }
+    ],
+    "research": [
+      { "author": "Yajnik CS et al.", "journal": "Diabetologia", "year": 2008, "pmid": "17955209", "finding": "B12 and folate concentrations during pregnancy affect insulin resistance in offspring" },
+      { "author": "Refsum H et al.", "journal": "Am J Clin Nutr", "year": 2001, "pmid": "11684524", "finding": "47-75% of Indian adults have low B12 levels (<200 pg/mL)" }
+    ],
+    "goals": ["general_health", "energy", "nerve_health", "brain_health", "heart_health"]
+  },
+  {
+    "id": "vitamin_c",
+    "name": "Vitamin C",
+    "also_known_as": "Ascorbic Acid",
+    "tier": 2,
+    "indian_deficiency_pct": "Low (subclinical insufficiency exists in some populations)",
+    "why_needed": "Deficiency is less widespread than D3/B12 due to dietary availability (amla, guava, citrus, bell peppers), but subclinical insufficiency exists in malnourished populations and those with poor fruit/vegetable intake. Useful as immune booster, antioxidant, and collagen synthesis aid.",
+    "dosage": {
+      "maintenance": "40-80 mg/day (ICMR); 65-90 mg (NIH)",
+      "immune_support": "250-500 mg/day",
+      "during_illness": "1000-2000 mg/day in divided doses (may reduce cold duration by ~8%)",
+      "upper_limit": "2000 mg/day"
+    },
+    "when_to_take": "With meals (reduces GI upset at higher doses). Morning or any time.",
+    "forms": ["Ascorbic Acid", "Sodium Ascorbate (buffered)", "Ester-C"],
+    "contraindications": [
+      "Doses >2000 mg/day: diarrhea, nausea, stomach cramps, kidney stones (oxalate) in susceptible individuals",
+      "Hemochromatosis (iron overload) - Vitamin C increases iron absorption; avoid high doses",
+      "G6PD deficiency - very high IV doses can cause hemolysis (oral at normal doses is safe)",
+      "History of calcium oxalate kidney stones - keep doses under 1000 mg/day"
+    ],
+    "who_should_take": [
+      "Smokers (require 35 mg/day more than non-smokers)",
+      "People with poor fruit/vegetable intake",
+      "Those recovering from surgery or wounds (collagen synthesis)",
+      "Iron-deficient individuals (enhances non-heme iron absorption - take together)"
+    ],
+    "brands_india": [
+      { "name": "Limcee", "product": "Vitamin C 500 mg chewable, 15 tablets", "price_inr": "25-30" },
+      { "name": "Celin", "product": "Vitamin C 500 mg, 15 tablets", "price_inr": "20-25" },
+      { "name": "Amla (natural alternative)", "product": "Indian gooseberry - 1 amla = ~600-800 mg Vitamin C", "price_inr": "5-10/piece" },
+      { "name": "Fast&Up Charge", "product": "Vitamin C 1000 mg effervescent, 20 tablets", "price_inr": "400-450" },
+      { "name": "HealthKart HK Vitals", "product": "Vitamin C + Zinc, 60 tablets", "price_inr": "300-350" }
+    ],
+    "research": [],
+    "goals": ["immunity", "skin_health", "iron_absorption", "wound_healing", "antioxidant"]
+  },
+  {
+    "id": "vitamin_e",
+    "name": "Vitamin E",
+    "also_known_as": "Alpha-Tocopherol",
+    "tier": 3,
+    "indian_deficiency_pct": "Low (dietary intake often adequate through cooking oils, nuts, seeds)",
+    "why_needed": "Dietary intake is often adequate through cooking oils (sunflower, safflower, mustard), nuts, and seeds. Supplementation is mainly useful for skin health and as antioxidant support.",
+    "dosage": {
+      "maintenance": "15 mg (22.4 IU) alpha-tocopherol (RDA)",
+      "skin_health": "200-400 IU/day (topical + oral)",
+      "upper_limit": "1000 mg/day (1500 IU)"
+    },
+    "when_to_take": "With a fat-containing meal (fat-soluble vitamin).",
+    "forms": ["Alpha-tocopherol (natural d-alpha preferred over synthetic dl-alpha)"],
+    "contraindications": [
+      "Blood thinning: >400 IU/day can increase bleeding risk. Avoid with anticoagulants (warfarin, aspirin, clopidogrel)",
+      "Meta-analysis caution: Miller et al. (2005) suggested high-dose >400 IU/day may increase all-cause mortality (debated). Stick to <400 IU/day",
+      "Pre-surgery: Stop 2 weeks before elective surgery"
+    ],
+    "who_should_take": [
+      "People seeking skin health support",
+      "Those with poor dietary fat intake",
+      "Antioxidant support seekers"
+    ],
+    "brands_india": [
+      { "name": "Evion", "product": "400 mg Vitamin E capsules, 20 caps", "price_inr": "100-120" },
+      { "name": "HealthKart", "product": "Vitamin E 400 IU, 60 capsules", "price_inr": "350-400" },
+      { "name": "Himalayan Organics", "product": "Vitamin E, 60 capsules", "price_inr": "400-500" }
+    ],
+    "research": [
+      { "author": "Miller et al.", "journal": "Annals of Internal Medicine", "year": 2005, "pmid": "15642702", "finding": "High-dose Vitamin E (>400 IU/day) may increase all-cause mortality (debated)" }
+    ],
+    "goals": ["skin_health", "antioxidant", "hair_health"]
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "also_known_as": "Zinc (various salt forms)",
+    "tier": 1,
+    "indian_deficiency_pct": "25-30%",
+    "why_needed": "Approximately 25-30% of Indian adults have zinc deficiency, higher in vegetarian populations due to phytates in grains/legumes inhibiting zinc absorption. Consequences include impaired immunity, poor wound healing, hair loss, low testosterone in men, and taste/smell disturbances.",
+    "dosage": {
+      "adult_men_rda": "11-12 mg/day",
+      "adult_women_rda": "8-9 mg/day",
+      "immune_support": "15-30 mg/day elemental zinc",
+      "during_cold": "75 mg/day in divided doses for 5-7 days only (zinc lozenges)",
+      "upper_limit": "40 mg/day (chronic intake above this causes copper depletion)"
+    },
+    "when_to_take": "On an empty stomach for best absorption (but causes nausea in some - take with small meal if needed). Do NOT take with calcium, iron, or copper supplements at same time. Do NOT take with high-phytate meals (dal/roti/rice). Best taken 1 hour before or 2 hours after meals.",
+    "forms": [
+      "Zinc Picolinate - highest absorption (~20% more bioavailable)",
+      "Zinc Glycinate/Bisglycinate - well-absorbed, gentle on stomach",
+      "Zinc Citrate - good absorption",
+      "Zinc Gluconate - commonly available, decent absorption",
+      "Zinc Sulfate - cheapest, can cause nausea; adequate if tolerated",
+      "Zinc Oxide - poorly absorbed; avoid for supplementation"
+    ],
+    "contraindications": [
+      "Copper depletion: Chronic >40 mg/day depletes copper. Supplement copper (1-2 mg) if taking zinc long-term",
+      "Reduces absorption of tetracycline and quinolone antibiotics (space 2 hours apart)"
+    ],
+    "who_should_take": [
+      "Vegetarians/vegans (phytate-rich diet reduces zinc absorption by 30-50%)",
+      "People with frequent infections",
+      "Men concerned about testosterone/reproductive health",
+      "Elderly populations"
+    ],
+    "brands_india": [
+      { "name": "HealthKart HK Vitals", "product": "Zinc 25 mg zinc gluconate, 60 tablets", "price_inr": "200-250" },
+      { "name": "Carbamide Forte", "product": "Zinc 50 mg zinc gluconate, 120 tablets", "price_inr": "300-350" },
+      { "name": "Nature's Bounty (imported)", "product": "Zinc Picolinate 25 mg, 100 tablets", "price_inr": "700-900" },
+      { "name": "Zincovit (prescription)", "product": "Zinc + multivitamin", "price_inr": "80-100/strip" },
+      { "name": "NOW Foods (imported)", "product": "Zinc Picolinate 50 mg, 120 capsules", "price_inr": "800-1000" }
+    ],
+    "research": [
+      { "author": "Wessells KR & Brown KH", "journal": "PLoS ONE", "year": 2012, "pmid": "22693455", "finding": "Approximately 25-30% of Indian adults have zinc deficiency, higher in vegetarian populations" }
+    ],
+    "goals": ["immunity", "testosterone", "hair_health", "skin_health", "wound_healing"]
+  },
+  {
+    "id": "magnesium",
+    "name": "Magnesium",
+    "also_known_as": "Magnesium (various salt forms)",
+    "tier": 1,
+    "indian_deficiency_pct": "50-80%",
+    "why_needed": "50-80% of Indians do not meet the RDA for magnesium. Dietary surveys (NNMB data) show median intake of 200-250 mg/day against RDA of 310-420 mg. Causes include refined grain consumption (milling removes ~80% of magnesium), low nut/seed intake, and soil depletion. Consequences: muscle cramps, poor sleep, anxiety, migraines, insulin resistance, poor bone density.",
+    "dosage": {
+      "adult_men_rda": "400-420 mg/day",
+      "adult_women_rda": "310-320 mg/day",
+      "supplementation": "200-400 mg elemental magnesium/day",
+      "upper_limit": "350 mg/day from supplements only (higher doses can cause diarrhea)"
+    },
+    "when_to_take": "Evening/before bed for sleep support (glycinate or threonate). With meals to reduce GI side effects. Split doses if >200 mg (absorption saturates). Separate from calcium, zinc, iron supplements by 2 hours.",
+    "forms": [
+      "Magnesium Glycinate/Bisglycinate - Sleep, anxiety, general use; high bioavailability, gentle on stomach",
+      "Magnesium Threonate (Magtein) - Cognitive function, brain health; crosses blood-brain barrier",
+      "Magnesium Taurate - Heart health, blood pressure; good bioavailability",
+      "Magnesium Citrate - Constipation relief, general use; mild laxative effect",
+      "Magnesium Malate - Muscle pain, energy, fibromyalgia; good bioavailability",
+      "Magnesium Oxide - Cheapest; laxative; poor bioavailability (~4%); avoid",
+      "Magnesium L-Threonate - Neurological support; excellent for brain"
+    ],
+    "contraindications": [
+      "Kidney disease - cannot excrete excess magnesium; risk of hypermagnesemia. Avoid without physician supervision",
+      "High doses cause osmotic diarrhea (especially citrate and oxide forms)",
+      "Can interact with bisphosphonates, antibiotics (tetracyclines, quinolones) - space 2 hours"
+    ],
+    "who_should_take": [
+      "Almost everyone in India (widespread insufficiency)",
+      "People with muscle cramps, poor sleep, anxiety, migraines",
+      "Diabetics/pre-diabetics (improves insulin sensitivity)",
+      "Athletes and heavy exercisers (lost in sweat)",
+      "People on PPIs or diuretics (deplete magnesium)"
+    ],
+    "brands_india": [
+      { "name": "Carbamide Forte", "product": "Magnesium Glycinate (1743 mg, 240 mg elemental), 60 tablets", "price_inr": "500-600" },
+      { "name": "NOW Foods (imported)", "product": "Magnesium Citrate 200 mg, 250 tablets", "price_inr": "1200-1500" },
+      { "name": "HealthKart HK Vitals", "product": "Magnesium + Zinc + B6 (ZMA), 60 capsules", "price_inr": "400-500" },
+      { "name": "TrueBasics", "product": "Magnesium Bisglycinate, 60 tablets", "price_inr": "600-700" },
+      { "name": "Dr. Morepen", "product": "Magnesium Citrate 200 mg, 60 tablets", "price_inr": "350-400" }
+    ],
+    "research": [],
+    "goals": ["sleep", "anxiety", "muscle_cramps", "bone_health", "heart_health", "migraine"]
+  },
+  {
+    "id": "iron",
+    "name": "Iron",
+    "also_known_as": "Ferrous/Ferric salts",
+    "tier": 1,
+    "indian_deficiency_pct": "~50% women, ~25% men, ~40% children",
+    "why_needed": "India has among the highest anemia burden globally. ~50% of Indian women (15-49 years), ~25% of men, ~40% of children under 5 are anemic, with iron deficiency being the primary cause (NFHS-5). Do NOT supplement iron unless deficiency is confirmed by blood test - excess iron is dangerous.",
+    "dosage": {
+      "adult_men_rda": "17 mg/day (ICMR)",
+      "adult_women_rda": "21 mg/day (ICMR, menstruating)",
+      "pregnant": "35 mg/day (ICMR)",
+      "supplementation_deficiency": "30-65 mg elemental iron/day (physician-guided)",
+      "upper_limit": "Do NOT supplement without confirmed deficiency"
+    },
+    "when_to_take": "Empty stomach, 1 hour before meals for best absorption. With Vitamin C (200-500 mg) to enhance absorption by 2-3x. Never with tea, coffee, calcium, dairy, or whole grains (tannins, calcium, phytates inhibit absorption by 40-60%). Alternate-day dosing may improve absorption due to hepcidin regulation.",
+    "forms": [
+      "Ferrous bisglycinate - best absorbed, least GI side effects; preferred",
+      "Ferrous sulfate - cheap, widely prescribed, causes constipation/nausea",
+      "Ferrous fumarate - moderate; common in India",
+      "Carbonyl iron - slow release, fewer side effects"
+    ],
+    "contraindications": [
+      "Do NOT supplement without confirmed deficiency (serum ferritin <30 ng/mL, or hemoglobin <12 g/dL in women, <13 g/dL in men)",
+      "Iron overload causes oxidative stress, liver damage, heart damage",
+      "Hemochromatosis (genetic iron overload)",
+      "Iron supplements are a leading cause of poisoning death in children - store safely",
+      "GI side effects: constipation, nausea, black stools (harmless)",
+      "Reduces absorption of levothyroxine, tetracyclines, quinolones, levodopa"
+    ],
+    "who_should_take": [
+      "ONLY if blood test confirms deficiency",
+      "Menstruating women with heavy periods",
+      "Pregnant women (routine supplementation recommended by WHO)",
+      "Vegetarians (non-heme iron from plants is less bioavailable)"
+    ],
+    "brands_india": [
+      { "name": "Autrin", "product": "Iron + Folic Acid capsules", "price_inr": "60-80/strip" },
+      { "name": "Orofer XT", "product": "Iron (ferrous ascorbate) + Folic Acid", "price_inr": "100-120/strip" },
+      { "name": "Livogen", "product": "Iron + Folic Acid", "price_inr": "50-70/strip" },
+      { "name": "Carbamide Forte", "product": "Iron Bisglycinate 60 mg + Vitamin C, 60 tablets", "price_inr": "350-400" },
+      { "name": "HealthKart HK Vitals", "product": "Iron + Folic Acid + Vitamin C, 60 tablets", "price_inr": "300-350" }
+    ],
+    "research": [
+      { "author": "NFHS-5", "journal": "National Family Health Survey, Government of India", "year": 2021, "pmid": "N/A", "finding": "~50% of Indian women, ~25% of men, ~40% of children under 5 are anemic" },
+      { "author": "Moretti et al.", "journal": "Lancet Haematology", "year": 2015, "pmid": "26686373", "finding": "Alternate-day iron dosing may improve absorption due to hepcidin regulation" }
+    ],
+    "goals": ["anemia", "energy", "pregnancy", "general_health"]
+  },
+  {
+    "id": "calcium",
+    "name": "Calcium",
+    "also_known_as": "Calcium (various salt forms)",
+    "tier": 2,
+    "indian_deficiency_pct": "Widespread - average intake 300-400 mg/day against RDA of 600-1000 mg",
+    "why_needed": "Average Indian dietary calcium intake is only 300-400 mg/day (NNMB data), against an RDA of 600-1000 mg. Consequences include osteopenia, osteoporosis (especially post-menopausal women), and fracture risk.",
+    "dosage": {
+      "adults_19_50_rda": "600-1000 mg/day (ICMR: 600; NIH: 1000)",
+      "women_over_50_men_over_70": "1000-1200 mg/day",
+      "pregnant_lactating": "1000-1200 mg/day",
+      "per_dose_max": "500 mg at a time (absorption saturates)",
+      "upper_limit": "2000-2500 mg/day from diet + supplements combined"
+    },
+    "when_to_take": "Calcium Carbonate: with meals (needs stomach acid). Calcium Citrate: any time (acid-independent). Split doses (max 500 mg per dose). Separate from iron and zinc by 2 hours. Take with Vitamin D3 (critical for absorption). Consider adding Vitamin K2 (MK-7).",
+    "forms": [
+      "Calcium Citrate - absorbed with or without food; better for those on PPIs/low stomach acid; preferred",
+      "Calcium Carbonate - cheapest, must be taken with food, 40% elemental calcium; can cause gas/constipation",
+      "Calcium Hydroxyapatite - derived from bone; contains phosphorus; well-absorbed"
+    ],
+    "contraindications": [
+      "Kidney stones (calcium oxalate type) - dietary calcium reduces risk, but supplements may increase it; take with meals to bind oxalate",
+      "Hypercalcemia, hyperparathyroidism - do not supplement",
+      "Cardiovascular concern - some meta-analyses suggest calcium supplements may increase CV risk; keep <1500 mg/day from supplements",
+      "Drug interactions: reduces absorption of thyroid medications, bisphosphonates, tetracyclines - space 2-4 hours"
+    ],
+    "who_should_take": [
+      "Post-menopausal women",
+      "Those with low dairy intake",
+      "Elderly (bone density support)",
+      "Pregnant/lactating women"
+    ],
+    "brands_india": [
+      { "name": "Shelcal 500", "product": "Calcium Carbonate 500 mg + D3, 15 tablets", "price_inr": "120-140" },
+      { "name": "Calcimax P", "product": "Calcium + Phosphorus + D3", "price_inr": "150-170/strip" },
+      { "name": "Tata 1mg Calcium", "product": "Calcium Citrate Malate + D3 + K2, 60 tablets", "price_inr": "400-500" },
+      { "name": "OZiva Plant-Based Calcium", "product": "Plant calcium + D3 + K2, 60 tablets", "price_inr": "600-700" },
+      { "name": "Fast&Up Fortify", "product": "Calcium effervescent, 20 tablets", "price_inr": "500-550" }
+    ],
+    "research": [],
+    "goals": ["bone_health", "osteoporosis_prevention", "pregnancy", "general_health"]
+  },
+  {
+    "id": "omega_3",
+    "name": "Omega-3 Fatty Acids",
+    "also_known_as": "Fish Oil / EPA+DHA / ALA",
+    "tier": 1,
+    "indian_deficiency_pct": "Widespread - omega-6:omega-3 ratio often 15-20:1 instead of ideal 2-4:1",
+    "why_needed": "Indian diets are typically very high in omega-6 (from sunflower, soybean, groundnut oil) and low in omega-3, creating an unfavorable ratio. Fish consumption is limited in many regions (especially North/West India). Vegetarian omega-3 sources provide ALA but conversion to EPA/DHA is very low (5-10% for EPA, <1% for DHA).",
+    "dosage": {
+      "general_health": "250-500 mg combined EPA+DHA",
+      "heart_health": "2000-4000 mg EPA+DHA (physician-supervised)",
+      "pregnancy": "200-300 mg DHA minimum",
+      "vegetarian_ala": "1-2 tablespoons flaxseed oil (~7g ALA) or ground flaxseeds",
+      "algae_based": "250-500 mg combined EPA+DHA from algal oil"
+    },
+    "when_to_take": "With a fat-containing meal (improves absorption significantly). Can be taken any time of day. If taking high doses (>2g), split into 2 doses with meals.",
+    "forms": [
+      "ALA (Alpha-Linolenic Acid) - plant-based from flaxseeds, chia, walnuts; poor conversion to EPA/DHA",
+      "EPA (Eicosapentaenoic Acid) - from fish or algae; anti-inflammatory, mood support",
+      "DHA (Docosahexaenoic Acid) - from fish or algae; brain, eye, heart health",
+      "Algae-based DHA/EPA - best vegetarian option for preformed EPA/DHA"
+    ],
+    "contraindications": [
+      "Blood thinning: High doses (>3g/day) may increase bleeding time. Caution with anticoagulants",
+      "Fish burps: Enteric-coated capsules reduce this; freeze capsules before taking",
+      "Fish allergy: Use algae-based alternatives",
+      "Surgery: Stop high-dose supplementation 1-2 weeks before surgery"
+    ],
+    "who_should_take": [
+      "Most Indians (due to poor omega-3:omega-6 ratio)",
+      "Vegetarians (algae-based or flaxseed oil)",
+      "Those not consuming fish 2-3 times per week",
+      "Pregnant women (DHA for fetal brain development)",
+      "People with elevated triglycerides"
+    ],
+    "brands_india": [
+      { "name": "HealthKart Omega 3", "product": "Fish Oil 1000 mg (180 EPA/120 DHA), 60 capsules", "price_inr": "400-500" },
+      { "name": "MuscleBlaze Omega 3", "product": "Fish Oil 1000 mg, 60 capsules", "price_inr": "350-400" },
+      { "name": "TrueBasics Omega-3", "product": "Triple Strength 1250 mg (560 EPA/400 DHA), 60 capsules", "price_inr": "900-1000" },
+      { "name": "Boldfit Flaxseed Oil", "product": "Cold-pressed, 500 ml", "price_inr": "300-400" },
+      { "name": "OZiva Plant-Based Omega", "product": "Algae-based DHA + Flaxseed, 60 capsules", "price_inr": "800-900" },
+      { "name": "Nutrela Organic Flaxseed Oil", "product": "Cold-pressed, 500 ml", "price_inr": "250-350" },
+      { "name": "Source Naturals Algae DHA (imported)", "product": "Algal DHA 200 mg, 60 softgels", "price_inr": "1500-2000" }
+    ],
+    "research": [],
+    "goals": ["heart_health", "brain_health", "anti_inflammation", "pregnancy", "joint_health"]
+  },
+  {
+    "id": "ashwagandha",
+    "name": "Ashwagandha",
+    "also_known_as": "Withania somnifera",
+    "tier": 1,
+    "indian_deficiency_pct": "N/A (adaptogen, not an essential nutrient)",
+    "why_needed": "One of the most well-researched Ayurvedic herbs with multiple randomized controlled trials. Shown to reduce cortisol by 27.9%, increase testosterone by ~15%, improve muscle strength, reduce anxiety significantly, improve sleep quality, and normalize thyroid hormones in subclinical hypothyroidism.",
+    "dosage": {
+      "ksm_66_root_extract": "300-600 mg/day (typically 300 mg twice daily); standardized to >5% withanolides",
+      "sensoril_root_leaf_extract": "125-250 mg/day; more potent per mg, more calming",
+      "raw_powder": "3-6 g/day; less concentrated; traditional use",
+      "cycle_recommendation": "8-12 weeks on, 2-4 weeks off (traditional Ayurvedic practice)"
+    },
+    "when_to_take": "For stress/anxiety: morning and evening, with meals. For sleep: 300-600 mg, 30-60 minutes before bed. For testosterone/muscle: morning and post-workout or evening.",
+    "forms": [
+      "KSM-66 (root extract) - most studied",
+      "Sensoril (root + leaf extract) - more potent per mg, more calming",
+      "Raw powder (Churna) - traditional use, less concentrated"
+    ],
+    "contraindications": [
+      "Pregnancy - AVOID (may have abortifacient properties)",
+      "Autoimmune conditions (lupus, RA, Hashimoto's, MS) - stimulates immune system, may worsen flares",
+      "Hyperthyroidism or properly treated hypothyroidism - can elevate thyroid hormones",
+      "Surgery - stop 2 weeks before (may enhance anesthesia effects)",
+      "May lower blood sugar and blood pressure - caution with diabetes/BP medications",
+      "Liver concerns - rare case reports of liver injury (use reputable brands)",
+      "Nightshade family - may cause GI upset in nightshade-sensitive people"
+    ],
+    "who_should_take": [
+      "Adults experiencing chronic stress, anxiety, or poor sleep",
+      "Men seeking natural testosterone support",
+      "Athletes seeking improved recovery and strength",
+      "People with subclinical hypothyroidism (under medical supervision)"
+    ],
+    "brands_india": [
+      { "name": "Himalaya Ashvagandha", "product": "250 mg general extract, 60 tablets", "price_inr": "180-220" },
+      { "name": "HealthKart HK Vitals", "product": "Ashwagandha KSM-66 600 mg, 60 capsules", "price_inr": "400-500" },
+      { "name": "Kapiva Ashwagandha", "product": "KSM-66 500 mg, 60 capsules", "price_inr": "450-550" },
+      { "name": "Carbamide Forte", "product": "Ashwagandha 1000 mg (5% withanolides), 60 tablets", "price_inr": "400-450" },
+      { "name": "Dabur Ashwagandha", "product": "Churna (powder)", "price_inr": "100-150" },
+      { "name": "Nagarjuna/Kottakkal", "product": "Traditional Ashwagandha Churna/Lehyam", "price_inr": "100-200" }
+    ],
+    "research": [
+      { "author": "Chandrasekhar et al.", "journal": "Indian J Psychol Med", "year": 2012, "pmid": "23439798", "finding": "300 mg KSM-66 twice daily reduced cortisol by 27.9% and perceived stress significantly vs placebo over 60 days" },
+      { "author": "Lopresti et al.", "journal": "Am J Mens Health", "year": 2019, "pmid": "31466660", "finding": "300 mg KSM-66 twice daily increased testosterone by ~15% and improved sperm quality" },
+      { "author": "Wankhede et al.", "journal": "JISSN", "year": 2015, "pmid": "26609282", "finding": "Improved muscle strength, recovery, gained more muscle mass, lost more body fat" },
+      { "author": "Pratte et al.", "journal": "Systematic review", "year": 2014, "pmid": "25368609", "finding": "5 RCTs showed significant anxiolytic effects" },
+      { "author": "Langade et al.", "journal": "Cureus", "year": 2019, "pmid": "31728244", "finding": "300 mg twice daily improved sleep quality significantly in healthy and insomnia patients" },
+      { "author": "Sharma et al.", "journal": "J Altern Complement Med", "year": 2018, "pmid": "29091573", "finding": "Normalized thyroid hormones in subclinical hypothyroid patients (600 mg/day for 8 weeks)" }
+    ],
+    "goals": ["stress_relief", "sleep", "testosterone", "muscle_building", "anxiety", "thyroid_support"]
+  },
+  {
+    "id": "shilajit",
+    "name": "Shilajit",
+    "also_known_as": "Mineral Pitch / Mumijo",
+    "tier": 2,
+    "indian_deficiency_pct": "N/A (traditional Ayurvedic supplement)",
+    "why_needed": "Contains fulvic acid and dibenzo-alpha-pyrones which may enhance mitochondrial energy production. Shown to increase total testosterone by 20.45% and free testosterone by 19.14% in healthy men aged 45-55 over 90 days. Improves sperm count and motility in infertile men.",
+    "dosage": {
+      "purified_resin": "300-500 mg/day",
+      "capsule_standardized": "250-500 mg/day",
+      "traditional": "Pea-sized amount (~300 mg) dissolved in warm milk or water"
+    },
+    "when_to_take": "Morning on empty stomach (traditional recommendation) with warm water or milk. Can also take in the evening.",
+    "forms": [
+      "Purified Shilajit resin",
+      "Capsule/tablet (standardized extract)",
+      "Traditional resin dissolved in warm milk or water"
+    ],
+    "contraindications": [
+      "Purity is critical: Raw/unprocessed Shilajit may contain heavy metals, mycotoxins, free radicals. ONLY use purified/processed forms from reputable brands",
+      "Hemochromatosis/iron overload - Shilajit is rich in iron",
+      "Gout/high uric acid - may increase uric acid in some individuals",
+      "Pregnancy/breastfeeding - insufficient safety data; avoid",
+      "Not studied adequately in children"
+    ],
+    "who_should_take": [
+      "Men seeking testosterone support (especially age 40+)",
+      "Those seeking energy and vitality improvement",
+      "Athletes for exercise recovery",
+      "Those interested in traditional Ayurvedic wellness"
+    ],
+    "brands_india": [
+      { "name": "Kapiva Himalayan Shilajit", "product": "Resin, 20g", "price_inr": "900-1200" },
+      { "name": "Upakarma Ayurveda", "product": "Shilajit resin, 15g", "price_inr": "600-800" },
+      { "name": "Dabur Shilajit Gold", "product": "Capsules (Shilajit + other herbs), 20 caps", "price_inr": "350-400" },
+      { "name": "Patanjali Shilajit", "product": "Capsules", "price_inr": "150-200" },
+      { "name": "HealthKart HK Vitals", "product": "Shilajit extract, 60 capsules", "price_inr": "500-600" },
+      { "name": "Rasayanam Shilajit", "product": "Resin, 20g (marketed as lab-tested)", "price_inr": "1000-1500" }
+    ],
+    "research": [
+      { "author": "Pandit et al.", "journal": "Andrologia", "year": 2016, "pmid": "26395129", "finding": "Purified Shilajit 250 mg twice daily increased total testosterone by 20.45% and free testosterone by 19.14% in healthy men over 90 days" },
+      { "author": "Biswas et al.", "journal": "Andrologia", "year": 2010, "pmid": "20078516", "finding": "Improved sperm count, motility, and testosterone in infertile men" },
+      { "author": "Surapaneni et al.", "journal": "Research study", "year": 2012, "pmid": "23733436", "finding": "Fulvic acid and dibenzo-alpha-pyrones may enhance mitochondrial energy production" }
+    ],
+    "goals": ["testosterone", "energy", "vitality", "exercise_recovery", "male_fertility"]
+  },
+  {
+    "id": "brahmi",
+    "name": "Brahmi",
+    "also_known_as": "Bacopa monnieri",
+    "tier": 2,
+    "indian_deficiency_pct": "N/A (nootropic herb)",
+    "why_needed": "One of the most evidence-backed nootropic herbs. Meta-analysis of 6 RCTs showed Bacopa significantly improves attention, cognitive processing, and working memory. Active compounds (bacosides) have antioxidant, anti-inflammatory, and acetylcholinesterase inhibitory properties. Requires 4-12 weeks of consistent use for noticeable cognitive improvement.",
+    "dosage": {
+      "standardized_extract": "300-450 mg/day (45-50% bacosides); most studied dose",
+      "bacomind_extract": "300 mg/day; patented full-spectrum extract",
+      "raw_powder": "5-10 g/day; traditional, less standardized"
+    },
+    "when_to_take": "With meals (fat-containing, as bacosides are fat-soluble). Morning or afternoon for cognitive benefits during the day. Effects are not immediate - requires 4-12 weeks of consistent use.",
+    "forms": [
+      "Standardized extract (45-50% bacosides)",
+      "BacoMind extract (patented full-spectrum)",
+      "Raw powder (traditional)"
+    ],
+    "contraindications": [
+      "GI upset - most common side effect (nausea, cramps, bloating, diarrhea); take with food",
+      "May increase acetylcholine - caution with cholinergic drugs or acetylcholinesterase inhibitors",
+      "Thyroid - some evidence Bacopa may increase T4 levels; caution in hyperthyroidism",
+      "Pregnancy/breastfeeding - insufficient data; avoid",
+      "May have mild sedative effect - may enhance effects of CNS depressants",
+      "Fertility - some low-quality animal studies suggest high doses may reduce sperm motility (not confirmed in humans)"
+    ],
+    "who_should_take": [
+      "Students and professionals seeking cognitive enhancement",
+      "Elderly seeking memory support",
+      "Those experiencing brain fog or difficulty concentrating",
+      "People with mild anxiety (anxiolytic effects)"
+    ],
+    "brands_india": [
+      { "name": "Himalaya Brahmi", "product": "250 mg, 60 tablets", "price_inr": "160-200" },
+      { "name": "Organic India Brahmi", "product": "350 mg, 60 capsules", "price_inr": "250-300" },
+      { "name": "HealthKart HK Vitals", "product": "Brahmi extract, 60 capsules", "price_inr": "350-400" },
+      { "name": "Kapiva Brahmi", "product": "Capsules/Juice", "price_inr": "200-350" },
+      { "name": "Dabur Brahmi", "product": "Vati (traditional tablets)", "price_inr": "80-100" },
+      { "name": "Kerala Ayurveda Brahmi", "product": "500 mg, 60 tablets", "price_inr": "200-250" }
+    ],
+    "research": [
+      { "author": "Pase et al.", "journal": "J Altern Complement Med", "year": 2012, "pmid": "22747190", "finding": "Meta-analysis of 6 RCTs: Bacopa significantly improved attention, cognitive processing, and working memory" },
+      { "author": "Stringer et al.", "journal": "Research study", "year": 2015, "pmid": "25591016", "finding": "300 mg/day for 12 weeks improved memory acquisition and retention" },
+      { "author": "Roodenrys et al.", "journal": "Neuropsychopharmacology", "year": 2002, "pmid": "12093601", "finding": "300 mg/day improved speed of visual information processing, learning rate, and memory consolidation" }
+    ],
+    "goals": ["cognitive_function", "memory", "focus", "anxiety", "neuroprotection"]
+  },
+  {
+    "id": "probiotics",
+    "name": "Probiotics",
+    "also_known_as": "Beneficial gut bacteria",
+    "tier": 2,
+    "indian_deficiency_pct": "N/A (supplementary; traditional Indian diet includes natural probiotics)",
+    "why_needed": "Growing awareness of gut health in India. Traditional Indian diet includes natural probiotics: curd/dahi (Lactobacillus), idli/dosa batter (fermented), kanji, pickles, buttermilk. Supplementation useful after antibiotics, for IBS, and for those with poor dietary diversity.",
+    "dosage": {
+      "general_health": "1-10 billion CFU/day (multi-strain preferred)",
+      "after_antibiotics": "10-25 billion CFU/day for 2-4 weeks",
+      "ibs_digestive": "10-50 billion CFU/day"
+    },
+    "when_to_take": "On empty stomach or 30 minutes before meals (less acid exposure = more bacteria survive). Some evidence that taking with a meal containing fat improves survival. Any consistent timing is fine.",
+    "forms": [
+      "Capsules (multi-strain)",
+      "Probiotic drinks (Yakult)",
+      "Sachets (prescription - Darolac, VSL#3)",
+      "Natural sources: curd/dahi, buttermilk, idli/dosa, kanji, pickles"
+    ],
+    "key_strains": [
+      { "strain": "Lactobacillus rhamnosus GG", "benefit": "Diarrhea prevention, immune support", "evidence": "Strong (100+ studies)" },
+      { "strain": "Lactobacillus acidophilus", "benefit": "General gut health, lactose intolerance", "evidence": "Strong" },
+      { "strain": "Bifidobacterium longum", "benefit": "IBS, anxiety, immune function", "evidence": "Strong" },
+      { "strain": "Saccharomyces boulardii", "benefit": "Antibiotic-associated diarrhea, C. diff", "evidence": "Strong" },
+      { "strain": "Lactobacillus plantarum", "benefit": "Bloating, IBS, cholesterol", "evidence": "Moderate-Strong" },
+      { "strain": "Bifidobacterium lactis", "benefit": "Immune function, constipation", "evidence": "Moderate-Strong" },
+      { "strain": "Bacillus coagulans", "benefit": "Shelf-stable; IBS, diarrhea", "evidence": "Moderate" }
+    ],
+    "contraindications": [
+      "Generally very safe",
+      "Immunocompromised patients - risk of bacteremia/fungemia (rare but documented)",
+      "Short bowel syndrome, central venous catheters - increased risk",
+      "SIBO (Small Intestinal Bacterial Overgrowth) - may worsen symptoms in some people",
+      "Histamine intolerance - some strains produce histamine. Choose L. rhamnosus, B. longum that degrade histamine"
+    ],
+    "who_should_take": [
+      "After antibiotic courses",
+      "People with IBS or digestive issues",
+      "Those with poor dietary diversity",
+      "People experiencing bloating or irregular digestion"
+    ],
+    "brands_india": [
+      { "name": "Yakult", "product": "Probiotic drink (L. casei Shirota, 6.5 billion CFU)", "price_inr": "80-90/5-pack" },
+      { "name": "VSL#3 (prescription)", "product": "High-potency multi-strain, 450 billion CFU", "price_inr": "800-1000/pack" },
+      { "name": "Darolac (prescription)", "product": "Saccharomyces boulardii + Lactobacillus", "price_inr": "150-200/strip" },
+      { "name": "Vizylac", "product": "L. sporogenes (Bacillus coagulans), 10 caps", "price_inr": "50-70" },
+      { "name": "Carbamide Forte Probiotics", "product": "50 billion CFU, 16 strains, 60 capsules", "price_inr": "500-600" },
+      { "name": "HealthKart HK Vitals", "product": "Pre+Probiotics, 30 billion CFU, 30 capsules", "price_inr": "400-500" },
+      { "name": "Amul Probiotic Buttermilk", "product": "Natural probiotic drink", "price_inr": "20-25" }
+    ],
+    "research": [],
+    "goals": ["gut_health", "immunity", "digestion", "ibs", "post_antibiotic"]
+  },
+  {
+    "id": "whey_protein",
+    "name": "Whey Protein / Plant Protein",
+    "also_known_as": "Protein supplement",
+    "tier": 2,
+    "indian_deficiency_pct": ">70% of Indians are protein-deficient by recommended standards",
+    "why_needed": "Average protein intake in Indian vegetarian diets is 0.6-0.8 g/kg, often below recommended 0.8-1.0 g/kg for sedentary adults, and well below 1.4-2.0 g/kg for active individuals. ICMR data shows >70% of Indians are protein-deficient by recommended standards.",
+    "dosage": {
+      "sedentary_adult": "0.8 g/kg body weight total daily (0-1 scoops supplement)",
+      "recreational_exercise": "1.2-1.4 g/kg (1-2 scoops)",
+      "muscle_building": "1.6-2.2 g/kg (1-3 scoops)",
+      "fat_loss": "1.6-2.4 g/kg (1-2 scoops)",
+      "endurance_athlete": "1.2-1.6 g/kg (1-2 scoops)"
+    },
+    "when_to_take": "Post-workout (within 2 hours) for optimal muscle protein synthesis. Morning to break overnight fast. Before bed (casein) for slow-release overnight recovery. Total daily protein matters more than timing.",
+    "forms": [
+      { "type": "Whey Concentrate", "protein_per_scoop": "24-25g/30g", "biological_value": 104, "best_for": "Budget option; contains some lactose" },
+      { "type": "Whey Isolate", "protein_per_scoop": "26-28g/30g", "biological_value": 104, "best_for": "Lactose-intolerant; lean bulk" },
+      { "type": "Whey Hydrolysate", "protein_per_scoop": "25-27g/30g", "biological_value": 104, "best_for": "Fastest absorption; most expensive" },
+      { "type": "Casein", "protein_per_scoop": "24-25g/30g", "biological_value": 77, "best_for": "Slow release; before bed" },
+      { "type": "Pea Protein", "protein_per_scoop": "20-24g/30g", "biological_value": 65, "best_for": "Vegan; hypoallergenic" },
+      { "type": "Soy Protein Isolate", "protein_per_scoop": "23-25g/30g", "biological_value": 74, "best_for": "Vegan; complete amino acid profile" },
+      { "type": "Brown Rice Protein", "protein_per_scoop": "20-22g/30g", "biological_value": 59, "best_for": "Vegan; combine with pea for completeness" },
+      { "type": "Hemp Protein", "protein_per_scoop": "12-15g/30g", "biological_value": 51, "best_for": "Vegan; contains omega-3; low protein %" },
+      { "type": "Blended Plant Protein", "protein_per_scoop": "20-25g/30g", "biological_value": "Varies", "best_for": "Best plant option" }
+    ],
+    "contraindications": [
+      "Kidney disease - high protein intake may accelerate decline in those with pre-existing kidney disease (no evidence it harms healthy kidneys)",
+      "Lactose intolerance - use whey isolate (minimal lactose) or plant protein",
+      "Milk allergy - use plant protein",
+      "Contamination risk in India - many brands found to contain heavy metals, amino spiking, or undeclared ingredients. Buy from verified sources; check for Informed Sport/FSSAI certification"
+    ],
+    "who_should_take": [
+      "Anyone not meeting daily protein targets through diet",
+      "Vegetarians/vegans (protein gap is significant)",
+      "Active individuals and athletes",
+      "Those aiming for muscle building or fat loss"
+    ],
+    "brands_india": [
+      { "name": "Optimum Nutrition (ON) Gold Standard", "product": "Whey (24g protein/scoop), 2 lb", "price_inr": "3500-4500" },
+      { "name": "MuscleBlaze Biozyme", "product": "Whey Isolate (25g/scoop), 2 lb", "price_inr": "3000-3500" },
+      { "name": "Myprotein Impact Whey", "product": "Whey Concentrate (21g/scoop), 1 kg", "price_inr": "1500-2000" },
+      { "name": "Nakpro Perform", "product": "Whey Concentrate (24g/scoop), 1 kg", "price_inr": "1200-1500" },
+      { "name": "AS-IT-IS Nutrition", "product": "Whey Concentrate (unflavored, 24g/scoop), 1 kg", "price_inr": "1400-1700" },
+      { "name": "OZiva Protein & Herbs", "product": "Plant protein (25g/scoop), 500g", "price_inr": "1000-1200" },
+      { "name": "Boldfit Plant Protein", "product": "Pea + Brown Rice (25g/scoop), 1 kg", "price_inr": "1000-1300" },
+      { "name": "Plix Plant Protein", "product": "Pea + Brown Rice (25g/scoop), 1 kg", "price_inr": "1200-1500" },
+      { "name": "Wellbeing Nutrition", "product": "Plant Protein, 500g", "price_inr": "900-1100" }
+    ],
+    "research": [
+      { "author": "Antonio et al.", "journal": "JISSN", "year": 2016, "pmid": "27807393", "finding": "No evidence high protein intake harms healthy kidneys" },
+      { "author": "Messina", "journal": "Fertil Steril", "year": 2016, "pmid": "26268987", "finding": "Soy estrogen concern is overblown at moderate intake (2-3 servings/day is fine)" }
+    ],
+    "goals": ["muscle_building", "fat_loss", "recovery", "general_health", "protein_gap"]
+  }
+]

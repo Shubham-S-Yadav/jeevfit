@@ -1,0 +1,186 @@
+[
+  {
+    "id": "diaphragmatic",
+    "name": "Diaphragmatic (Belly) Breathing",
+    "difficulty": "beginner",
+    "duration": "5-10 min",
+    "frequency": "2x/day",
+    "breath_rate": "6-10 breaths/minute (slower = more parasympathetic activation)",
+    "steps": [
+      "Sit or lie comfortably",
+      "Place one hand on chest, one on belly",
+      "Inhale through nose: belly should expand (not chest)",
+      "Exhale through nose or mouth: belly falls",
+      "Aim for 6-10 breaths per minute",
+      "Practice for 5-10 minutes, twice per day"
+    ],
+    "benefits": [
+      "Foundation for all pranayama",
+      "Parasympathetic nervous system activation",
+      "Reduces anxiety and stress",
+      "Lowers heart rate and blood pressure",
+      "Improves diaphragm strength"
+    ],
+    "cautions": [],
+    "best_time": "Any time; especially useful during stress or before sleep"
+  },
+  {
+    "id": "anulom_vilom",
+    "name": "Anulom Vilom (Alternate Nostril Breathing)",
+    "difficulty": "beginner",
+    "duration": "5-15 min",
+    "frequency": "1-2x/day",
+    "cycles": "10-15 cycles per session",
+    "steps": [
+      "Sit upright in a comfortable position",
+      "Right thumb closes right nostril",
+      "Inhale through LEFT nostril (4 counts)",
+      "Close left nostril with ring finger; open right",
+      "Exhale through RIGHT nostril (4 counts)",
+      "Inhale through RIGHT nostril (4 counts)",
+      "Close right, open left",
+      "Exhale through LEFT nostril (4 counts)",
+      "This is ONE cycle. Repeat 10-15 cycles"
+    ],
+    "benefits": [
+      "Balances autonomic nervous system",
+      "Reduces anxiety",
+      "Lowers blood pressure",
+      "Improves cardiovascular parameters",
+      "Balances left and right brain hemispheres"
+    ],
+    "cautions": [
+      "Avoid if you have a severe nasal blockage or cold",
+      "Do not hold breath if you have high blood pressure (just flow through)"
+    ],
+    "best_time": "Morning or evening on empty stomach",
+    "research": {
+      "author": "Sharma et al.",
+      "year": 2013,
+      "pmid": "23445810",
+      "finding": "Reduced perceived stress and improved cardiovascular parameters"
+    }
+  },
+  {
+    "id": "bhramari",
+    "name": "Bhramari (Bee Breathing)",
+    "difficulty": "beginner",
+    "duration": "5-10 min",
+    "frequency": "1-2x/day",
+    "repetitions": "5-10 times per session",
+    "steps": [
+      "Sit upright in a comfortable position",
+      "Close ears with thumbs, place fingers over eyes (Shanmukhi Mudra) or just close eyes",
+      "Inhale deeply through nose",
+      "Exhale while making a continuous humming sound ('mmmmm') like a bee",
+      "Feel the vibration resonating in the head",
+      "Repeat 5-10 times"
+    ],
+    "benefits": [
+      "Immediate calming effect",
+      "Reduces anxiety and agitation",
+      "May reduce tinnitus symptoms",
+      "Lowers blood pressure and heart rate",
+      "Improves concentration"
+    ],
+    "cautions": [
+      "Avoid during ear infection",
+      "Do not practice lying down"
+    ],
+    "best_time": "Any time; especially effective before bed or during anxiety",
+    "research": {
+      "author": "Kuppusamy et al.",
+      "year": 2018,
+      "pmid": "29395866",
+      "finding": "Reduced blood pressure and heart rate in participants"
+    }
+  },
+  {
+    "id": "box_breathing",
+    "name": "Box Breathing (Sama Vritti)",
+    "difficulty": "beginner",
+    "duration": "3-5 min",
+    "frequency": "As needed (acute stress, before meetings/presentations)",
+    "cycles": "4-8 cycles per session",
+    "steps": [
+      "Inhale: 4 seconds",
+      "Hold: 4 seconds",
+      "Exhale: 4 seconds",
+      "Hold: 4 seconds",
+      "Repeat 4-8 cycles"
+    ],
+    "progression": "Increase to 5-5-5-5, then 6-6-6-6 as capacity improves",
+    "benefits": [
+      "Rapid stress reduction",
+      "Improves focus and concentration",
+      "Regulates autonomic nervous system",
+      "Used by Navy SEALs for performance under pressure",
+      "Easy to do anywhere discreetly"
+    ],
+    "cautions": [
+      "If 4 seconds feels too long, start with 3-3-3-3",
+      "Avoid breath holds if pregnant or have uncontrolled blood pressure"
+    ],
+    "best_time": "Before stressful situations (presentations, meetings, exams), during acute stress, any time focus is needed"
+  },
+  {
+    "id": "four_seven_eight",
+    "name": "4-7-8 Breathing (Modified Pranayama)",
+    "difficulty": "beginner",
+    "duration": "2-5 min",
+    "frequency": "Before bed, or 2x/day",
+    "cycles": "4 cycles per session",
+    "steps": [
+      "Inhale through nose: 4 seconds",
+      "Hold breath: 7 seconds",
+      "Exhale through mouth (whooshing sound): 8 seconds",
+      "Repeat 4 cycles"
+    ],
+    "benefits": [
+      "Excellent for sleep onset",
+      "Extended exhale activates parasympathetic nervous system",
+      "Reduces anxiety rapidly",
+      "Activates vagus nerve",
+      "Simple and effective"
+    ],
+    "cautions": [
+      "May cause lightheadedness initially; practice seated or lying down",
+      "If 7-second hold is too long, scale down proportionally (e.g., 2-3.5-4)"
+    ],
+    "best_time": "In bed before sleep, or any time to calm down quickly",
+    "developer": "Developed by Dr. Andrew Weil based on pranayama principles"
+  },
+  {
+    "id": "kapalbhati",
+    "name": "Kapalbhati (Skull-Shining Breath)",
+    "difficulty": "intermediate",
+    "duration": "5-10 min",
+    "frequency": "1x/day (morning)",
+    "strokes": "Start with 30 strokes, then rest. Build to 60-120 strokes per round",
+    "steps": [
+      "Sit upright with spine straight",
+      "Take a passive inhale (belly expands naturally)",
+      "Perform a FORCEFUL, short exhale through nose (belly pulls in sharply)",
+      "Allow the inhale to happen passively and naturally",
+      "Start with 30 strokes per round, rest between rounds",
+      "Build up to 60-120 strokes per round over weeks"
+    ],
+    "benefits": [
+      "Energizing and invigorating",
+      "Improves digestion and metabolism",
+      "Strengthens core/abdominal muscles",
+      "Clears nasal passages",
+      "Increases alertness and focus"
+    ],
+    "cautions": [
+      "AVOID during pregnancy",
+      "AVOID with hypertension (high blood pressure)",
+      "AVOID with heart disease",
+      "AVOID with hernia",
+      "AVOID after recent abdominal surgery",
+      "Stop if dizzy or lightheaded",
+      "Not recommended for menstruation (some traditions)"
+    ],
+    "best_time": "Morning, on empty stomach. Never after meals."
+  }
+]

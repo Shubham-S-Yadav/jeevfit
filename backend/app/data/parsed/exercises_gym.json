@@ -1,0 +1,192 @@
+{
+  "programs": {
+    "beginner_full_body": {
+      "days_per_week": 3,
+      "description": "Full body routine based on Starting Strength / Greyskull LP principles. Alternating Day A and Day B. Linear progression: add 2.5 kg to upper body lifts, 5 kg to lower body lifts every 1-2 weeks. Works for 3-6 months in beginners.",
+      "days": {
+        "day_a": {
+          "name": "Full Body A (Monday/Friday)",
+          "exercises": [
+            { "name": "Barbell Squat", "sets_reps": "3x8-10", "muscles": ["quads", "glutes", "core"], "rest": "2-3 min" },
+            { "name": "Bench Press", "sets_reps": "3x8-10", "muscles": ["chest", "triceps", "front_delts"], "rest": "2-3 min" },
+            { "name": "Barbell Row", "sets_reps": "3x8-10", "muscles": ["back", "biceps"], "rest": "2-3 min" },
+            { "name": "Overhead Press", "sets_reps": "3x8-10", "muscles": ["shoulders", "triceps"], "rest": "2-3 min" },
+            { "name": "Plank", "sets_reps": "3x30-60 sec", "muscles": ["core"], "rest": "1 min" }
+          ]
+        },
+        "day_b": {
+          "name": "Full Body B (Wednesday)",
+          "exercises": [
+            { "name": "Deadlift", "sets_reps": "3x5", "muscles": ["posterior_chain", "back"], "rest": "3-5 min" },
+            { "name": "Incline Dumbbell Press", "sets_reps": "3x10-12", "muscles": ["upper_chest", "triceps"], "rest": "2 min" },
+            { "name": "Lat Pulldown", "sets_reps": "3x10-12", "muscles": ["lats", "biceps"], "rest": "2 min" },
+            { "name": "Leg Press", "sets_reps": "3x10-12", "muscles": ["quads", "glutes"], "rest": "2 min" },
+            { "name": "Face Pulls", "sets_reps": "3x15-20", "muscles": ["rear_delts", "rotator_cuff"], "rest": "1 min" }
+          ]
+        }
+      }
+    },
+    "intermediate_ppl": {
+      "days_per_week": 6,
+      "description": "Push/Pull/Legs split. Each muscle group trained twice per week. Double progression: once you hit top of rep range for all sets, increase weight by smallest increment. Aim for progressive overload week over week.",
+      "days": {
+        "push": {
+          "name": "Push Day (Monday/Thursday)",
+          "exercises": [
+            { "name": "Bench Press / Incline DB Press", "sets_reps": "4x6-8 (Mon heavy) / 4x8-12 (Thu lighter)", "muscles": ["chest", "triceps"], "rest": "2-3 min" },
+            { "name": "Overhead Press", "sets_reps": "3x8-10", "muscles": ["shoulders", "triceps"], "rest": "2 min" },
+            { "name": "Incline Dumbbell Press / Flat DB Press", "sets_reps": "3x10-12", "muscles": ["chest"], "rest": "90 sec" },
+            { "name": "Cable Flyes", "sets_reps": "3x12-15", "muscles": ["chest_isolation"], "rest": "60-90 sec" },
+            { "name": "Lateral Raises", "sets_reps": "4x12-15", "muscles": ["medial_deltoids"], "rest": "60 sec" },
+            { "name": "Tricep Pushdowns", "sets_reps": "3x10-12", "muscles": ["triceps"], "rest": "60 sec" },
+            { "name": "Overhead Tricep Extension", "sets_reps": "3x10-12", "muscles": ["triceps_long_head"], "rest": "60 sec" }
+          ]
+        },
+        "pull": {
+          "name": "Pull Day (Tuesday/Friday)",
+          "exercises": [
+            { "name": "Deadlift / Barbell Row", "sets_reps": "3x5 (Tue deadlift) / 4x6-8 (Fri rows)", "muscles": ["posterior_chain", "back"], "rest": "3-5 min" },
+            { "name": "Pull-ups / Lat Pulldown", "sets_reps": "4x6-12", "muscles": ["lats", "biceps"], "rest": "2 min" },
+            { "name": "Seated Cable Row", "sets_reps": "3x10-12", "muscles": ["mid_back", "lats"], "rest": "90 sec" },
+            { "name": "Face Pulls", "sets_reps": "3x15-20", "muscles": ["rear_delts", "rotator_cuff"], "rest": "60 sec" },
+            { "name": "Dumbbell Shrugs", "sets_reps": "3x12-15", "muscles": ["traps"], "rest": "60 sec" },
+            { "name": "Barbell/Dumbbell Curls", "sets_reps": "3x8-12", "muscles": ["biceps"], "rest": "60 sec" },
+            { "name": "Hammer Curls", "sets_reps": "3x10-12", "muscles": ["biceps", "brachioradialis"], "rest": "60 sec" }
+          ]
+        },
+        "legs": {
+          "name": "Legs Day (Wednesday/Saturday)",
+          "exercises": [
+            { "name": "Barbell Squat / Front Squat", "sets_reps": "4x6-8 (Wed back squat) / 4x8-10 (Sat front squat)", "muscles": ["quads", "glutes"], "rest": "3 min" },
+            { "name": "Romanian Deadlift", "sets_reps": "3x8-12", "muscles": ["hamstrings", "glutes"], "rest": "2 min" },
+            { "name": "Leg Press", "sets_reps": "3x10-15", "muscles": ["quads", "glutes"], "rest": "2 min" },
+            { "name": "Leg Curl", "sets_reps": "3x10-12", "muscles": ["hamstrings"], "rest": "90 sec" },
+            { "name": "Leg Extension", "sets_reps": "3x10-15", "muscles": ["quads"], "rest": "90 sec" },
+            { "name": "Calf Raises", "sets_reps": "4x12-20", "muscles": ["calves"], "rest": "60 sec" },
+            { "name": "Hanging Leg Raises", "sets_reps": "3x10-15", "muscles": ["core"], "rest": "60 sec" }
+          ]
+        }
+      }
+    },
+    "advanced_upper_lower": {
+      "days_per_week": 4,
+      "description": "Upper/Lower split with dedicated strength and hypertrophy days. Suitable for advanced lifters. Can be run 4 or 6 days per week by repeating the cycle.",
+      "days": {
+        "upper_a": {
+          "name": "Upper A (Strength Focus)",
+          "exercises": [
+            { "name": "Bench Press", "sets_reps": "5x3-5 (85-90% 1RM)", "muscles": ["chest", "triceps"], "rest": "3-5 min" },
+            { "name": "Weighted Pull-ups", "sets_reps": "5x3-5", "muscles": ["lats", "biceps"], "rest": "3-5 min" },
+            { "name": "Overhead Press", "sets_reps": "4x4-6", "muscles": ["shoulders", "triceps"], "rest": "3 min" },
+            { "name": "Barbell Row", "sets_reps": "4x4-6", "muscles": ["back", "biceps"], "rest": "3 min" },
+            { "name": "Dips (weighted)", "sets_reps": "3x6-8", "muscles": ["chest", "triceps"], "rest": "2-3 min" },
+            { "name": "Face Pulls", "sets_reps": "3x15", "muscles": ["rear_delts", "rotator_cuff"], "rest": "60 sec" }
+          ]
+        },
+        "lower_a": {
+          "name": "Lower A (Strength Focus)",
+          "exercises": [
+            { "name": "Back Squat", "sets_reps": "5x3-5", "muscles": ["quads", "glutes", "core"], "rest": "3-5 min" },
+            { "name": "Romanian Deadlift", "sets_reps": "4x5-8", "muscles": ["hamstrings", "glutes"], "rest": "3 min" },
+            { "name": "Front Squat", "sets_reps": "3x6-8", "muscles": ["quads", "core"], "rest": "2-3 min" },
+            { "name": "Glute-Ham Raise", "sets_reps": "3x8-12", "muscles": ["hamstrings", "glutes"], "rest": "2 min" },
+            { "name": "Calf Raises", "sets_reps": "4x8-12", "muscles": ["calves"], "rest": "90 sec" },
+            { "name": "Ab Wheel Rollouts", "sets_reps": "3x10", "muscles": ["core"], "rest": "90 sec" }
+          ]
+        },
+        "upper_b": {
+          "name": "Upper B (Hypertrophy Focus)",
+          "exercises": [
+            { "name": "Incline DB Press", "sets_reps": "4x8-12", "muscles": ["upper_chest", "triceps"], "rest": "2 min" },
+            { "name": "Cable Rows", "sets_reps": "4x10-12", "muscles": ["mid_back", "lats"], "rest": "2 min" },
+            { "name": "DB Shoulder Press", "sets_reps": "4x8-12", "muscles": ["shoulders"], "rest": "2 min" },
+            { "name": "Lat Pulldown (wide)", "sets_reps": "4x10-12", "muscles": ["lats"], "rest": "90 sec" },
+            { "name": "Cable Flyes", "sets_reps": "3x12-15", "muscles": ["chest_isolation"], "rest": "60-90 sec" },
+            { "name": "Lateral Raises", "sets_reps": "4x12-15", "muscles": ["medial_deltoids"], "rest": "60 sec" },
+            { "name": "Curls + Tricep work", "sets_reps": "3 sets each", "muscles": ["biceps", "triceps"], "rest": "60 sec" }
+          ]
+        },
+        "lower_b": {
+          "name": "Lower B (Hypertrophy Focus)",
+          "exercises": [
+            { "name": "Leg Press", "sets_reps": "4x10-15", "muscles": ["quads", "glutes"], "rest": "2 min" },
+            { "name": "Deadlift (conventional)", "sets_reps": "3x5", "muscles": ["posterior_chain", "back"], "rest": "3-5 min" },
+            { "name": "Walking Lunges", "sets_reps": "3x12/leg", "muscles": ["quads", "glutes"], "rest": "2 min" },
+            { "name": "Leg Curl", "sets_reps": "4x10-12", "muscles": ["hamstrings"], "rest": "90 sec" },
+            { "name": "Leg Extension", "sets_reps": "3x12-15", "muscles": ["quads"], "rest": "90 sec" },
+            { "name": "Calf Raises (seated)", "sets_reps": "4x12-20", "muscles": ["soleus"], "rest": "60 sec" },
+            { "name": "Hanging Leg Raises", "sets_reps": "3x12", "muscles": ["core"], "rest": "60 sec" }
+          ]
+        }
+      }
+    }
+  },
+  "equipment_exercises": {
+    "barbell": [
+      { "name": "Squat", "primary_muscles": ["quads", "glutes", "core"], "type": "compound" },
+      { "name": "Deadlift", "primary_muscles": ["posterior_chain", "back"], "type": "compound" },
+      { "name": "Bench Press", "primary_muscles": ["chest", "triceps", "front_delts"], "type": "compound" },
+      { "name": "Overhead Press", "primary_muscles": ["shoulders", "triceps"], "type": "compound" },
+      { "name": "Barbell Row", "primary_muscles": ["back", "biceps"], "type": "compound" },
+      { "name": "Hip Thrust", "primary_muscles": ["glutes"], "type": "compound" }
+    ],
+    "dumbbells": [
+      { "name": "DB Bench Press", "primary_muscles": ["chest"], "notes": "More ROM than barbell" },
+      { "name": "DB Rows", "primary_muscles": ["lats", "rhomboids"], "notes": "Unilateral back work" },
+      { "name": "DB Lateral Raises", "primary_muscles": ["medial_deltoids"], "notes": "Key shoulder isolation" },
+      { "name": "DB Curls", "primary_muscles": ["biceps"], "notes": "Classic arm builder" },
+      { "name": "DB Lunges", "primary_muscles": ["quads", "glutes"], "notes": "Unilateral leg work" },
+      { "name": "DB Romanian Deadlift", "primary_muscles": ["hamstrings", "glutes"], "notes": "Posterior chain development" }
+    ],
+    "cables": [
+      { "name": "Cable Flyes", "primary_muscles": ["chest"], "notes": "Constant tension throughout ROM" },
+      { "name": "Face Pulls", "primary_muscles": ["rear_delts", "rotator_cuff"], "notes": "Essential for shoulder health" },
+      { "name": "Cable Rows", "primary_muscles": ["back"], "notes": "Constant tension back work" },
+      { "name": "Tricep Pushdowns", "primary_muscles": ["triceps"], "notes": "Primary tricep isolation" },
+      { "name": "Cable Lateral Raises", "primary_muscles": ["medial_deltoids"], "notes": "Better resistance curve than DBs" },
+      { "name": "Cable Curls", "primary_muscles": ["biceps"], "notes": "Constant tension curls" }
+    ],
+    "machines": [
+      { "name": "Leg Press", "primary_muscles": ["quads", "glutes"], "notes": "Safe heavy leg training" },
+      { "name": "Leg Curl", "primary_muscles": ["hamstrings"], "notes": "Hamstring isolation" },
+      { "name": "Leg Extension", "primary_muscles": ["quads"], "notes": "Quad isolation" },
+      { "name": "Lat Pulldown", "primary_muscles": ["lats"], "notes": "Pull-up alternative/supplement" },
+      { "name": "Chest Press Machine", "primary_muscles": ["chest"], "notes": "Safe chest pressing" },
+      { "name": "Pec Deck", "primary_muscles": ["chest"], "notes": "Chest isolation" }
+    ],
+    "pullup_bar": [
+      { "name": "Pull-ups (overhand)", "primary_muscles": ["lats", "biceps"], "notes": "King of back exercises" },
+      { "name": "Chin-ups (underhand)", "primary_muscles": ["biceps", "lats"], "notes": "More bicep emphasis" },
+      { "name": "Hanging Leg Raises", "primary_muscles": ["core"], "notes": "Advanced core exercise" },
+      { "name": "Muscle-ups", "primary_muscles": ["full_upper_body"], "notes": "Advanced calisthenics" }
+    ],
+    "resistance_bands": [
+      { "name": "Banded Squats", "primary_muscles": ["quads", "glutes"], "notes": "Progressive resistance" },
+      { "name": "Banded Pull-aparts", "primary_muscles": ["rear_delts"], "notes": "Posture correction" },
+      { "name": "Banded Rows", "primary_muscles": ["back"], "notes": "Portable back training" },
+      { "name": "Banded Push-ups", "primary_muscles": ["chest"], "notes": "Progressive resistance push-ups" }
+    ]
+  },
+  "progression_principles": {
+    "methods": [
+      "Increase weight: Add 1-2.5 kg (upper body) or 2.5-5 kg (lower body) when you can complete all prescribed reps with good form",
+      "Increase reps: If prescribed 3x8-12, once you hit 3x12, increase weight and drop back to 3x8",
+      "Increase sets: Add 1 set per exercise over time (up to 10-20 sets per muscle group per week)",
+      "Increase frequency: Train each muscle group 2-3x/week rather than 1x",
+      "Decrease rest time: More metabolic stress; use cautiously",
+      "Improve form/ROM: Better muscle activation, deeper stretch",
+      "Tempo manipulation: Slow eccentrics (3-4 sec lowering) increase time under tension"
+    ],
+    "hypertrophy_rep_ranges": {
+      "strength": { "reps": "1-5", "rest": "3-5 min", "primary_stimulus": "Neural adaptations" },
+      "hypertrophy": { "reps": "6-12", "rest": "1.5-3 min", "primary_stimulus": "Mechanical tension + metabolic stress" },
+      "endurance": { "reps": "12-20+", "rest": "30-90 sec", "primary_stimulus": "Muscular endurance + hypertrophy if close to failure" }
+    },
+    "volume_landmarks_per_muscle_per_week": {
+      "minimum_effective": "6-8 sets (maintains muscle)",
+      "moderate": "10-15 sets (good growth for most)",
+      "maximum_recoverable": "15-25 sets (upper limit before recovery suffers)",
+      "overreaching": ">25 sets (risk of overtraining)"
+    }
+  }
+}

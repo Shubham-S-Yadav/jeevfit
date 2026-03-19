@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "source": "Indian Food Composition Tables (IFCT 2017), NIN Hyderabad, ICMR-NIN 2024",
+    "units": "per 100g cooked/prepared unless stated"
+  },
+  "cereals_millets": [
+    {"name": "Rice (white, cooked)", "name_hindi": "Chawal", "calories": 130, "protein": 2.7, "carbs": 28, "fat": 0.3, "fiber": 0.4, "gi": 73},
+    {"name": "Brown Rice (cooked)", "name_hindi": "Brown Chawal", "calories": 123, "protein": 2.7, "carbs": 26, "fat": 1.0, "fiber": 1.8, "gi": 50},
+    {"name": "Wheat Roti", "name_hindi": "Roti/Chapati", "calories": 240, "protein": 7.5, "carbs": 38, "fat": 7.0, "fiber": 3.0, "gi": 62},
+    {"name": "Ragi (Finger Millet)", "name_hindi": "Ragi/Nachni", "calories": 328, "protein": 7.3, "carbs": 72, "fat": 1.3, "fiber": 3.6, "gi": 61, "calcium_mg": 344},
+    {"name": "Jowar (Sorghum)", "name_hindi": "Jowar", "calories": 349, "protein": 10.4, "carbs": 72, "fat": 1.9, "fiber": 6.7, "gi": 62},
+    {"name": "Bajra (Pearl Millet)", "name_hindi": "Bajra", "calories": 361, "protein": 11.6, "carbs": 67, "fat": 5.0, "fiber": 1.2, "gi": 55},
+    {"name": "Oats", "name_hindi": "Oats/Jai", "calories": 389, "protein": 16.9, "carbs": 66, "fat": 6.9, "fiber": 10.6, "gi": 55},
+    {"name": "Daliya (Broken Wheat)", "name_hindi": "Daliya", "calories": 340, "protein": 12.0, "carbs": 70, "fat": 1.5, "fiber": 5.0, "gi": 48},
+    {"name": "Poha (Flattened Rice)", "name_hindi": "Poha", "calories": 130, "protein": 2.5, "carbs": 28, "fat": 0.5, "fiber": 0.3, "gi": 65},
+    {"name": "Quinoa", "name_hindi": "Quinoa", "calories": 120, "protein": 4.4, "carbs": 21, "fat": 1.9, "fiber": 2.8, "gi": 53},
+    {"name": "Sweet Potato", "name_hindi": "Shakarkand", "calories": 86, "protein": 1.6, "carbs": 20, "fat": 0.1, "fiber": 3.0, "gi": 44}
+  ],
+  "pulses_legumes": [
+    {"name": "Moong Dal (cooked)", "name_hindi": "Moong Dal", "calories": 106, "protein": 7.3, "carbs": 19, "fat": 0.4, "fiber": 1.5, "gi": 38},
+    {"name": "Toor Dal (cooked)", "name_hindi": "Arhar/Toor Dal", "calories": 118, "protein": 7.7, "carbs": 21, "fat": 0.6, "fiber": 1.4, "gi": 29},
+    {"name": "Chana Dal (cooked)", "name_hindi": "Chana Dal", "calories": 120, "protein": 8.0, "carbs": 20, "fat": 1.5, "fiber": 3.0, "gi": 28},
+    {"name": "Masoor Dal (cooked)", "name_hindi": "Masoor Dal", "calories": 116, "protein": 9.0, "carbs": 20, "fat": 0.4, "fiber": 1.8, "gi": 29},
+    {"name": "Rajma (cooked)", "name_hindi": "Rajma", "calories": 127, "protein": 8.7, "carbs": 22, "fat": 0.5, "fiber": 6.4, "gi": 29},
+    {"name": "Chole/Chickpeas (cooked)", "name_hindi": "Chole/Chana", "calories": 164, "protein": 8.9, "carbs": 27, "fat": 2.6, "fiber": 7.6, "gi": 28},
+    {"name": "Black Urad Dal (cooked)", "name_hindi": "Urad Dal", "calories": 105, "protein": 7.6, "carbs": 18, "fat": 0.4, "fiber": 2.0, "gi": 32},
+    {"name": "Soybean (cooked)", "name_hindi": "Soyabean", "calories": 173, "protein": 16.6, "carbs": 9.9, "fat": 9.0, "fiber": 6.0, "gi": 15},
+    {"name": "Sprouted Moong", "name_hindi": "Ankurit Moong", "calories": 31, "protein": 3.0, "carbs": 5.9, "fat": 0.2, "fiber": 1.8, "gi": 25}
+  ],
+  "dairy": [
+    {"name": "Milk (toned)", "name_hindi": "Doodh", "calories": 58, "protein": 3.0, "carbs": 4.7, "fat": 3.0, "calcium_mg": 120, "per": "100ml"},
+    {"name": "Curd/Yogurt", "name_hindi": "Dahi", "calories": 60, "protein": 3.1, "carbs": 4.9, "fat": 3.3, "calcium_mg": 110, "probiotic": true},
+    {"name": "Paneer", "name_hindi": "Paneer", "calories": 265, "protein": 18.0, "carbs": 1.2, "fat": 20.8, "calcium_mg": 208},
+    {"name": "Buttermilk", "name_hindi": "Chaas/Mattha", "calories": 40, "protein": 3.3, "carbs": 4.8, "fat": 0.9, "probiotic": true},
+    {"name": "Ghee", "name_hindi": "Ghee", "calories": 900, "protein": 0, "carbs": 0, "fat": 99.5, "per": "100g, 1 tsp=45 kcal"}
+  ],
+  "eggs_nonveg": [
+    {"name": "Egg (boiled)", "name_hindi": "Anda", "calories": 155, "protein": 13.0, "carbs": 1.1, "fat": 11.0, "per": "100g (2 eggs)"},
+    {"name": "Chicken Breast (grilled)", "name_hindi": "Chicken", "calories": 165, "protein": 31.0, "carbs": 0, "fat": 3.6},
+    {"name": "Fish (Rohu)", "name_hindi": "Rohu Machli", "calories": 97, "protein": 16.6, "carbs": 0, "fat": 3.2, "omega3": true},
+    {"name": "Mutton (lean)", "name_hindi": "Mutton", "calories": 143, "protein": 26.0, "carbs": 0, "fat": 3.5}
+  ],
+  "vegetables": [
+    {"name": "Spinach", "name_hindi": "Palak", "calories": 23, "protein": 2.9, "iron_mg": 2.7, "vitamin_a_iu": 9377, "benefits": ["iron", "folate", "antioxidants"]},
+    {"name": "Broccoli", "name_hindi": "Broccoli", "calories": 34, "protein": 2.8, "benefits": ["sulforaphane", "vitamin_c", "cancer_prevention"]},
+    {"name": "Bottle Gourd", "name_hindi": "Lauki", "calories": 15, "protein": 0.6, "benefits": ["hydration", "digestion", "weight_loss"]},
+    {"name": "Bitter Gourd", "name_hindi": "Karela", "calories": 17, "protein": 1.0, "benefits": ["blood_sugar_control", "diabetes_management"]},
+    {"name": "Drumstick", "name_hindi": "Sahjan/Moringa", "calories": 37, "protein": 2.1, "calcium_mg": 185, "benefits": ["calcium", "iron", "antioxidants"]},
+    {"name": "Beetroot", "name_hindi": "Chukandar", "calories": 43, "protein": 1.6, "benefits": ["nitric_oxide", "blood_flow", "exercise_performance"]},
+    {"name": "Tomato", "name_hindi": "Tamatar", "calories": 18, "protein": 0.9, "benefits": ["lycopene", "heart_health", "skin"]},
+    {"name": "Carrot", "name_hindi": "Gajar", "calories": 41, "protein": 0.9, "vitamin_a_iu": 16706, "benefits": ["beta_carotene", "eye_health", "skin"]},
+    {"name": "Cucumber", "name_hindi": "Kheera", "calories": 15, "protein": 0.7, "benefits": ["hydration", "weight_loss", "skin"]},
+    {"name": "Cabbage", "name_hindi": "Patta Gobhi", "calories": 25, "protein": 1.3, "benefits": ["fiber", "vitamin_c", "gut_health"]}
+  ],
+  "fruits": [
+    {"name": "Banana", "name_hindi": "Kela", "calories": 89, "protein": 1.1, "carbs": 23, "gi": 51, "benefits": ["potassium", "energy", "pre_workout"]},
+    {"name": "Apple", "name_hindi": "Seb", "calories": 52, "protein": 0.3, "fiber": 2.4, "gi": 36, "benefits": ["fiber", "antioxidants"]},
+    {"name": "Guava", "name_hindi": "Amrood", "calories": 68, "protein": 2.6, "vitamin_c_mg": 228, "benefits": ["highest_vitamin_c", "immunity", "skin"]},
+    {"name": "Papaya", "name_hindi": "Papita", "calories": 43, "protein": 0.5, "benefits": ["papain_enzyme", "digestion", "skin"]},
+    {"name": "Orange", "name_hindi": "Santra", "calories": 47, "vitamin_c_mg": 53, "benefits": ["vitamin_c", "immunity", "iron_absorption"]},
+    {"name": "Pomegranate", "name_hindi": "Anaar", "calories": 83, "benefits": ["antioxidants", "blood_flow", "heart_health", "sexual_health"]},
+    {"name": "Indian Gooseberry", "name_hindi": "Amla", "calories": 44, "vitamin_c_mg": 600, "benefits": ["highest_vitamin_c_fruit", "hair_health", "immunity", "anti_aging"]},
+    {"name": "Watermelon", "name_hindi": "Tarbooz", "calories": 30, "benefits": ["hydration", "l_citrulline", "blood_flow"]},
+    {"name": "Mango", "name_hindi": "Aam", "calories": 60, "carbs": 15, "gi": 51, "benefits": ["vitamin_a", "seasonal_summer"]}
+  ],
+  "nuts_seeds": [
+    {"name": "Almonds (10 pcs)", "name_hindi": "Badam", "calories": 81, "protein": 3.0, "per": "14g", "benefits": ["vitamin_e", "skin", "brain"]},
+    {"name": "Walnuts (4 halves)", "name_hindi": "Akhrot", "calories": 93, "protein": 2.2, "per": "14g", "benefits": ["omega3_ala", "brain", "heart"]},
+    {"name": "Flaxseeds (1 tbsp)", "name_hindi": "Alsi", "calories": 55, "protein": 1.9, "omega3_g": 2.4, "per": "10g", "benefits": ["omega3", "fiber", "hormonal_balance"]},
+    {"name": "Chia Seeds (1 tbsp)", "name_hindi": "Chia", "calories": 58, "protein": 2.0, "omega3_g": 2.1, "per": "12g", "benefits": ["omega3", "fiber", "hydration"]},
+    {"name": "Pumpkin Seeds (1 tbsp)", "name_hindi": "Kaddu ke beej", "calories": 56, "protein": 3.0, "zinc_mg": 0.8, "per": "10g", "benefits": ["zinc", "magnesium", "testosterone", "hair"]},
+    {"name": "Sunflower Seeds (1 tbsp)", "name_hindi": "Surajmukhi ke beej", "calories": 51, "protein": 1.8, "per": "9g", "benefits": ["vitamin_e", "selenium", "skin"]}
+  ],
+  "spices_herbs": [
+    {"name": "Turmeric", "name_hindi": "Haldi", "active_compound": "Curcumin", "benefits": ["anti_inflammatory", "antioxidant", "joint_health"], "research": "Hewlings & Kalman, 2017, Foods"},
+    {"name": "Black Pepper", "name_hindi": "Kali Mirch", "active_compound": "Piperine", "benefits": ["enhances_curcumin_absorption_2000pct", "digestion"], "research": "Shoba et al., 1998"},
+    {"name": "Cinnamon", "name_hindi": "Dalchini", "benefits": ["insulin_sensitivity", "blood_sugar_control"], "research": "Khan et al., Diabetes Care 2003"},
+    {"name": "Fenugreek", "name_hindi": "Methi", "benefits": ["blood_sugar", "testosterone", "lactation"], "research": "Steels et al., 2011, Phytother Res"},
+    {"name": "Ginger", "name_hindi": "Adrak", "benefits": ["anti_nausea", "anti_inflammatory", "digestion"], "research": "Mashhadi et al., 2013"},
+    {"name": "Ashwagandha", "name_hindi": "Ashwagandha", "benefits": ["cortisol_reduction_28pct", "testosterone", "sleep", "strength"], "research": "Chandrasekhar et al., 2012, IJAM"},
+    {"name": "Shatavari", "name_hindi": "Shatavari", "benefits": ["female_reproductive_health", "hormonal_balance"], "research": "Alok et al., 2013"},
+    {"name": "Triphala", "name_hindi": "Triphala", "benefits": ["digestion", "detox", "gut_health"], "research": "Peterson et al., 2017, J Alt Comp Med"},
+    {"name": "Tulsi (Holy Basil)", "name_hindi": "Tulsi", "benefits": ["adaptogen", "stress", "immunity"], "research": "Cohen, 2014, J Ayurveda Integr Med"}
+  ]
+}

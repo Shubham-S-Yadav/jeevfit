@@ -1,0 +1,269 @@
+{
+  "time_based": {
+    "15_min": {
+      "name": "Express Full Body",
+      "duration_min": 15,
+      "description": "No rest between exercises; 15 sec transition. High-intensity bodyweight circuit for when time is limited.",
+      "exercises": [
+        { "name": "Jumping Jacks", "duration": "60 sec", "order": 1 },
+        { "name": "Push-ups", "duration": "45 sec", "order": 2 },
+        { "name": "Bodyweight Squats", "duration": "60 sec", "order": 3 },
+        { "name": "Plank", "duration": "45 sec", "order": 4 },
+        { "name": "Lunges (alternating)", "duration": "60 sec", "order": 5 },
+        { "name": "Mountain Climbers", "duration": "45 sec", "order": 6 },
+        { "name": "Glute Bridges", "duration": "60 sec", "order": 7 },
+        { "name": "Burpees", "duration": "45 sec", "order": 8 },
+        { "name": "Bicycle Crunches", "duration": "60 sec", "order": 9 },
+        { "name": "Superman Hold", "duration": "45 sec", "order": 10 },
+        { "name": "High Knees", "duration": "60 sec", "order": 11 },
+        { "name": "Cool-down stretch", "duration": "90 sec", "order": 12 }
+      ],
+      "calorie_burn": "120-180"
+    },
+    "30_min": {
+      "name": "Balanced Workout",
+      "duration_min": 30,
+      "description": "Combination of strength and cardio/HIIT with warm-up and cool-down. Great for maintaining fitness with moderate time investment.",
+      "blocks": {
+        "warmup": {
+          "duration_min": 3,
+          "description": "Dynamic stretching"
+        },
+        "strength": {
+          "duration_min": 15,
+          "rounds": 3,
+          "rest_between_rounds": "60 sec",
+          "exercises": [
+            { "name": "Push-ups", "reps": "10-15" },
+            { "name": "Bodyweight Squats", "reps": "15-20" },
+            { "name": "Inverted Rows (or Bent-over Rows)", "reps": "10-12" },
+            { "name": "Lunges", "reps": "10/leg" },
+            { "name": "Plank", "duration": "45 sec" }
+          ]
+        },
+        "cardio_hiit": {
+          "duration_min": 9,
+          "rounds": 3,
+          "exercises": [
+            { "name": "Burpees", "work": "30 sec", "rest": "15 sec" },
+            { "name": "Jump Squats", "work": "30 sec", "rest": "15 sec" },
+            { "name": "Mountain Climbers", "work": "30 sec", "rest": "15 sec" }
+          ]
+        },
+        "cooldown": {
+          "duration_min": 3,
+          "description": "Static stretching"
+        }
+      },
+      "calorie_burn": "250-350"
+    },
+    "45_min": {
+      "name": "Complete Session",
+      "duration_min": 45,
+      "description": "Full strength session with conditioning finisher. Suitable for gym or home with equipment.",
+      "blocks": {
+        "warmup": {
+          "duration_min": 5,
+          "description": "Dynamic mobility work"
+        },
+        "strength": {
+          "duration_min": 25,
+          "rounds": 4,
+          "exercises": [
+            { "name": "Goblet Squats (or Barbell Squats)", "sets_reps": "4x10" },
+            { "name": "Push-ups / Bench Press", "sets_reps": "4x10-12" },
+            { "name": "Dumbbell Rows", "sets_reps": "4x10/arm" },
+            { "name": "Romanian Deadlifts", "sets_reps": "4x10" },
+            { "name": "Overhead Press", "sets_reps": "3x10" },
+            { "name": "Plank", "sets_reps": "3x45 sec" }
+          ]
+        },
+        "conditioning": {
+          "duration_min": 10,
+          "format": "AMRAP (As Many Rounds As Possible)",
+          "exercises": [
+            { "name": "Burpees", "reps": 5 },
+            { "name": "Jump Lunges", "reps": 10 },
+            { "name": "Mountain Climbers", "reps": "15 total" }
+          ]
+        },
+        "cooldown": {
+          "duration_min": 5,
+          "description": "Static stretching and deep breathing"
+        }
+      },
+      "calorie_burn": "350-450"
+    },
+    "60_min": {
+      "name": "Full Program",
+      "duration_min": 60,
+      "description": "Complete training session with compound lifts, accessory work, isolation movements, and thorough warm-up/cool-down.",
+      "blocks": {
+        "warmup": {
+          "duration_min": 7,
+          "description": "Foam rolling + dynamic stretching"
+        },
+        "compound_lifts": {
+          "duration_min": 20,
+          "exercises": [
+            { "name": "Barbell Squats", "sets_reps": "4x6-8" },
+            { "name": "Bench Press", "sets_reps": "4x6-8" },
+            { "name": "Barbell Rows", "sets_reps": "4x6-8" }
+          ]
+        },
+        "accessory_work": {
+          "duration_min": 15,
+          "exercises": [
+            { "name": "Overhead Press", "sets_reps": "3x8-10" },
+            { "name": "Romanian Deadlifts", "sets_reps": "3x8-10" },
+            { "name": "Pull-ups", "sets_reps": "3x6-12" },
+            { "name": "Face Pulls", "sets_reps": "3x15" }
+          ]
+        },
+        "isolation_and_core": {
+          "duration_min": 10,
+          "exercises": [
+            { "name": "Lateral Raises", "sets_reps": "3x12-15" },
+            { "name": "Bicep Curls", "sets_reps": "3x10-12" },
+            { "name": "Tricep Pushdowns", "sets_reps": "3x10-12" },
+            { "name": "Hanging Leg Raises", "sets_reps": "3x10-12" }
+          ]
+        },
+        "cooldown": {
+          "duration_min": 8,
+          "description": "Static stretching and controlled breathing"
+        }
+      },
+      "calorie_burn": "400-550"
+    }
+  },
+  "hiit": {
+    "beginner": {
+      "name": "Beginner HIIT Circuit",
+      "duration_min": 15,
+      "protocol": "Circuit",
+      "rounds": 3,
+      "work_rest": "30 sec work / 30 sec rest",
+      "warmup": { "duration_min": 2, "exercises": ["Marching in place", "Arm circles", "Leg swings"] },
+      "exercises": [
+        { "name": "Jumping Jacks", "work_sec": 30, "rest_sec": 30 },
+        { "name": "Bodyweight Squats", "work_sec": 30, "rest_sec": 30 },
+        { "name": "Mountain Climbers", "work_sec": 30, "rest_sec": 30 },
+        { "name": "Push-ups (modified if needed)", "work_sec": 30, "rest_sec": 30 }
+      ],
+      "cooldown": { "duration_min": 1, "exercises": ["Standing forward fold", "Deep breathing"] },
+      "calorie_burn": "150-200"
+    },
+    "intermediate": {
+      "name": "Intermediate Tabata Protocol",
+      "duration_min": 20,
+      "protocol": "Tabata",
+      "work_rest": "20 sec work / 10 sec rest x 8 rounds per block",
+      "warmup": { "duration_min": 3, "exercises": ["Jog in place", "High knees", "Butt kicks"] },
+      "blocks": [
+        {
+          "name": "Tabata Block 1",
+          "duration_min": 4,
+          "alternating_exercises": ["Burpees", "Jump Squats"],
+          "rounds": 8
+        },
+        {
+          "name": "Rest",
+          "duration_min": 1
+        },
+        {
+          "name": "Tabata Block 2",
+          "duration_min": 4,
+          "alternating_exercises": ["Mountain Climbers", "Push-ups"],
+          "rounds": 8
+        },
+        {
+          "name": "Rest",
+          "duration_min": 1
+        },
+        {
+          "name": "Tabata Block 3",
+          "duration_min": 4,
+          "alternating_exercises": ["High Knees", "Plank Shoulder Taps"],
+          "rounds": 8
+        }
+      ],
+      "cooldown": { "duration_min": 3, "exercises": ["Full body stretching"] },
+      "calorie_burn": "250-350"
+    },
+    "advanced": {
+      "name": "Advanced EMOM",
+      "duration_min": 30,
+      "protocol": "EMOM (Every Minute On the Minute)",
+      "description": "Complete the prescribed reps within the minute, rest the remainder. Repeat the 5-minute cycle 4 times.",
+      "warmup": { "duration_min": 5, "exercises": ["Dynamic stretching", "Light cardio"] },
+      "emom_cycle": {
+        "total_duration_min": 20,
+        "repeat_times": 4,
+        "minutes": [
+          { "minute": 1, "exercise": "Burpees", "reps": 15 },
+          { "minute": 2, "exercise": "Jump Lunges", "reps": "20 (10/leg)" },
+          { "minute": 3, "exercise": "Tuck Jumps", "reps": 15 },
+          { "minute": 4, "exercise": "Push-ups", "reps": 20 },
+          { "minute": 5, "exercise": "V-ups", "reps": 20 }
+        ]
+      },
+      "cooldown": { "duration_min": 5, "exercises": ["Full body stretching", "Breathing exercises"] },
+      "calorie_burn": "350-500"
+    }
+  },
+  "mobility": {
+    "morning_routine": {
+      "name": "Daily Morning Mobility",
+      "duration_min": 10,
+      "description": "Start your day with this mobility flow to improve joint health, reduce stiffness, and prevent injuries.",
+      "exercises": [
+        { "name": "Cat-Cow", "duration": "1 min", "reps": 10, "order": 1 },
+        { "name": "World's Greatest Stretch", "duration": "2 min", "reps": "5/side", "order": 2 },
+        { "name": "Hip 90/90 Switches", "duration": "1.5 min", "reps": 10, "order": 3 },
+        { "name": "Thoracic Spine Rotations (kneeling)", "duration": "1.5 min", "reps": "8/side", "order": 4 },
+        { "name": "Deep Squat Hold (Malasana)", "duration": "1 min", "reps": "hold", "order": 5 },
+        { "name": "Shoulder CARS (Controlled Articular Rotations)", "duration": "1.5 min", "reps": "5/direction/arm", "order": 6 },
+        { "name": "Ankle Circles", "duration": "1 min", "reps": "10/direction/ankle", "order": 7 },
+        { "name": "Neck Circles + Chin Tucks", "duration": "30 sec", "reps": "5 each", "order": 8 }
+      ]
+    },
+    "post_workout_stretch": {
+      "name": "Post-Workout Stretch Routine",
+      "duration_min": 10,
+      "description": "Hold each stretch for 30-60 seconds. Promotes recovery, reduces DOMS, and improves flexibility over time.",
+      "exercises": [
+        { "name": "Standing Quad Stretch", "duration": "30-60 sec each leg", "order": 1 },
+        { "name": "Standing Hamstring Stretch", "duration": "30-60 sec each leg", "order": 2 },
+        { "name": "Hip Flexor Stretch / Low Lunge", "duration": "30-60 sec each leg", "order": 3 },
+        { "name": "Pigeon Pose", "duration": "30-60 sec each side", "order": 4 },
+        { "name": "Chest Doorway Stretch", "duration": "30-60 sec", "order": 5 },
+        { "name": "Cross-body Shoulder Stretch", "duration": "30-60 sec each arm", "order": 6 },
+        { "name": "Seated Spinal Twist", "duration": "30-60 sec each side", "order": 7 },
+        { "name": "Child's Pose", "duration": "30-60 sec", "order": 8 }
+      ]
+    }
+  },
+  "fat_loss_strategy": {
+    "weekly_structure": {
+      "resistance_training": "3-4 days",
+      "moderate_cardio": "2-3 days (walking 8000-10000 steps/day)",
+      "hiit_sessions": "1-2 sessions (20 min each)",
+      "daily_steps": "8000-10000 (NEAT - Non-Exercise Activity Thermogenesis)"
+    },
+    "calorie_burn_ranking": [
+      { "exercise": "Burpees (continuous)", "calories_per_30min": "280-400", "notes": "Highest bodyweight calorie burn" },
+      { "exercise": "Jump Rope (vigorous)", "calories_per_30min": "300-400", "notes": "Excellent; minimal space needed" },
+      { "exercise": "Running (10 km/h)", "calories_per_30min": "280-350", "notes": "Joint stress for overweight individuals" },
+      { "exercise": "HIIT Circuit", "calories_per_30min": "250-400", "notes": "Best EPOC effect" },
+      { "exercise": "Swimming (vigorous)", "calories_per_30min": "250-350", "notes": "Joint-friendly" },
+      { "exercise": "Cycling (vigorous)", "calories_per_30min": "250-350", "notes": "Low impact" },
+      { "exercise": "Rowing Machine", "calories_per_30min": "250-350", "notes": "Full body" },
+      { "exercise": "Stair Climbing", "calories_per_30min": "200-300", "notes": "Functional" },
+      { "exercise": "Weight Training (circuit)", "calories_per_30min": "200-300", "notes": "Builds muscle; sustained metabolic boost" },
+      { "exercise": "Brisk Walking (6.5 km/h)", "calories_per_30min": "130-160", "notes": "Best for obese/beginners; sustainable" },
+      { "exercise": "Yoga (power/vinyasa)", "calories_per_30min": "150-250", "notes": "Lower burn but stress reduction helps fat loss" }
+    ],
+    "indian_context_tip": "Walking after meals (especially dinner) is culturally common and extremely effective for blood sugar control and calorie expenditure."
+  }
+}

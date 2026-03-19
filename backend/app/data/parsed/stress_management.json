@@ -1,0 +1,279 @@
+{
+  "meditation": {
+    "mindfulness": {
+      "evidence": "Goyal et al. (2014, JAMA Internal Medicine, PMID: 24395196): Meta-analysis of 47 RCTs with 3,515 participants showed mindfulness meditation had moderate evidence for improving anxiety (effect size 0.38), depression (0.30), and pain (0.33).",
+      "protocols": {
+        "beginner": {
+          "duration_min": "5-10",
+          "instructions": [
+            "Sit comfortably, spine upright",
+            "Close eyes or soft gaze downward",
+            "Focus attention on breath (nostril sensation, chest rise, belly expansion)",
+            "When mind wanders (it will), gently note 'thinking' and return to breath",
+            "No judgment. The noticing IS the practice"
+          ]
+        },
+        "intermediate": {
+          "duration_min": "15-20",
+          "instructions": [
+            "Same as beginner, but extend duration",
+            "Add body scan: systematically notice sensations from feet to head",
+            "Bring gentle curiosity to each sensation",
+            "Practice non-reactivity to pleasant and unpleasant sensations"
+          ]
+        },
+        "advanced": {
+          "duration_min": "30-45",
+          "instructions": [
+            "Open monitoring: observe all sensations, thoughts, emotions without attachment",
+            "Noting practice: label experiences ('hearing', 'thinking', 'itching')",
+            "Maintain equanimity regardless of experience quality",
+            "Practice choiceless awareness"
+          ]
+        }
+      }
+    },
+    "vipassana": {
+      "description": "Traditional Buddhist insight meditation technique, widely taught in India through S.N. Goenka centers (free 10-day courses across India: dhamma.org).",
+      "method": "Focus on body sensations with equanimity (non-reaction). Involves systematic scanning of body from head to feet and back.",
+      "course": "10-day silent residential course - intense but transformative for many. Free of charge (donation-based).",
+      "availability_india": "Multiple centers across India (Igatpuri, Hyderabad, Jaipur, Bangalore, Delhi, Chennai, and more)"
+    },
+    "transcendental": {
+      "description": "Mantra-based meditation technique (20 min, 2x/day). Uses a personalized mantra assigned by a certified teacher.",
+      "evidence": "Brook et al. (2013, Hypertension): Reduces blood pressure, anxiety, PTSD symptoms.",
+      "duration": "20 min, twice daily",
+      "availability_india": "Requires certified teacher (paid course: ~INR 35,000-50,000 in India)",
+      "note": "More expensive than other techniques; some evidence of efficacy but comparable results possible with free mindfulness practices."
+    },
+    "yoga_nidra": {
+      "description": "Guided relaxation technique, lying in Shavasana (corpse pose). 20-45 minute sessions.",
+      "claim": "30 min Yoga Nidra is equivalent to ~2-3 hours of sleep in terms of restorative effect (anecdotal; limited controlled evidence)",
+      "benefits": [
+        "Reduces stress and anxiety",
+        "Improves insomnia",
+        "Accessible for all fitness levels",
+        "Excellent for Indian professionals with high-stress jobs"
+      ],
+      "free_resources": [
+        "Ally Boothroyd recordings on YouTube",
+        "Satyananda tradition recordings",
+        "Insight Timer app (free)"
+      ]
+    }
+  },
+  "pmr": {
+    "name": "Progressive Muscle Relaxation (Jacobson's Technique)",
+    "duration_min": "15-20",
+    "evidence": "Manzoni et al. (2008, PMID: 18752854): Meta-analysis showed significant anxiety reduction.",
+    "steps": [
+      "Lie down or sit comfortably. Work through each muscle group:",
+      "1. Right foot: Tense for 5 sec, Release for 30 sec",
+      "2. Right calf: Tense, Release",
+      "3. Right thigh: Tense, Release",
+      "4. Left foot, calf, thigh: Tense each, Release",
+      "5. Hips and glutes: Tense, Release",
+      "6. Stomach/core: Tense, Release",
+      "7. Chest: Inhale deeply and hold, Exhale and release",
+      "8. Right hand (make fist), forearm, upper arm: Tense each, Release",
+      "9. Left hand, forearm, upper arm: Tense each, Release",
+      "10. Shoulders (shrug up): Release",
+      "11. Neck (gentle tension): Release",
+      "12. Face: Scrunch entire face, Release",
+      "13. Full body: Tense everything, Release, Notice the wave of relaxation"
+    ]
+  },
+  "indian_context_stressors": [
+    {
+      "stressor": "Long commutes (1-3 hours daily in metros)",
+      "prevalence": "~60% of urban workers",
+      "solutions": [
+        "Use commute for audiobooks, podcasts, breathing exercises (box breathing in traffic)",
+        "Negotiate 2 work-from-home days if possible",
+        "Practice mindfulness during commute instead of doom-scrolling"
+      ]
+    },
+    {
+      "stressor": "Work-life boundary blur (WhatsApp work groups, post-hours calls)",
+      "prevalence": "Very high across Indian workplaces",
+      "solutions": [
+        "Set boundaries: mute work groups after 8 PM",
+        "Communicate availability hours clearly to team",
+        "Create physical separation between work and personal space"
+      ]
+    },
+    {
+      "stressor": "Family expectations (marriage, career, finances)",
+      "prevalence": "Culturally pervasive",
+      "solutions": [
+        "Set realistic expectations with family through open communication",
+        "Therapy is increasingly normalized in urban India",
+        "Use free counseling services (iCall, Vandrevala Foundation)"
+      ]
+    },
+    {
+      "stressor": "Financial stress (EMIs, inflation, low savings)",
+      "prevalence": "~70% of young professionals report financial stress",
+      "solutions": [
+        "Create a budget using the 50/30/20 rule",
+        "Build emergency fund equal to 6 months expenses",
+        "Use financial apps: ET Money, Groww for investment tracking"
+      ]
+    },
+    {
+      "stressor": "Comparison / social media",
+      "prevalence": "Growing, especially among 18-35 age group",
+      "solutions": [
+        "Digital detox: no screens 1 hour before bed",
+        "Unfollow accounts that trigger comparison",
+        "Practice gratitude journaling",
+        "Limit social media to specific times of day"
+      ]
+    },
+    {
+      "stressor": "Air pollution (Delhi NCR, Mumbai, Kolkata)",
+      "prevalence": "Seasonal and chronic in major metros",
+      "solutions": [
+        "Wear N95 masks outdoors on high AQI days",
+        "Use air purifier indoors (especially bedroom)",
+        "Exercise indoors when AQI >150",
+        "Keep indoor plants that filter air (money plant, spider plant, areca palm)"
+      ]
+    },
+    {
+      "stressor": "Toxic work culture (Indian IT, startup hustle)",
+      "prevalence": "Common in IT sector and startups",
+      "solutions": [
+        "Set non-negotiable health boundaries: 7+ hours sleep, 30 min exercise daily",
+        "These are health investments, not luxuries",
+        "Document overwork patterns; discuss with HR if systemic",
+        "Consider job change if culture is irredeemable"
+      ]
+    },
+    {
+      "stressor": "Joint family dynamics",
+      "prevalence": "Culturally common",
+      "solutions": [
+        "Open communication about boundaries and expectations",
+        "Couples counseling if needed",
+        "Many Indian therapists are trained specifically in family dynamics",
+        "Practice assertiveness while maintaining respect"
+      ]
+    }
+  ],
+  "mental_health_resources_india": [
+    {
+      "name": "iCall (TISS)",
+      "type": "Free counseling",
+      "contact": "9152987821",
+      "details": "Run by Tata Institute of Social Sciences, Mumbai. Free telephone counseling."
+    },
+    {
+      "name": "Vandrevala Foundation",
+      "type": "24/7 helpline",
+      "contact": "1860-2662-345",
+      "details": "24/7 multilingual helpline for emotional support and crisis intervention."
+    },
+    {
+      "name": "NIMHANS",
+      "type": "Government mental health institute",
+      "contact": "080-46110007",
+      "details": "National Institute of Mental Health and Neurosciences, Bangalore. Premier mental health institution."
+    },
+    {
+      "name": "Practo / Amaha / MindPeers",
+      "type": "Online therapy platforms",
+      "contact": "App-based booking",
+      "details": "Online therapy sessions with licensed professionals. INR 500-2000/session."
+    },
+    {
+      "name": "YourDOST",
+      "type": "Online counseling (corporate partnerships)",
+      "contact": "Through employer",
+      "details": "Many Indian corporates provide YourDOST as an employee benefit for confidential counseling."
+    },
+    {
+      "name": "Mann Talks",
+      "type": "Social media mental health education",
+      "contact": "@manntalks on Instagram",
+      "details": "Mental health awareness and education through social media content."
+    }
+  ],
+  "apps": [
+    {
+      "name": "Insight Timer",
+      "cost": "Free (premium optional)",
+      "features": "Largest free meditation library, timer, courses, music",
+      "availability": "iOS, Android"
+    },
+    {
+      "name": "Headspace",
+      "cost": "INR 500-800/month",
+      "features": "Guided courses, sleep stories, focus music, SOS meditations",
+      "availability": "iOS, Android"
+    },
+    {
+      "name": "Calm",
+      "cost": "INR 500-800/month",
+      "features": "Sleep stories (including Hindi), meditations, breathing exercises, masterclasses",
+      "availability": "iOS, Android"
+    },
+    {
+      "name": "Atom (Indian app)",
+      "cost": "Free / INR 200-400/month",
+      "features": "Hindi and English content, Indian-context meditations, culturally relevant programs",
+      "availability": "iOS, Android"
+    },
+    {
+      "name": "7Mind",
+      "cost": "Free tier available",
+      "features": "Short meditations for beginners, courses by topic",
+      "availability": "iOS, Android"
+    },
+    {
+      "name": "Breathe (by Calm)",
+      "cost": "Free",
+      "features": "Simple breathing exercises, guided breathwork",
+      "availability": "iOS, Android"
+    }
+  ],
+  "exercise_for_stress": [
+    {
+      "activity": "Walking in nature",
+      "mechanism": "Reduces cortisol by 12-16%",
+      "frequency": "Daily, 20-30 min",
+      "evidence": "Park et al. (2010, PMID: 20074458)"
+    },
+    {
+      "activity": "Yoga (any style)",
+      "mechanism": "Increases GABA, reduces cortisol, improves HRV",
+      "frequency": "3-5x/week, 30-60 min"
+    },
+    {
+      "activity": "Swimming",
+      "mechanism": "Rhythmic breathing + exercise creates a meditative state",
+      "frequency": "2-3x/week"
+    },
+    {
+      "activity": "Moderate-intensity cardio",
+      "mechanism": "Endorphin release, serotonin boost",
+      "frequency": "3-5x/week, 30 min"
+    },
+    {
+      "activity": "Tai Chi",
+      "mechanism": "Moving meditation; reduces cortisol",
+      "frequency": "2-3x/week"
+    },
+    {
+      "activity": "Dance",
+      "mechanism": "Social + exercise + music = multiple stress-relieving modalities",
+      "frequency": "As desired"
+    }
+  ],
+  "caution": "Very high-intensity exercise (marathon training, CrossFit to failure) can INCREASE cortisol and stress in chronically stressed individuals. Moderate intensity is optimal for stress reduction.",
+  "evidence_base": {
+    "breathing_review": { "author": "Zaccaro et al.", "journal": "Frontiers in Human Neuroscience", "year": 2018, "pmid": "30245619", "finding": "Systematic review showed slow breathing techniques reduce anxiety, improve HRV, and modulate autonomic nervous system" },
+    "mindfulness_meta": { "author": "Goyal et al.", "journal": "JAMA Internal Medicine", "year": 2014, "pmid": "24395196", "finding": "47 RCTs showed moderate evidence for improving anxiety, depression, and pain" },
+    "pmr_meta": { "author": "Manzoni et al.", "journal": "Research study", "year": 2008, "pmid": "18752854", "finding": "Meta-analysis showed significant anxiety reduction" }
+  }
+}

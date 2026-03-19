@@ -1,0 +1,2694 @@
+{
+  "_metadata": {
+    "title": "Indian Nutrition Knowledge Base",
+    "version": "1.0.0",
+    "compiled_date": "2026-03-17",
+    "description": "Comprehensive nutrition knowledge base for an Indian audience health app, covering ICMR guidelines, food composition data, regional diet patterns, health-goal-specific nutrition, food synergies, and glycemic indices.",
+    "primary_sources": [
+      "ICMR-NIN Dietary Guidelines for Indians (2024)",
+      "ICMR-NIN Recommended Dietary Allowances for Indians (2020, updated 2024)",
+      "Indian Food Composition Tables (IFCT 2017), NIN Hyderabad",
+      "Nutritive Value of Indian Foods (NVIF), NIN Hyderabad",
+      "Longvah T et al., Indian Food Composition Tables, NIN, 2017",
+      "ICMR-NIN Expert Group on Nutrient Requirements (2020)",
+      "Foster-Powell K et al., International Tables of Glycemic Index, Am J Clin Nutr, 2002",
+      "Atkinson FS et al., International Tables of GI and GL Values, Diabetes Care, 2008",
+      "Radhika G et al., Glycaemic index of Indian foods, Br J Nutr, 2010",
+      "NIN. My Plate for the Day - Guidelines, 2024",
+      "WHO/FAO Expert Consultation on Diet, Nutrition and Prevention of Chronic Diseases, 2003"
+    ],
+    "disclaimer": "Values are approximate and based on published ICMR-NIN, IFCT 2017, and peer-reviewed data. Actual nutrient content may vary by cultivar, region, cooking method, and season. This data is for educational and app reference purposes; it does not substitute for professional medical or dietary advice."
+  },
+
+  "section_1_icmr_dietary_guidelines": {
+    "title": "ICMR-NIN Dietary Guidelines for Indians (2024)",
+    "summary": "The Indian Council of Medical Research - National Institute of Nutrition (ICMR-NIN) published updated dietary guidelines in 2024, revising earlier 2011 guidelines. Key changes include increased protein recommendations, updated fat quality guidance, emphasis on millets, and specific guidance on ultra-processed food avoidance.",
+
+    "key_principles": [
+      "Eat a variety of foods to ensure a balanced diet",
+      "Ensure adequacy of cereals, millets, pulses in every meal",
+      "Consume at least 400g of vegetables and fruits daily",
+      "Use oils and fats in moderation; choose variety of cooking oils",
+      "Limit intake of salt to less than 5g per day",
+      "Limit consumption of sugar and ultra-processed foods",
+      "Adopt a healthy lifestyle with adequate physical activity",
+      "Drink adequate water (8-10 glasses per day)",
+      "Promote exclusive breastfeeding for 6 months",
+      "Include millets as part of the daily diet"
+    ],
+
+    "recommended_dietary_allowances_rda": {
+      "description": "RDA values as per ICMR-NIN 2020 (latest revision with 2024 updates)",
+
+      "energy_requirements_kcal_per_day": {
+        "infants": {
+          "0_6_months": { "male": 555, "female": 515 },
+          "6_12_months": { "male": 700, "female": 650 }
+        },
+        "children": {
+          "1_3_years": { "male": 1060, "female": 1060 },
+          "4_6_years": { "male": 1350, "female": 1260 },
+          "7_9_years": { "male": 1690, "female": 1580 }
+        },
+        "adolescents": {
+          "10_12_years": { "male": 2190, "female": 2010 },
+          "13_15_years": { "male": 2750, "female": 2330 },
+          "16_17_years": { "male": 3020, "female": 2440 }
+        },
+        "adults_by_activity_level": {
+          "men": {
+            "sedentary": 2110,
+            "moderate": 2710,
+            "heavy": 3470
+          },
+          "women": {
+            "sedentary": 1660,
+            "moderate": 2130,
+            "heavy": 2720
+          }
+        },
+        "elderly_60_plus": {
+          "men": { "sedentary": 1990, "moderate": 2410 },
+          "women": { "sedentary": 1570, "moderate": 1900 }
+        },
+        "pregnancy_additional": {
+          "first_trimester": 85,
+          "second_trimester": 285,
+          "third_trimester": 470
+        },
+        "lactation_additional": {
+          "0_6_months": 505,
+          "6_12_months": 405
+        },
+        "reference": "ICMR-NIN Expert Group Report on Nutrient Requirements, 2020"
+      },
+
+      "protein_g_per_day": {
+        "description": "Based on 0.83 g/kg/day for adults (revised upward from 1 g/kg for Indian diets due to lower digestibility of plant-based protein; effective recommendation ~1.0-1.2 g/kg for mixed Indian diet)",
+        "infants": {
+          "0_6_months": { "male": 7.2, "female": 7.2 },
+          "6_12_months": { "male": 10.3, "female": 10.3 }
+        },
+        "children": {
+          "1_3_years": 12.5,
+          "4_6_years": 16.0,
+          "7_9_years": 23.0
+        },
+        "adolescents": {
+          "10_12_years": { "male": 32.0, "female": 33.0 },
+          "13_15_years": { "male": 41.0, "female": 40.0 },
+          "16_17_years": { "male": 46.0, "female": 42.0 }
+        },
+        "adults": {
+          "men_reference_65kg": 54.0,
+          "women_reference_55kg": 45.7,
+          "note": "For Indian mixed vegetarian diet, increase by 20% to account for lower digestibility: men ~65g, women ~55g"
+        },
+        "pregnancy_additional": 7.0,
+        "lactation_additional": 17.0,
+        "reference": "ICMR-NIN RDA 2020"
+      },
+
+      "fat_g_per_day": {
+        "description": "Visible fat (cooking oil + butter/ghee); total fat should provide 20-30% of energy",
+        "adults": {
+          "sedentary": { "men": "25-30g", "women": "20-25g" },
+          "moderate": { "men": "30-40g", "women": "25-30g" },
+          "heavy": { "men": "35-50g", "women": "30-40g" }
+        },
+        "fat_quality_guidelines": {
+          "SFA_limit": "<10% of total energy (ideally <7%)",
+          "MUFA_target": "10-15% of total energy",
+          "PUFA_target": "8-10% of total energy",
+          "n6_to_n3_ratio": "5:1 to 10:1",
+          "trans_fat_limit": "<1% of total energy",
+          "cholesterol_limit": "<300 mg/day"
+        }
+      },
+
+      "macronutrient_energy_distribution": {
+        "carbohydrates": { "percent_of_total_energy": "55-65%", "note": "Emphasis on complex carbs; limit free sugars to <10% energy (ideally <5%)" },
+        "protein": { "percent_of_total_energy": "10-15%", "note": "Higher end for vegetarians; at least 1/3 from pulses/legumes" },
+        "fat": { "percent_of_total_energy": "20-30%", "note": "Not below 20% to ensure essential fatty acid adequacy" },
+        "fiber": { "g_per_day": "30-40", "note": "From whole grains, vegetables, fruits, pulses" }
+      },
+
+      "key_micronutrient_rda": {
+        "calcium_mg": {
+          "children_1_9": 600,
+          "adolescents_10_17": 800,
+          "adults": 600,
+          "pregnant_lactating": 1200,
+          "elderly": 800
+        },
+        "iron_mg": {
+          "children_1_6": 12,
+          "children_7_9": 16,
+          "boys_10_17": 21,
+          "girls_10_17": 27,
+          "adult_men": 19,
+          "adult_women_menstruating": 29,
+          "pregnant": 35,
+          "lactating": 21,
+          "postmenopausal_women": 19
+        },
+        "zinc_mg": {
+          "adult_men": 12,
+          "adult_women": 10,
+          "pregnant": 12,
+          "lactating": 12
+        },
+        "vitamin_a_mcg_retinol": {
+          "children_1_6": 400,
+          "children_7_9": 500,
+          "adolescents_adults": 600,
+          "pregnant": 800,
+          "lactating": 950
+        },
+        "vitamin_c_mg": {
+          "adults": 80,
+          "pregnant": 100,
+          "lactating": 115
+        },
+        "vitamin_d_iu": {
+          "all_ages": 600,
+          "elderly_65_plus": 800,
+          "note": "ICMR recommends 400-600 IU; many Indians are deficient"
+        },
+        "vitamin_b12_mcg": {
+          "adults": 2.2,
+          "pregnant": 2.5,
+          "lactating": 2.8,
+          "note": "Critical for vegetarians; supplement if needed"
+        },
+        "folic_acid_mcg": {
+          "adults": 300,
+          "pregnant": 500,
+          "lactating": 300
+        },
+        "iodine_mcg": {
+          "adults": 150,
+          "pregnant": 220,
+          "lactating": 290
+        },
+        "magnesium_mg": {
+          "adult_men": 340,
+          "adult_women": 310,
+          "pregnant": 310,
+          "lactating": 310
+        }
+      },
+
+      "my_plate_for_the_day_icmr": {
+        "description": "ICMR-NIN recommended plate composition per meal and daily portions",
+        "daily_servings": {
+          "cereals_and_millets": { "servings": "6-11", "one_serving": "30g raw / 1 roti / 1 cup cooked rice" },
+          "pulses_and_legumes": { "servings": "2-3", "one_serving": "30g raw dal" },
+          "milk_and_dairy": { "servings": "3", "one_serving": "100ml milk or 30g paneer" },
+          "vegetables": { "servings": "4-5", "one_serving": "100g", "note": "Include leafy greens daily, at least 50g" },
+          "fruits": { "servings": "2-3", "one_serving": "100g or 1 medium fruit" },
+          "fats_and_oils": { "servings": "5-6 tsp", "one_serving": "5g / 1 tsp" },
+          "nuts_and_seeds": { "servings": "1-2", "one_serving": "15g (handful)" },
+          "sugar": { "max": "20g / 4 tsp per day" }
+        }
+      }
+    }
+  },
+
+  "section_2_indian_foods_nutritional_database": {
+    "title": "Common Indian Foods Nutritional Database",
+    "description": "Nutritional values per 100g edible portion. Primary source: IFCT 2017 (Indian Food Composition Tables by NIN Hyderabad) and Nutritive Value of Indian Foods (NVIF). Values are for raw/uncooked unless stated.",
+
+    "cereals_and_millets": [
+      {
+        "name": "Rice, raw, milled (white)",
+        "hindi_name": "Chawal",
+        "calories_kcal": 356,
+        "protein_g": 6.8,
+        "carbs_g": 78.2,
+        "fat_g": 0.5,
+        "fiber_g": 0.2,
+        "iron_mg": 0.7,
+        "calcium_mg": 10,
+        "zinc_mg": 1.2,
+        "key_nutrients": "Starch, Thiamine",
+        "glycemic_index": 73
+      },
+      {
+        "name": "Rice, raw, brown (hand-pounded)",
+        "hindi_name": "Brown Chawal",
+        "calories_kcal": 362,
+        "protein_g": 7.9,
+        "carbs_g": 76.0,
+        "fat_g": 2.7,
+        "fiber_g": 3.4,
+        "iron_mg": 1.8,
+        "calcium_mg": 20,
+        "zinc_mg": 1.8,
+        "key_nutrients": "B vitamins, Manganese, Magnesium",
+        "glycemic_index": 55
+      },
+      {
+        "name": "Wheat flour, whole (atta)",
+        "hindi_name": "Gehun ka Atta",
+        "calories_kcal": 341,
+        "protein_g": 12.1,
+        "carbs_g": 71.2,
+        "fat_g": 1.7,
+        "fiber_g": 12.5,
+        "iron_mg": 4.9,
+        "calcium_mg": 48,
+        "zinc_mg": 2.8,
+        "key_nutrients": "B vitamins, Phosphorus, Manganese",
+        "glycemic_index": 62
+      },
+      {
+        "name": "Wheat, refined flour (maida)",
+        "hindi_name": "Maida",
+        "calories_kcal": 348,
+        "protein_g": 11.0,
+        "carbs_g": 74.3,
+        "fat_g": 0.9,
+        "fiber_g": 2.7,
+        "iron_mg": 2.7,
+        "calcium_mg": 23,
+        "zinc_mg": 1.0,
+        "key_nutrients": "Starch (low micronutrients)",
+        "glycemic_index": 71
+      },
+      {
+        "name": "Ragi (Finger millet)",
+        "hindi_name": "Ragi / Nachni",
+        "calories_kcal": 328,
+        "protein_g": 7.3,
+        "carbs_g": 72.0,
+        "fat_g": 1.3,
+        "fiber_g": 11.5,
+        "iron_mg": 3.9,
+        "calcium_mg": 344,
+        "zinc_mg": 2.5,
+        "key_nutrients": "Highest calcium among cereals, Iron, Polyphenols",
+        "glycemic_index": 54
+      },
+      {
+        "name": "Jowar (Sorghum)",
+        "hindi_name": "Jowar",
+        "calories_kcal": 349,
+        "protein_g": 10.4,
+        "carbs_g": 72.6,
+        "fat_g": 1.9,
+        "fiber_g": 9.7,
+        "iron_mg": 4.1,
+        "calcium_mg": 25,
+        "zinc_mg": 1.6,
+        "key_nutrients": "Iron, B vitamins, Antioxidants, Gluten-free",
+        "glycemic_index": 62
+      },
+      {
+        "name": "Bajra (Pearl millet)",
+        "hindi_name": "Bajra",
+        "calories_kcal": 361,
+        "protein_g": 11.6,
+        "carbs_g": 67.5,
+        "fat_g": 5.0,
+        "fiber_g": 11.3,
+        "iron_mg": 8.0,
+        "calcium_mg": 42,
+        "zinc_mg": 3.1,
+        "key_nutrients": "Highest iron among millets, Zinc, Magnesium",
+        "glycemic_index": 54
+      },
+      {
+        "name": "Foxtail millet (Kangni)",
+        "hindi_name": "Kangni / Kakum",
+        "calories_kcal": 351,
+        "protein_g": 12.3,
+        "carbs_g": 60.9,
+        "fat_g": 4.3,
+        "fiber_g": 14.0,
+        "iron_mg": 2.8,
+        "calcium_mg": 31,
+        "zinc_mg": 2.4,
+        "key_nutrients": "High protein, Fiber, Iron",
+        "glycemic_index": 50
+      },
+      {
+        "name": "Barnyard millet (Sanwa)",
+        "hindi_name": "Sanwa / Jhangora",
+        "calories_kcal": 307,
+        "protein_g": 6.2,
+        "carbs_g": 65.5,
+        "fat_g": 2.2,
+        "fiber_g": 13.6,
+        "iron_mg": 5.0,
+        "calcium_mg": 20,
+        "zinc_mg": 3.0,
+        "key_nutrients": "Very high fiber, Low GI",
+        "glycemic_index": 50
+      },
+      {
+        "name": "Little millet (Kutki)",
+        "hindi_name": "Kutki / Samai",
+        "calories_kcal": 329,
+        "protein_g": 7.7,
+        "carbs_g": 67.0,
+        "fat_g": 4.7,
+        "fiber_g": 7.6,
+        "iron_mg": 9.3,
+        "calcium_mg": 17,
+        "zinc_mg": 3.7,
+        "key_nutrients": "Very high iron, Fiber",
+        "glycemic_index": 52
+      },
+      {
+        "name": "Kodo millet",
+        "hindi_name": "Kodo / Kodra",
+        "calories_kcal": 309,
+        "protein_g": 8.3,
+        "carbs_g": 65.9,
+        "fat_g": 1.4,
+        "fiber_g": 9.0,
+        "iron_mg": 0.5,
+        "calcium_mg": 27,
+        "zinc_mg": 0.7,
+        "key_nutrients": "Fiber, Polyphenols, Low GI",
+        "glycemic_index": 55
+      },
+      {
+        "name": "Maize (corn), dry",
+        "hindi_name": "Makka",
+        "calories_kcal": 342,
+        "protein_g": 8.8,
+        "carbs_g": 66.2,
+        "fat_g": 3.6,
+        "fiber_g": 12.4,
+        "iron_mg": 2.3,
+        "calcium_mg": 10,
+        "zinc_mg": 2.8,
+        "key_nutrients": "Carotenoids (zeaxanthin, lutein), Fiber",
+        "glycemic_index": 52
+      },
+      {
+        "name": "Oats",
+        "hindi_name": "Jai / Oats",
+        "calories_kcal": 374,
+        "protein_g": 13.6,
+        "carbs_g": 62.8,
+        "fat_g": 7.1,
+        "fiber_g": 10.1,
+        "iron_mg": 4.7,
+        "calcium_mg": 54,
+        "zinc_mg": 3.9,
+        "key_nutrients": "Beta-glucan (soluble fiber), Manganese, Phosphorus",
+        "glycemic_index": 55
+      },
+      {
+        "name": "Semolina (Suji/Rava)",
+        "hindi_name": "Suji / Rava",
+        "calories_kcal": 348,
+        "protein_g": 10.3,
+        "carbs_g": 74.8,
+        "fat_g": 0.8,
+        "fiber_g": 2.3,
+        "iron_mg": 2.1,
+        "calcium_mg": 16,
+        "zinc_mg": 0.9,
+        "key_nutrients": "Thiamine, Folate",
+        "glycemic_index": 66
+      },
+      {
+        "name": "Poha (Flattened rice)",
+        "hindi_name": "Poha / Chivda",
+        "calories_kcal": 346,
+        "protein_g": 6.6,
+        "carbs_g": 77.3,
+        "fat_g": 1.2,
+        "fiber_g": 1.0,
+        "iron_mg": 20.0,
+        "calcium_mg": 20,
+        "zinc_mg": 1.5,
+        "key_nutrients": "Very high iron (fortified during processing), Carbs",
+        "glycemic_index": 64
+      },
+      {
+        "name": "Amaranth (Rajgira)",
+        "hindi_name": "Rajgira / Ramdana",
+        "calories_kcal": 371,
+        "protein_g": 13.6,
+        "carbs_g": 62.4,
+        "fat_g": 7.0,
+        "fiber_g": 6.7,
+        "iron_mg": 7.6,
+        "calcium_mg": 159,
+        "zinc_mg": 2.9,
+        "key_nutrients": "Complete protein (incl. lysine), Calcium, Iron",
+        "glycemic_index": 35
+      }
+    ],
+
+    "pulses_and_legumes": [
+      {
+        "name": "Moong dal (split, green gram)",
+        "hindi_name": "Moong Dal",
+        "calories_kcal": 348,
+        "protein_g": 24.0,
+        "carbs_g": 59.9,
+        "fat_g": 1.2,
+        "fiber_g": 8.2,
+        "iron_mg": 4.4,
+        "calcium_mg": 75,
+        "zinc_mg": 2.4,
+        "key_nutrients": "Easy to digest, Folate, Magnesium",
+        "glycemic_index": 31
+      },
+      {
+        "name": "Moong whole (green gram, whole)",
+        "hindi_name": "Sabut Moong",
+        "calories_kcal": 334,
+        "protein_g": 24.0,
+        "carbs_g": 56.7,
+        "fat_g": 1.3,
+        "fiber_g": 16.3,
+        "iron_mg": 4.4,
+        "calcium_mg": 124,
+        "zinc_mg": 2.6,
+        "key_nutrients": "High fiber, Folate, Potassium",
+        "glycemic_index": 29
+      },
+      {
+        "name": "Toor dal (arhar / pigeon pea, split)",
+        "hindi_name": "Arhar / Toor Dal",
+        "calories_kcal": 335,
+        "protein_g": 22.3,
+        "carbs_g": 57.6,
+        "fat_g": 1.7,
+        "fiber_g": 15.0,
+        "iron_mg": 5.0,
+        "calcium_mg": 73,
+        "zinc_mg": 2.2,
+        "key_nutrients": "Folate, Thiamine, Potassium",
+        "glycemic_index": 29
+      },
+      {
+        "name": "Masoor dal (red lentil, split)",
+        "hindi_name": "Masoor Dal",
+        "calories_kcal": 343,
+        "protein_g": 25.1,
+        "carbs_g": 56.5,
+        "fat_g": 0.7,
+        "fiber_g": 10.8,
+        "iron_mg": 7.6,
+        "calcium_mg": 56,
+        "zinc_mg": 3.3,
+        "key_nutrients": "Very high iron, Folate, Protein",
+        "glycemic_index": 27
+      },
+      {
+        "name": "Chana dal (Bengal gram, split)",
+        "hindi_name": "Chana Dal",
+        "calories_kcal": 360,
+        "protein_g": 20.8,
+        "carbs_g": 59.8,
+        "fat_g": 5.6,
+        "fiber_g": 18.3,
+        "iron_mg": 5.3,
+        "calcium_mg": 56,
+        "zinc_mg": 3.0,
+        "key_nutrients": "High fiber, Manganese, Folate",
+        "glycemic_index": 8
+      },
+      {
+        "name": "Urad dal (black gram, split)",
+        "hindi_name": "Urad Dal",
+        "calories_kcal": 341,
+        "protein_g": 24.0,
+        "carbs_g": 59.6,
+        "fat_g": 1.4,
+        "fiber_g": 9.3,
+        "iron_mg": 3.8,
+        "calcium_mg": 154,
+        "zinc_mg": 2.0,
+        "key_nutrients": "High calcium, Phosphorus, Folate",
+        "glycemic_index": 30
+      },
+      {
+        "name": "Kabuli chana (chickpea, white)",
+        "hindi_name": "Kabuli Chana / Chole",
+        "calories_kcal": 364,
+        "protein_g": 19.3,
+        "carbs_g": 60.9,
+        "fat_g": 6.0,
+        "fiber_g": 17.4,
+        "iron_mg": 6.2,
+        "calcium_mg": 105,
+        "zinc_mg": 3.4,
+        "key_nutrients": "Fiber, Folate, Manganese, Copper",
+        "glycemic_index": 28
+      },
+      {
+        "name": "Kala chana (Bengal gram, whole, black)",
+        "hindi_name": "Kala Chana / Desi Chana",
+        "calories_kcal": 357,
+        "protein_g": 20.8,
+        "carbs_g": 57.9,
+        "fat_g": 5.3,
+        "fiber_g": 25.0,
+        "iron_mg": 4.6,
+        "calcium_mg": 202,
+        "zinc_mg": 2.7,
+        "key_nutrients": "Very high fiber, Calcium, Molybdenum",
+        "glycemic_index": 30
+      },
+      {
+        "name": "Rajma (kidney bean, red)",
+        "hindi_name": "Rajma",
+        "calories_kcal": 333,
+        "protein_g": 22.9,
+        "carbs_g": 56.5,
+        "fat_g": 1.3,
+        "fiber_g": 24.9,
+        "iron_mg": 5.1,
+        "calcium_mg": 143,
+        "zinc_mg": 2.8,
+        "key_nutrients": "Very high fiber, Folate, Thiamine, Potassium",
+        "glycemic_index": 28
+      },
+      {
+        "name": "Lobiya (black-eyed pea/cowpea)",
+        "hindi_name": "Lobiya / Rongi",
+        "calories_kcal": 323,
+        "protein_g": 23.5,
+        "carbs_g": 54.1,
+        "fat_g": 1.0,
+        "fiber_g": 10.7,
+        "iron_mg": 8.6,
+        "calcium_mg": 77,
+        "zinc_mg": 3.4,
+        "key_nutrients": "High iron, Folate, Potassium",
+        "glycemic_index": 33
+      },
+      {
+        "name": "Soybean",
+        "hindi_name": "Soyabean",
+        "calories_kcal": 432,
+        "protein_g": 36.5,
+        "carbs_g": 30.2,
+        "fat_g": 19.9,
+        "fiber_g": 9.3,
+        "iron_mg": 15.7,
+        "calcium_mg": 277,
+        "zinc_mg": 4.9,
+        "key_nutrients": "Highest protein legume, Isoflavones, Calcium, Iron",
+        "glycemic_index": 16
+      },
+      {
+        "name": "Peanut (groundnut)",
+        "hindi_name": "Moongphali",
+        "calories_kcal": 567,
+        "protein_g": 25.3,
+        "carbs_g": 16.1,
+        "fat_g": 49.2,
+        "fiber_g": 8.5,
+        "iron_mg": 4.6,
+        "calcium_mg": 92,
+        "zinc_mg": 3.3,
+        "key_nutrients": "MUFA, Niacin, Folate, Resveratrol, Biotin",
+        "glycemic_index": 14
+      },
+      {
+        "name": "Moth bean (Matki)",
+        "hindi_name": "Matki / Moth",
+        "calories_kcal": 330,
+        "protein_g": 23.6,
+        "carbs_g": 56.5,
+        "fat_g": 1.1,
+        "fiber_g": 8.5,
+        "iron_mg": 9.5,
+        "calcium_mg": 150,
+        "zinc_mg": 2.3,
+        "key_nutrients": "Iron, Calcium, commonly sprouted",
+        "glycemic_index": 28
+      },
+      {
+        "name": "Horse gram (Kulthi)",
+        "hindi_name": "Kulthi Dal",
+        "calories_kcal": 321,
+        "protein_g": 22.0,
+        "carbs_g": 57.2,
+        "fat_g": 0.5,
+        "fiber_g": 5.3,
+        "iron_mg": 6.7,
+        "calcium_mg": 287,
+        "zinc_mg": 2.0,
+        "key_nutrients": "Very high calcium, Iron, Polyphenols, anti-urolithic",
+        "glycemic_index": 25
+      }
+    ],
+
+    "vegetables": [
+      {
+        "name": "Spinach (Palak)",
+        "hindi_name": "Palak",
+        "calories_kcal": 23,
+        "protein_g": 2.9,
+        "carbs_g": 3.6,
+        "fat_g": 0.4,
+        "fiber_g": 2.2,
+        "iron_mg": 2.7,
+        "calcium_mg": 99,
+        "vitamin_a_mcg": 469,
+        "vitamin_c_mg": 28,
+        "key_nutrients": "Beta-carotene, Folate, Iron, Lutein, Vitamin K"
+      },
+      {
+        "name": "Fenugreek leaves (Methi)",
+        "hindi_name": "Methi Patta",
+        "calories_kcal": 49,
+        "protein_g": 4.4,
+        "carbs_g": 6.0,
+        "fat_g": 0.9,
+        "fiber_g": 3.9,
+        "iron_mg": 16.5,
+        "calcium_mg": 395,
+        "vitamin_a_mcg": 450,
+        "vitamin_c_mg": 52,
+        "key_nutrients": "Extremely high calcium and iron, Blood sugar regulation"
+      },
+      {
+        "name": "Amaranth leaves (Chaulai)",
+        "hindi_name": "Chaulai / Laal Saag",
+        "calories_kcal": 23,
+        "protein_g": 2.1,
+        "carbs_g": 4.0,
+        "fat_g": 0.3,
+        "fiber_g": 2.2,
+        "iron_mg": 2.3,
+        "calcium_mg": 215,
+        "vitamin_a_mcg": 292,
+        "vitamin_c_mg": 43,
+        "key_nutrients": "Calcium, Iron, Beta-carotene"
+      },
+      {
+        "name": "Drumstick leaves (Moringa)",
+        "hindi_name": "Sahjan Patta",
+        "calories_kcal": 64,
+        "protein_g": 9.4,
+        "carbs_g": 8.3,
+        "fat_g": 1.4,
+        "fiber_g": 2.0,
+        "iron_mg": 4.0,
+        "calcium_mg": 185,
+        "vitamin_a_mcg": 378,
+        "vitamin_c_mg": 220,
+        "key_nutrients": "Exceptionally high Vitamin C, Calcium, Protein, Quercetin"
+      },
+      {
+        "name": "Bottle gourd (Lauki)",
+        "hindi_name": "Lauki / Doodhi",
+        "calories_kcal": 15,
+        "protein_g": 0.6,
+        "carbs_g": 3.4,
+        "fat_g": 0.1,
+        "fiber_g": 0.5,
+        "iron_mg": 0.5,
+        "calcium_mg": 26,
+        "vitamin_c_mg": 10,
+        "key_nutrients": "Very low calorie, Hydrating, Zinc"
+      },
+      {
+        "name": "Bitter gourd (Karela)",
+        "hindi_name": "Karela",
+        "calories_kcal": 17,
+        "protein_g": 1.0,
+        "carbs_g": 3.7,
+        "fat_g": 0.2,
+        "fiber_g": 2.8,
+        "iron_mg": 0.4,
+        "calcium_mg": 19,
+        "vitamin_c_mg": 84,
+        "key_nutrients": "Charantin (anti-diabetic), Vitamin C, Polypeptide-P"
+      },
+      {
+        "name": "Okra (Bhindi)",
+        "hindi_name": "Bhindi",
+        "calories_kcal": 33,
+        "protein_g": 1.9,
+        "carbs_g": 7.5,
+        "fat_g": 0.2,
+        "fiber_g": 3.2,
+        "iron_mg": 0.6,
+        "calcium_mg": 82,
+        "vitamin_c_mg": 23,
+        "key_nutrients": "Soluble fiber (mucilage), Folate, Vitamin K"
+      },
+      {
+        "name": "Tomato",
+        "hindi_name": "Tamatar",
+        "calories_kcal": 18,
+        "protein_g": 0.9,
+        "carbs_g": 3.9,
+        "fat_g": 0.2,
+        "fiber_g": 1.2,
+        "iron_mg": 0.3,
+        "calcium_mg": 10,
+        "vitamin_c_mg": 14,
+        "key_nutrients": "Lycopene, Vitamin C, Potassium"
+      },
+      {
+        "name": "Onion",
+        "hindi_name": "Pyaaz",
+        "calories_kcal": 40,
+        "protein_g": 1.1,
+        "carbs_g": 9.3,
+        "fat_g": 0.1,
+        "fiber_g": 1.7,
+        "iron_mg": 0.2,
+        "calcium_mg": 23,
+        "vitamin_c_mg": 7.4,
+        "key_nutrients": "Quercetin, Chromium, Prebiotic fructans"
+      },
+      {
+        "name": "Potato",
+        "hindi_name": "Aloo",
+        "calories_kcal": 77,
+        "protein_g": 2.0,
+        "carbs_g": 17.5,
+        "fat_g": 0.1,
+        "fiber_g": 2.2,
+        "iron_mg": 0.8,
+        "calcium_mg": 12,
+        "vitamin_c_mg": 20,
+        "key_nutrients": "Potassium, Vitamin C, Vitamin B6, Resistant starch (when cooled)"
+      },
+      {
+        "name": "Sweet potato",
+        "hindi_name": "Shakarkandi",
+        "calories_kcal": 86,
+        "protein_g": 1.6,
+        "carbs_g": 20.1,
+        "fat_g": 0.1,
+        "fiber_g": 3.0,
+        "iron_mg": 0.6,
+        "calcium_mg": 30,
+        "vitamin_a_mcg": 709,
+        "vitamin_c_mg": 2.4,
+        "key_nutrients": "Very high Vitamin A (beta-carotene), Potassium, Fiber"
+      },
+      {
+        "name": "Cauliflower (Gobhi)",
+        "hindi_name": "Phool Gobhi",
+        "calories_kcal": 25,
+        "protein_g": 1.9,
+        "carbs_g": 5.0,
+        "fat_g": 0.3,
+        "fiber_g": 2.0,
+        "iron_mg": 0.4,
+        "calcium_mg": 22,
+        "vitamin_c_mg": 48,
+        "key_nutrients": "Vitamin C, Sulforaphane, Vitamin K, Folate"
+      },
+      {
+        "name": "Cabbage (Patta Gobhi)",
+        "hindi_name": "Patta Gobhi / Band Gobhi",
+        "calories_kcal": 25,
+        "protein_g": 1.3,
+        "carbs_g": 5.8,
+        "fat_g": 0.1,
+        "fiber_g": 2.5,
+        "iron_mg": 0.5,
+        "calcium_mg": 40,
+        "vitamin_c_mg": 36,
+        "key_nutrients": "Vitamin C, Vitamin K, Glucosinolates"
+      },
+      {
+        "name": "Brinjal / Eggplant (Baingan)",
+        "hindi_name": "Baingan",
+        "calories_kcal": 25,
+        "protein_g": 1.0,
+        "carbs_g": 5.9,
+        "fat_g": 0.2,
+        "fiber_g": 3.0,
+        "iron_mg": 0.2,
+        "calcium_mg": 9,
+        "vitamin_c_mg": 2.2,
+        "key_nutrients": "Nasunin (anthocyanin), Fiber, Chlorogenic acid"
+      },
+      {
+        "name": "Carrot (Gajar)",
+        "hindi_name": "Gajar",
+        "calories_kcal": 41,
+        "protein_g": 0.9,
+        "carbs_g": 9.6,
+        "fat_g": 0.2,
+        "fiber_g": 2.8,
+        "iron_mg": 0.3,
+        "calcium_mg": 33,
+        "vitamin_a_mcg": 835,
+        "vitamin_c_mg": 5.9,
+        "key_nutrients": "Very high Vitamin A (beta-carotene), Potassium"
+      },
+      {
+        "name": "Beetroot (Chukandar)",
+        "hindi_name": "Chukandar",
+        "calories_kcal": 43,
+        "protein_g": 1.6,
+        "carbs_g": 9.6,
+        "fat_g": 0.2,
+        "fiber_g": 2.8,
+        "iron_mg": 0.8,
+        "calcium_mg": 16,
+        "vitamin_c_mg": 4.9,
+        "key_nutrients": "Betalains, Nitrates (blood pressure), Folate, Manganese"
+      },
+      {
+        "name": "Pumpkin (Kaddu)",
+        "hindi_name": "Kaddu / Sitaphal",
+        "calories_kcal": 26,
+        "protein_g": 1.0,
+        "carbs_g": 6.5,
+        "fat_g": 0.1,
+        "fiber_g": 0.5,
+        "iron_mg": 0.8,
+        "calcium_mg": 21,
+        "vitamin_a_mcg": 426,
+        "vitamin_c_mg": 9,
+        "key_nutrients": "Beta-carotene, Vitamin A, Potassium"
+      },
+      {
+        "name": "Ridge gourd (Turai)",
+        "hindi_name": "Turai / Tori",
+        "calories_kcal": 20,
+        "protein_g": 1.2,
+        "carbs_g": 3.4,
+        "fat_g": 0.3,
+        "fiber_g": 0.5,
+        "iron_mg": 0.4,
+        "calcium_mg": 18,
+        "vitamin_c_mg": 12,
+        "key_nutrients": "Low calorie, Hydrating, Vitamin C"
+      },
+      {
+        "name": "Ivy gourd (Tindora/Kundru)",
+        "hindi_name": "Kundru / Tindora",
+        "calories_kcal": 18,
+        "protein_g": 1.2,
+        "carbs_g": 3.1,
+        "fat_g": 0.1,
+        "fiber_g": 1.6,
+        "iron_mg": 1.4,
+        "calcium_mg": 40,
+        "vitamin_c_mg": 1.4,
+        "key_nutrients": "Beta-carotene, Anti-diabetic compounds"
+      },
+      {
+        "name": "Drumstick (Moringa pods)",
+        "hindi_name": "Sahjan Phali",
+        "calories_kcal": 26,
+        "protein_g": 2.5,
+        "carbs_g": 3.7,
+        "fat_g": 0.1,
+        "fiber_g": 2.0,
+        "iron_mg": 0.4,
+        "calcium_mg": 30,
+        "vitamin_c_mg": 141,
+        "key_nutrients": "Vitamin C, Calcium, Isothiocyanates"
+      },
+      {
+        "name": "Green peas (Matar)",
+        "hindi_name": "Matar",
+        "calories_kcal": 81,
+        "protein_g": 5.4,
+        "carbs_g": 14.5,
+        "fat_g": 0.4,
+        "fiber_g": 5.1,
+        "iron_mg": 1.5,
+        "calcium_mg": 25,
+        "vitamin_c_mg": 40,
+        "key_nutrients": "Protein, Vitamin C, Thiamine, Folate"
+      },
+      {
+        "name": "Capsicum / Bell pepper (Shimla Mirch)",
+        "hindi_name": "Shimla Mirch",
+        "calories_kcal": 31,
+        "protein_g": 1.0,
+        "carbs_g": 6.0,
+        "fat_g": 0.3,
+        "fiber_g": 2.1,
+        "iron_mg": 0.4,
+        "calcium_mg": 7,
+        "vitamin_c_mg": 128,
+        "key_nutrients": "Very high Vitamin C, Beta-carotene (red variety), Vitamin B6"
+      },
+      {
+        "name": "Cucumber (Kheera)",
+        "hindi_name": "Kheera / Kakdi",
+        "calories_kcal": 15,
+        "protein_g": 0.7,
+        "carbs_g": 3.6,
+        "fat_g": 0.1,
+        "fiber_g": 0.5,
+        "iron_mg": 0.3,
+        "calcium_mg": 16,
+        "vitamin_c_mg": 2.8,
+        "key_nutrients": "Hydration, Low calorie, Vitamin K, Silica"
+      },
+      {
+        "name": "Radish (Mooli)",
+        "hindi_name": "Mooli",
+        "calories_kcal": 16,
+        "protein_g": 0.7,
+        "carbs_g": 3.4,
+        "fat_g": 0.1,
+        "fiber_g": 1.6,
+        "iron_mg": 0.3,
+        "calcium_mg": 25,
+        "vitamin_c_mg": 15,
+        "key_nutrients": "Vitamin C, Glucosinolates, Digestive enzyme (diastase)"
+      },
+      {
+        "name": "Cluster beans (Guar)",
+        "hindi_name": "Guar Phali",
+        "calories_kcal": 16,
+        "protein_g": 3.2,
+        "carbs_g": 10.8,
+        "fat_g": 0.4,
+        "fiber_g": 4.6,
+        "iron_mg": 4.3,
+        "calcium_mg": 130,
+        "vitamin_c_mg": 49,
+        "key_nutrients": "Guar gum (soluble fiber), Iron, Calcium"
+      }
+    ],
+
+    "fruits": [
+      {
+        "name": "Mango (ripe)",
+        "hindi_name": "Aam",
+        "calories_kcal": 60,
+        "protein_g": 0.8,
+        "carbs_g": 15.0,
+        "fat_g": 0.4,
+        "fiber_g": 1.6,
+        "vitamin_a_mcg": 54,
+        "vitamin_c_mg": 36,
+        "key_nutrients": "Beta-carotene, Vitamin C, Mangiferin, Potassium",
+        "season": "Summer (April-July)"
+      },
+      {
+        "name": "Banana (ripe)",
+        "hindi_name": "Kela",
+        "calories_kcal": 89,
+        "protein_g": 1.1,
+        "carbs_g": 22.8,
+        "fat_g": 0.3,
+        "fiber_g": 2.6,
+        "iron_mg": 0.3,
+        "calcium_mg": 5,
+        "vitamin_c_mg": 8.7,
+        "key_nutrients": "Potassium (358mg), Vitamin B6, Prebiotic fiber, Tryptophan",
+        "season": "Year-round"
+      },
+      {
+        "name": "Papaya (ripe)",
+        "hindi_name": "Papita",
+        "calories_kcal": 43,
+        "protein_g": 0.5,
+        "carbs_g": 11.0,
+        "fat_g": 0.3,
+        "fiber_g": 1.7,
+        "vitamin_a_mcg": 47,
+        "vitamin_c_mg": 61,
+        "key_nutrients": "Papain (digestive enzyme), Vitamin C, Vitamin A, Lycopene",
+        "season": "Year-round"
+      },
+      {
+        "name": "Guava (Amrood)",
+        "hindi_name": "Amrood",
+        "calories_kcal": 52,
+        "protein_g": 0.9,
+        "carbs_g": 11.2,
+        "fat_g": 0.3,
+        "fiber_g": 5.4,
+        "vitamin_c_mg": 228,
+        "calcium_mg": 18,
+        "key_nutrients": "Extremely high Vitamin C (4x orange), Fiber, Lycopene",
+        "season": "Winter (Oct-March)"
+      },
+      {
+        "name": "Pomegranate (Anar)",
+        "hindi_name": "Anar",
+        "calories_kcal": 83,
+        "protein_g": 1.7,
+        "carbs_g": 18.7,
+        "fat_g": 1.2,
+        "fiber_g": 4.0,
+        "vitamin_c_mg": 10,
+        "iron_mg": 0.3,
+        "key_nutrients": "Punicalagins (antioxidant), Ellagic acid, Vitamin K",
+        "season": "Winter (Oct-Feb)"
+      },
+      {
+        "name": "Apple (Seb)",
+        "hindi_name": "Seb",
+        "calories_kcal": 52,
+        "protein_g": 0.3,
+        "carbs_g": 13.8,
+        "fat_g": 0.2,
+        "fiber_g": 2.4,
+        "vitamin_c_mg": 4.6,
+        "key_nutrients": "Quercetin, Pectin (soluble fiber), Polyphenols",
+        "season": "Year-round (best: Aug-Nov)"
+      },
+      {
+        "name": "Orange / Mosambi (Sweet lime)",
+        "hindi_name": "Santra / Mosambi",
+        "calories_kcal": 47,
+        "protein_g": 0.9,
+        "carbs_g": 11.8,
+        "fat_g": 0.1,
+        "fiber_g": 2.4,
+        "vitamin_c_mg": 53,
+        "calcium_mg": 40,
+        "key_nutrients": "Vitamin C, Hesperidin (flavonoid), Folate",
+        "season": "Winter (Nov-March)"
+      },
+      {
+        "name": "Watermelon (Tarbooz)",
+        "hindi_name": "Tarbooz",
+        "calories_kcal": 30,
+        "protein_g": 0.6,
+        "carbs_g": 7.6,
+        "fat_g": 0.2,
+        "fiber_g": 0.4,
+        "vitamin_c_mg": 8.1,
+        "vitamin_a_mcg": 28,
+        "key_nutrients": "Lycopene, Citrulline (NO production), Hydration",
+        "season": "Summer (April-July)"
+      },
+      {
+        "name": "Indian gooseberry (Amla)",
+        "hindi_name": "Amla",
+        "calories_kcal": 44,
+        "protein_g": 0.9,
+        "carbs_g": 10.2,
+        "fat_g": 0.6,
+        "fiber_g": 4.3,
+        "vitamin_c_mg": 600,
+        "iron_mg": 1.2,
+        "calcium_mg": 25,
+        "key_nutrients": "Highest Vitamin C among fruits, Gallic acid, Ellagic acid, Superoxide dismutase",
+        "season": "Winter (Oct-Feb)"
+      },
+      {
+        "name": "Jamun (Indian blackberry)",
+        "hindi_name": "Jamun",
+        "calories_kcal": 62,
+        "protein_g": 0.7,
+        "carbs_g": 15.6,
+        "fat_g": 0.2,
+        "fiber_g": 0.6,
+        "iron_mg": 1.6,
+        "vitamin_c_mg": 18,
+        "key_nutrients": "Anthocyanins, Jamboline (anti-diabetic), Iron",
+        "season": "Summer-Monsoon (June-Aug)"
+      },
+      {
+        "name": "Sapota / Chikoo",
+        "hindi_name": "Chikoo",
+        "calories_kcal": 83,
+        "protein_g": 0.4,
+        "carbs_g": 20.0,
+        "fat_g": 1.1,
+        "fiber_g": 5.3,
+        "iron_mg": 0.8,
+        "vitamin_c_mg": 15,
+        "key_nutrients": "Tannins, Fiber, Iron, Potassium",
+        "season": "Year-round (peak Jan-March)"
+      },
+      {
+        "name": "Jackfruit (ripe)",
+        "hindi_name": "Kathal (ripe)",
+        "calories_kcal": 95,
+        "protein_g": 1.7,
+        "carbs_g": 23.2,
+        "fat_g": 0.6,
+        "fiber_g": 1.5,
+        "vitamin_c_mg": 14,
+        "calcium_mg": 24,
+        "key_nutrients": "Potassium, Vitamin B6, Carotenoids",
+        "season": "Summer (March-June)"
+      },
+      {
+        "name": "Coconut (fresh, mature)",
+        "hindi_name": "Nariyal",
+        "calories_kcal": 354,
+        "protein_g": 3.3,
+        "carbs_g": 15.2,
+        "fat_g": 33.5,
+        "fiber_g": 9.0,
+        "iron_mg": 2.4,
+        "calcium_mg": 14,
+        "key_nutrients": "MCTs (lauric acid), Manganese, Copper, Selenium",
+        "season": "Year-round"
+      },
+      {
+        "name": "Dates (dry, Khajur)",
+        "hindi_name": "Khajur",
+        "calories_kcal": 277,
+        "protein_g": 1.8,
+        "carbs_g": 75.0,
+        "fat_g": 0.2,
+        "fiber_g": 6.7,
+        "iron_mg": 0.9,
+        "calcium_mg": 64,
+        "key_nutrients": "Natural sugars, Potassium, Magnesium, Copper",
+        "season": "Year-round (harvested Oct-Dec)"
+      },
+      {
+        "name": "Custard apple (Sitaphal)",
+        "hindi_name": "Sitaphal / Sharifa",
+        "calories_kcal": 94,
+        "protein_g": 2.1,
+        "carbs_g": 23.6,
+        "fat_g": 0.3,
+        "fiber_g": 4.4,
+        "vitamin_c_mg": 36,
+        "calcium_mg": 30,
+        "key_nutrients": "Vitamin C, Vitamin B6, Potassium, Magnesium",
+        "season": "Autumn (Aug-Nov)"
+      },
+      {
+        "name": "Grapes (Angoor)",
+        "hindi_name": "Angoor",
+        "calories_kcal": 69,
+        "protein_g": 0.7,
+        "carbs_g": 18.1,
+        "fat_g": 0.2,
+        "fiber_g": 0.9,
+        "vitamin_c_mg": 3.2,
+        "key_nutrients": "Resveratrol, Quercetin, Anthocyanins (in dark grapes)",
+        "season": "Winter-Spring (Feb-May)"
+      },
+      {
+        "name": "Lychee (Litchi)",
+        "hindi_name": "Litchi",
+        "calories_kcal": 66,
+        "protein_g": 0.8,
+        "carbs_g": 16.5,
+        "fat_g": 0.4,
+        "fiber_g": 1.3,
+        "vitamin_c_mg": 72,
+        "key_nutrients": "Vitamin C, Copper, Potassium, Oligonol",
+        "season": "Summer (May-June)"
+      }
+    ],
+
+    "dairy": [
+      {
+        "name": "Milk, cow, whole",
+        "hindi_name": "Gaay ka Doodh",
+        "calories_kcal": 67,
+        "protein_g": 3.2,
+        "carbs_g": 4.8,
+        "fat_g": 4.1,
+        "calcium_mg": 120,
+        "vitamin_b12_mcg": 0.5,
+        "key_nutrients": "Calcium, Vitamin B12, Riboflavin, Phosphorus, CLA"
+      },
+      {
+        "name": "Milk, buffalo, whole",
+        "hindi_name": "Bhains ka Doodh",
+        "calories_kcal": 117,
+        "protein_g": 3.7,
+        "carbs_g": 5.2,
+        "fat_g": 6.5,
+        "calcium_mg": 210,
+        "key_nutrients": "Higher fat and calcium than cow milk, Vitamin A"
+      },
+      {
+        "name": "Curd / Yoghurt (dahi, from cow milk)",
+        "hindi_name": "Dahi",
+        "calories_kcal": 60,
+        "protein_g": 3.1,
+        "carbs_g": 4.7,
+        "fat_g": 3.1,
+        "calcium_mg": 149,
+        "vitamin_b12_mcg": 0.4,
+        "key_nutrients": "Probiotics (Lactobacillus), Calcium, B12, Riboflavin, B2"
+      },
+      {
+        "name": "Buttermilk (Chaas)",
+        "hindi_name": "Chaas / Mattha",
+        "calories_kcal": 40,
+        "protein_g": 3.3,
+        "carbs_g": 4.8,
+        "fat_g": 0.9,
+        "calcium_mg": 116,
+        "key_nutrients": "Probiotics, Low calorie, Electrolytes, Riboflavin"
+      },
+      {
+        "name": "Paneer (cottage cheese, Indian)",
+        "hindi_name": "Paneer",
+        "calories_kcal": 265,
+        "protein_g": 18.3,
+        "carbs_g": 1.2,
+        "fat_g": 20.8,
+        "calcium_mg": 208,
+        "vitamin_b12_mcg": 0.8,
+        "key_nutrients": "High protein, Calcium, Phosphorus, CLA, Casein protein"
+      },
+      {
+        "name": "Ghee (clarified butter)",
+        "hindi_name": "Desi Ghee",
+        "calories_kcal": 900,
+        "protein_g": 0.0,
+        "carbs_g": 0.0,
+        "fat_g": 99.5,
+        "vitamin_a_mcg": 684,
+        "key_nutrients": "Butyrate, CLA, Vitamin A, Vitamin E, Vitamin K2, Smoke point 250C"
+      },
+      {
+        "name": "Khoya / Mawa (evaporated milk solids)",
+        "hindi_name": "Khoya / Mawa",
+        "calories_kcal": 321,
+        "protein_g": 15.0,
+        "carbs_g": 18.0,
+        "fat_g": 25.0,
+        "calcium_mg": 650,
+        "key_nutrients": "Very high calcium, Protein, Phosphorus"
+      },
+      {
+        "name": "Lassi (sweet, full fat)",
+        "hindi_name": "Meethi Lassi",
+        "calories_kcal": 75,
+        "protein_g": 2.4,
+        "carbs_g": 12.5,
+        "fat_g": 1.8,
+        "calcium_mg": 90,
+        "key_nutrients": "Probiotics, Calcium, Electrolytes (added sugar)"
+      }
+    ],
+
+    "spices_and_herbs": [
+      {
+        "name": "Turmeric (Haldi)",
+        "hindi_name": "Haldi",
+        "calories_kcal": 312,
+        "protein_g": 9.7,
+        "carbs_g": 64.9,
+        "fat_g": 3.3,
+        "fiber_g": 22.7,
+        "iron_mg": 55.0,
+        "key_nutrients": "Curcumin (3-5%), Iron, Manganese",
+        "health_benefits": "Anti-inflammatory, Antioxidant, Neuroprotective, Anti-cancer, Joint health, Liver detox",
+        "recommended_daily": "1-2 tsp (3-5g); with black pepper increases absorption 2000%",
+        "references": ["Aggarwal BB et al., Curcumin: The Indian Solid Gold, Adv Exp Med Biol, 2007"]
+      },
+      {
+        "name": "Black pepper (Kali Mirch)",
+        "hindi_name": "Kali Mirch",
+        "calories_kcal": 251,
+        "protein_g": 10.4,
+        "carbs_g": 38.7,
+        "fat_g": 3.3,
+        "fiber_g": 25.3,
+        "iron_mg": 9.7,
+        "key_nutrients": "Piperine (5-9%), Manganese, Vitamin K",
+        "health_benefits": "Enhances bioavailability of curcumin and other nutrients by 2000%, Thermogenic, Digestive stimulant",
+        "recommended_daily": "1/4-1/2 tsp"
+      },
+      {
+        "name": "Cumin (Jeera)",
+        "hindi_name": "Jeera",
+        "calories_kcal": 375,
+        "protein_g": 17.8,
+        "carbs_g": 44.2,
+        "fat_g": 22.3,
+        "fiber_g": 10.5,
+        "iron_mg": 66.4,
+        "key_nutrients": "Extremely high iron, Thymoquinone, Manganese",
+        "health_benefits": "Digestive, Weight loss, Blood sugar control, Iron source",
+        "recommended_daily": "1-2 tsp"
+      },
+      {
+        "name": "Coriander seeds (Dhania)",
+        "hindi_name": "Dhania",
+        "calories_kcal": 298,
+        "protein_g": 12.4,
+        "carbs_g": 54.9,
+        "fat_g": 17.8,
+        "fiber_g": 41.9,
+        "iron_mg": 16.3,
+        "key_nutrients": "Linalool, Fiber, Iron, Manganese",
+        "health_benefits": "Digestive, Cholesterol lowering, Blood sugar regulation, Anti-anxiety",
+        "recommended_daily": "1-2 tsp"
+      },
+      {
+        "name": "Cinnamon (Dalchini)",
+        "hindi_name": "Dalchini",
+        "calories_kcal": 247,
+        "protein_g": 4.0,
+        "carbs_g": 80.6,
+        "fat_g": 1.2,
+        "fiber_g": 53.1,
+        "iron_mg": 8.3,
+        "calcium_mg": 1002,
+        "key_nutrients": "Cinnamaldehyde, Extremely high calcium, Manganese",
+        "health_benefits": "Blood sugar regulation, Anti-inflammatory, Heart health, Antimicrobial",
+        "recommended_daily": "1/2-1 tsp (1-3g); use Ceylon cinnamon to avoid coumarin toxicity",
+        "references": ["Khan A et al., Cinnamon improves glucose and lipids, Diabetes Care, 2003"]
+      },
+      {
+        "name": "Fenugreek seeds (Methi Dana)",
+        "hindi_name": "Methi Dana",
+        "calories_kcal": 323,
+        "protein_g": 23.0,
+        "carbs_g": 58.4,
+        "fat_g": 6.4,
+        "fiber_g": 24.6,
+        "iron_mg": 33.5,
+        "key_nutrients": "Galactomannan (soluble fiber), Diosgenin, 4-hydroxyisoleucine, Iron",
+        "health_benefits": "Blood sugar control, Testosterone support, Milk production in lactation, Cholesterol lowering, Hair growth",
+        "recommended_daily": "1/2-1 tsp seeds soaked overnight"
+      },
+      {
+        "name": "Ginger (Adrak)",
+        "hindi_name": "Adrak (fresh) / Sonth (dry)",
+        "calories_kcal": 80,
+        "protein_g": 1.8,
+        "carbs_g": 17.8,
+        "fat_g": 0.8,
+        "fiber_g": 2.0,
+        "key_nutrients": "Gingerols, Shogaols, Zingerone",
+        "health_benefits": "Anti-nausea, Anti-inflammatory, Digestive, Pain relief, Immune support",
+        "recommended_daily": "1-2 inches fresh (5-10g) or 1/2-1 tsp dry"
+      },
+      {
+        "name": "Garlic (Lehsun)",
+        "hindi_name": "Lehsun",
+        "calories_kcal": 149,
+        "protein_g": 6.4,
+        "carbs_g": 33.1,
+        "fat_g": 0.5,
+        "fiber_g": 2.1,
+        "key_nutrients": "Allicin, Selenium, Manganese, Vitamin B6, Vitamin C",
+        "health_benefits": "Cardiovascular (BP, cholesterol), Antimicrobial, Immune, Anti-cancer",
+        "recommended_daily": "2-3 cloves (6-9g); crush and wait 10min before cooking to maximize allicin"
+      },
+      {
+        "name": "Ashwagandha (Withania somnifera)",
+        "hindi_name": "Ashwagandha",
+        "calories_kcal": 245,
+        "protein_g": 3.9,
+        "carbs_g": 49.9,
+        "fat_g": 0.3,
+        "fiber_g": 32.3,
+        "key_nutrients": "Withanolides (1.5-5%), Withaferin A, Iron",
+        "health_benefits": "Adaptogen (cortisol reduction -30%), Testosterone increase, Sleep improvement, Muscle strength, Anti-anxiety, Thyroid support",
+        "recommended_daily": "300-600mg root extract (standardized 5% withanolides)",
+        "references": ["Chandrasekhar K et al., Ashwagandha root reduces stress and anxiety, Indian J Psychol Med, 2012", "Wankhede S et al., Ashwagandha supplementation and muscle strength, J Int Soc Sports Nutr, 2015"]
+      },
+      {
+        "name": "Ajwain (Carom seeds)",
+        "hindi_name": "Ajwain",
+        "calories_kcal": 305,
+        "protein_g": 15.9,
+        "carbs_g": 43.0,
+        "fat_g": 21.8,
+        "fiber_g": 21.2,
+        "iron_mg": 16.2,
+        "key_nutrients": "Thymol (35-60% of essential oil), Iron, Fiber",
+        "health_benefits": "Digestive, Antiflatulent, Antimicrobial, Respiratory relief",
+        "recommended_daily": "1/2 tsp"
+      },
+      {
+        "name": "Cardamom (Elaichi)",
+        "hindi_name": "Elaichi",
+        "calories_kcal": 311,
+        "protein_g": 10.8,
+        "carbs_g": 68.5,
+        "fat_g": 6.7,
+        "fiber_g": 28.0,
+        "iron_mg": 14.0,
+        "key_nutrients": "Cineole, Limonene, Manganese, Iron",
+        "health_benefits": "Digestive, Anti-hypertensive, Detoxification, Oral health",
+        "recommended_daily": "2-3 pods"
+      },
+      {
+        "name": "Clove (Laung)",
+        "hindi_name": "Laung",
+        "calories_kcal": 274,
+        "protein_g": 6.0,
+        "carbs_g": 65.5,
+        "fat_g": 13.0,
+        "fiber_g": 33.9,
+        "iron_mg": 11.8,
+        "key_nutrients": "Eugenol (70-90% of oil), Highest ORAC value among spices",
+        "health_benefits": "Most potent antioxidant spice, Dental pain relief, Anti-inflammatory, Liver protection",
+        "recommended_daily": "2-3 cloves"
+      },
+      {
+        "name": "Fennel seeds (Saunf)",
+        "hindi_name": "Saunf",
+        "calories_kcal": 345,
+        "protein_g": 15.8,
+        "carbs_g": 52.3,
+        "fat_g": 14.9,
+        "fiber_g": 39.8,
+        "iron_mg": 18.5,
+        "calcium_mg": 1196,
+        "key_nutrients": "Anethole, Very high calcium, Iron, Manganese",
+        "health_benefits": "Digestive, Anti-bloating, Estrogenic (galactagogue), Eye health",
+        "recommended_daily": "1 tsp after meals"
+      },
+      {
+        "name": "Mustard seeds (Rai/Sarson)",
+        "hindi_name": "Rai / Sarson",
+        "calories_kcal": 508,
+        "protein_g": 26.1,
+        "carbs_g": 28.1,
+        "fat_g": 36.2,
+        "fiber_g": 12.2,
+        "iron_mg": 9.2,
+        "calcium_mg": 266,
+        "key_nutrients": "Selenium, Omega-3 (ALA), Glucosinolates, MUFA",
+        "health_benefits": "Anti-inflammatory, Cancer prevention, Circulation",
+        "recommended_daily": "1/2-1 tsp in tadka"
+      },
+      {
+        "name": "Saffron (Kesar)",
+        "hindi_name": "Kesar",
+        "calories_kcal": 310,
+        "protein_g": 11.4,
+        "carbs_g": 65.4,
+        "fat_g": 5.9,
+        "fiber_g": 3.9,
+        "iron_mg": 11.1,
+        "key_nutrients": "Crocin, Safranal, Picrocrocin, Manganese",
+        "health_benefits": "Antidepressant (comparable to fluoxetine in trials), Memory, Skin glow, Eye health (macular degeneration)",
+        "recommended_daily": "20-30mg (a pinch, ~15-20 strands)",
+        "references": ["Akhondzadeh S et al., Saffron in treatment of mild-moderate depression, J Ethnopharmacol, 2005"]
+      }
+    ],
+
+    "oils_and_fats": [
+      {
+        "name": "Mustard oil",
+        "hindi_name": "Sarson ka Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 60,
+        "PUFA_percent": 21,
+        "SFA_percent": 12,
+        "key_nutrients": "Erucic acid, MUFA, Omega-3 (ALA ~6-10%), Allyl isothiocyanate",
+        "smoke_point_c": 254,
+        "best_for": "North Indian cooking, tadka, pickles",
+        "health_note": "Good omega-3 to omega-6 ratio; erucic acid concern at very high intake"
+      },
+      {
+        "name": "Coconut oil",
+        "hindi_name": "Nariyal Tel",
+        "calories_kcal": 892,
+        "fat_g": 99.1,
+        "MUFA_percent": 6,
+        "PUFA_percent": 2,
+        "SFA_percent": 87,
+        "key_nutrients": "Lauric acid (45-50%), MCTs, Capric acid, Caprylic acid",
+        "smoke_point_c": 177,
+        "best_for": "South Indian cooking, low-temp cooking, skin/hair care",
+        "health_note": "MCTs quickly metabolized for energy; high SFA but raises HDL"
+      },
+      {
+        "name": "Groundnut / Peanut oil",
+        "hindi_name": "Moongphali ka Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 46,
+        "PUFA_percent": 32,
+        "SFA_percent": 17,
+        "key_nutrients": "High MUFA, Vitamin E, Phytosterols",
+        "smoke_point_c": 232,
+        "best_for": "Deep frying, West/South Indian cooking",
+        "health_note": "Good balance of fatty acids; high smoke point"
+      },
+      {
+        "name": "Sesame oil (Gingelly)",
+        "hindi_name": "Til ka Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 40,
+        "PUFA_percent": 42,
+        "SFA_percent": 14,
+        "key_nutrients": "Sesamin, Sesamolin (lignans), Vitamin E, Vitamin K",
+        "smoke_point_c": 210,
+        "best_for": "South Indian tempering, Ayurvedic oil pulling",
+        "health_note": "Powerful antioxidant lignans; resists rancidity"
+      },
+      {
+        "name": "Rice bran oil",
+        "hindi_name": "Chawal ki Bhusi ka Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 39,
+        "PUFA_percent": 35,
+        "SFA_percent": 20,
+        "key_nutrients": "Oryzanol (unique antioxidant), Tocotrienols, Vitamin E, Phytosterols",
+        "smoke_point_c": 254,
+        "best_for": "All-purpose, deep frying, cholesterol management",
+        "health_note": "Gamma-oryzanol helps lower LDL cholesterol"
+      },
+      {
+        "name": "Sunflower oil",
+        "hindi_name": "Surajmukhi Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 20,
+        "PUFA_percent": 69,
+        "SFA_percent": 10,
+        "key_nutrients": "Very high Vitamin E, Linoleic acid (omega-6)",
+        "smoke_point_c": 227,
+        "best_for": "Light cooking, salad dressings",
+        "health_note": "Very high omega-6; use in moderation; rotate with other oils"
+      },
+      {
+        "name": "Flaxseed oil (Alsi)",
+        "hindi_name": "Alsi ka Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 18,
+        "PUFA_percent": 73,
+        "SFA_percent": 9,
+        "key_nutrients": "Highest plant source of Omega-3 ALA (~55%), Lignans",
+        "smoke_point_c": 107,
+        "best_for": "Cold use only - drizzle on food, smoothies (never heat)",
+        "health_note": "Best vegetarian omega-3 source; do not cook with it"
+      },
+      {
+        "name": "Olive oil (extra virgin)",
+        "hindi_name": "Jaitun ka Tel",
+        "calories_kcal": 884,
+        "fat_g": 100,
+        "MUFA_percent": 73,
+        "PUFA_percent": 11,
+        "SFA_percent": 14,
+        "key_nutrients": "Oleocanthal, Hydroxytyrosol, Vitamin E, Vitamin K, Polyphenols",
+        "smoke_point_c": 191,
+        "best_for": "Salads, light sauteing, Mediterranean-style cooking",
+        "health_note": "Strong evidence for cardiovascular protection; anti-inflammatory"
+      }
+    ],
+
+    "nuts_and_seeds": [
+      {
+        "name": "Almonds (Badam)",
+        "hindi_name": "Badam",
+        "calories_kcal": 579,
+        "protein_g": 21.2,
+        "carbs_g": 21.6,
+        "fat_g": 49.9,
+        "fiber_g": 12.5,
+        "calcium_mg": 269,
+        "iron_mg": 3.7,
+        "vitamin_e_mg": 25.6,
+        "key_nutrients": "Highest nut Vitamin E, Calcium, Magnesium, MUFA, Riboflavin",
+        "health_benefits": "Heart, Brain, Skin, Blood sugar, Weight management"
+      },
+      {
+        "name": "Cashew (Kaju)",
+        "hindi_name": "Kaju",
+        "calories_kcal": 553,
+        "protein_g": 18.2,
+        "carbs_g": 30.2,
+        "fat_g": 43.9,
+        "fiber_g": 3.3,
+        "iron_mg": 6.7,
+        "zinc_mg": 5.8,
+        "key_nutrients": "Zinc, Copper, Iron, MUFA, Magnesium, Tryptophan",
+        "health_benefits": "Sleep (tryptophan), Immune, Energy, Bone health"
+      },
+      {
+        "name": "Walnut (Akhrot)",
+        "hindi_name": "Akhrot",
+        "calories_kcal": 654,
+        "protein_g": 15.2,
+        "carbs_g": 13.7,
+        "fat_g": 65.2,
+        "fiber_g": 6.7,
+        "key_nutrients": "Highest omega-3 nut (ALA 9g/100g), Ellagitannins, Melatonin, Polyphenols",
+        "health_benefits": "Brain health, Heart, Anti-inflammatory, Sleep (melatonin)"
+      },
+      {
+        "name": "Pistachio (Pista)",
+        "hindi_name": "Pista",
+        "calories_kcal": 560,
+        "protein_g": 20.2,
+        "carbs_g": 27.2,
+        "fat_g": 45.3,
+        "fiber_g": 10.6,
+        "key_nutrients": "Lutein, Zeaxanthin (eye health), Vitamin B6, Copper, MUFA",
+        "health_benefits": "Eye health, Heart, Blood sugar, Gut microbiome, Erectile function"
+      },
+      {
+        "name": "Flaxseed (Alsi)",
+        "hindi_name": "Alsi",
+        "calories_kcal": 534,
+        "protein_g": 18.3,
+        "carbs_g": 28.9,
+        "fat_g": 42.2,
+        "fiber_g": 27.3,
+        "key_nutrients": "Richest plant source ALA omega-3, Lignans (SDG), Fiber, Thiamine",
+        "health_benefits": "Heart (cholesterol), Hormonal balance, Constipation, Anti-cancer (lignans)"
+      },
+      {
+        "name": "Chia seeds",
+        "hindi_name": "Chia Beej",
+        "calories_kcal": 486,
+        "protein_g": 16.5,
+        "carbs_g": 42.1,
+        "fat_g": 30.7,
+        "fiber_g": 34.4,
+        "calcium_mg": 631,
+        "key_nutrients": "Very high calcium and fiber, Omega-3, Phosphorus, Manganese",
+        "health_benefits": "Hydration, Satiety, Bone health, Omega-3, Blood sugar"
+      },
+      {
+        "name": "Pumpkin seeds (Kaddu ke beej)",
+        "hindi_name": "Kaddu ke Beej",
+        "calories_kcal": 559,
+        "protein_g": 30.2,
+        "carbs_g": 10.7,
+        "fat_g": 49.1,
+        "fiber_g": 6.0,
+        "zinc_mg": 7.8,
+        "iron_mg": 8.8,
+        "magnesium_mg": 592,
+        "key_nutrients": "Extremely high Zinc and Magnesium, Iron, Tryptophan",
+        "health_benefits": "Prostate health, Sleep, Immune, Hair, Testosterone"
+      },
+      {
+        "name": "Sunflower seeds",
+        "hindi_name": "Surajmukhi ke Beej",
+        "calories_kcal": 584,
+        "protein_g": 20.8,
+        "carbs_g": 20.0,
+        "fat_g": 51.5,
+        "fiber_g": 8.6,
+        "vitamin_e_mg": 35.2,
+        "selenium_mcg": 53,
+        "key_nutrients": "Highest Vitamin E seed, Selenium, Copper, Manganese, Phytosterols",
+        "health_benefits": "Skin, Anti-inflammatory, Heart, Thyroid (selenium)"
+      },
+      {
+        "name": "Sesame seeds (Til)",
+        "hindi_name": "Til",
+        "calories_kcal": 573,
+        "protein_g": 17.7,
+        "carbs_g": 23.5,
+        "fat_g": 49.7,
+        "fiber_g": 11.8,
+        "calcium_mg": 975,
+        "iron_mg": 14.6,
+        "key_nutrients": "Highest calcium seed, Iron, Copper, Sesamin (lignan), Zinc",
+        "health_benefits": "Bone health, Blood pressure, Hormone balance, Anti-aging"
+      }
+    ],
+
+    "common_prepared_foods": [
+      {
+        "name": "Roti / Chapati (whole wheat, no oil)",
+        "serving": "1 medium (30g flour)",
+        "calories_kcal": 104,
+        "protein_g": 3.6,
+        "carbs_g": 21.4,
+        "fat_g": 0.5,
+        "fiber_g": 3.8,
+        "glycemic_index": 62
+      },
+      {
+        "name": "Paratha (stuffed aloo, with ghee)",
+        "serving": "1 medium",
+        "calories_kcal": 260,
+        "protein_g": 5.0,
+        "carbs_g": 32.0,
+        "fat_g": 12.5,
+        "fiber_g": 2.5,
+        "glycemic_index": 68
+      },
+      {
+        "name": "Cooked white rice",
+        "serving": "1 cup (150g cooked)",
+        "calories_kcal": 195,
+        "protein_g": 4.1,
+        "carbs_g": 44.5,
+        "fat_g": 0.4,
+        "fiber_g": 0.4,
+        "glycemic_index": 73
+      },
+      {
+        "name": "Dal (toor/arhar), cooked",
+        "serving": "1 katori (150ml cooked)",
+        "calories_kcal": 120,
+        "protein_g": 7.0,
+        "carbs_g": 17.0,
+        "fat_g": 2.5,
+        "fiber_g": 3.0,
+        "glycemic_index": 29
+      },
+      {
+        "name": "Rajma curry, cooked",
+        "serving": "1 katori (150g)",
+        "calories_kcal": 145,
+        "protein_g": 8.5,
+        "carbs_g": 19.0,
+        "fat_g": 4.0,
+        "fiber_g": 6.0,
+        "glycemic_index": 28
+      },
+      {
+        "name": "Chole / Chana masala",
+        "serving": "1 katori (150g)",
+        "calories_kcal": 160,
+        "protein_g": 8.0,
+        "carbs_g": 22.0,
+        "fat_g": 5.0,
+        "fiber_g": 5.5,
+        "glycemic_index": 33
+      },
+      {
+        "name": "Sambar",
+        "serving": "1 katori (150ml)",
+        "calories_kcal": 85,
+        "protein_g": 4.0,
+        "carbs_g": 12.0,
+        "fat_g": 2.5,
+        "fiber_g": 3.0,
+        "glycemic_index": 30
+      },
+      {
+        "name": "Rasam",
+        "serving": "1 katori (150ml)",
+        "calories_kcal": 35,
+        "protein_g": 1.5,
+        "carbs_g": 5.0,
+        "fat_g": 1.0,
+        "fiber_g": 1.0,
+        "glycemic_index": 25
+      },
+      {
+        "name": "Idli (steamed)",
+        "serving": "2 idlis (80g each)",
+        "calories_kcal": 156,
+        "protein_g": 4.4,
+        "carbs_g": 32.0,
+        "fat_g": 0.8,
+        "fiber_g": 1.4,
+        "glycemic_index": 77
+      },
+      {
+        "name": "Dosa (plain, no filling)",
+        "serving": "1 medium",
+        "calories_kcal": 168,
+        "protein_g": 4.0,
+        "carbs_g": 28.0,
+        "fat_g": 4.5,
+        "fiber_g": 1.0,
+        "glycemic_index": 77
+      },
+      {
+        "name": "Upma (semolina)",
+        "serving": "1 katori (150g)",
+        "calories_kcal": 185,
+        "protein_g": 4.2,
+        "carbs_g": 28.0,
+        "fat_g": 6.5,
+        "fiber_g": 2.0,
+        "glycemic_index": 65
+      },
+      {
+        "name": "Poha (flattened rice dish)",
+        "serving": "1 plate (200g cooked)",
+        "calories_kcal": 250,
+        "protein_g": 5.0,
+        "carbs_g": 42.0,
+        "fat_g": 7.0,
+        "fiber_g": 2.0,
+        "glycemic_index": 64
+      },
+      {
+        "name": "Pav Bhaji",
+        "serving": "1 serving (2 pav + bhaji)",
+        "calories_kcal": 400,
+        "protein_g": 10.0,
+        "carbs_g": 52.0,
+        "fat_g": 18.0,
+        "fiber_g": 5.0,
+        "glycemic_index": 70
+      },
+      {
+        "name": "Biryani (chicken)",
+        "serving": "1 plate (300g)",
+        "calories_kcal": 400,
+        "protein_g": 18.0,
+        "carbs_g": 50.0,
+        "fat_g": 14.0,
+        "fiber_g": 1.5,
+        "glycemic_index": 65
+      },
+      {
+        "name": "Paneer butter masala",
+        "serving": "1 katori (150g)",
+        "calories_kcal": 290,
+        "protein_g": 12.0,
+        "carbs_g": 10.0,
+        "fat_g": 22.0,
+        "fiber_g": 1.5,
+        "glycemic_index": 25
+      },
+      {
+        "name": "Khichdi (rice + moong dal)",
+        "serving": "1 katori (200g cooked)",
+        "calories_kcal": 180,
+        "protein_g": 6.5,
+        "carbs_g": 30.0,
+        "fat_g": 4.0,
+        "fiber_g": 2.0,
+        "glycemic_index": 55
+      }
+    ]
+  },
+
+  "section_3_regional_diet_patterns": {
+    "title": "Regional Indian Diet Patterns",
+    "description": "India has distinct regional dietary cultures shaped by climate, agriculture, religion, and tradition. Understanding these is critical for personalized nutrition recommendations.",
+
+    "north_indian": {
+      "region": "Punjab, Haryana, UP, Rajasthan, Delhi, HP, J&K, Uttarakhand",
+      "staple_grains": ["Wheat (roti/paratha)", "Rice (used but less dominant)", "Makki (maize, in winter Punjab)"],
+      "primary_proteins": ["Paneer", "Curd/Lassi", "Dal (arhar, chana, urad)", "Rajma", "Chole", "Chicken/Mutton (non-veg households)"],
+      "key_fats": ["Ghee (heavy use)", "Mustard oil", "Butter"],
+      "signature_dishes": ["Rajma-Chawal", "Chole-Bhature", "Dal Makhani", "Sarson ka Saag + Makki Roti", "Aloo Paratha", "Kadhi-Chawal", "Butter Chicken", "Paneer dishes"],
+      "typical_meal_pattern": {
+        "breakfast": "Paratha with curd/pickle, or Poha/Upma, Tea with milk",
+        "lunch": "2-3 Rotis, 1 dal, 1 sabzi (vegetable), rice, salad (onion-cucumber), curd",
+        "evening_snack": "Chai with biscuits/mathri/samosa",
+        "dinner": "Similar to lunch, sometimes lighter - khichdi or roti-sabzi"
+      },
+      "nutritional_strengths": ["High protein from generous dairy and pulses", "Good fat intake from ghee", "Wheat provides more protein than rice"],
+      "nutritional_concerns": ["Excess refined carbs (maida in naan/bhature)", "High fat from excessive ghee/butter", "Heavy meals can be calorie-dense", "Low vegetable diversity in some households", "Excess salt in pickles"],
+      "seasonal_foods": {
+        "winter": "Sarson saag, Gajar halwa, Mooli paratha, Bajra roti, Gur (jaggery), Rewri-Gajak",
+        "summer": "Lassi, Aam Panna, Shikanji, Raita, Sattu drink, Watermelon"
+      }
+    },
+
+    "south_indian": {
+      "region": "Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana",
+      "staple_grains": ["Rice (dominant)", "Ragi (Karnataka, TN)", "Rice-based fermented batters (idli/dosa)"],
+      "primary_proteins": ["Sambar (dal-based)", "Rasam", "Coconut (used extensively)", "Fish/Seafood (coastal Kerala, TN, AP)", "Eggs", "Curd/Buttermilk"],
+      "key_fats": ["Coconut oil (Kerala, coastal TN)", "Sesame/Gingelly oil (TN, AP)", "Groundnut oil (Karnataka, AP)"],
+      "signature_dishes": ["Idli-Sambar-Chutney", "Dosa (masala, plain, rava)", "Rice with Sambar-Rasam", "Avial (Kerala mixed veg in coconut)", "Bisi Bele Bath", "Hyderabadi Biryani", "Pongal", "Puttu-Kadala curry (Kerala)", "Appam-Stew"],
+      "typical_meal_pattern": {
+        "breakfast": "Idli/Dosa/Pongal with sambar and coconut chutney, Filter coffee",
+        "lunch": "Rice + Sambar + Rasam + Vegetable poriyal + Curd + Pickle + Papadum (Thali format, banana leaf)",
+        "evening_snack": "Filter coffee/tea with murukku/vada/banana",
+        "dinner": "Lighter - idli/dosa or rice with rasam/curd"
+      },
+      "nutritional_strengths": ["Fermented foods (idli/dosa) improve B12 and mineral bioavailability", "Coconut provides MCTs and lauric acid", "Sambar combines dal + vegetables", "Regular use of curry leaves (iron)", "Tamarind (antioxidants)", "Drumstick/moringa common"],
+      "nutritional_concerns": ["High refined rice consumption (glycemic load)", "Can be low in protein if dal portions are small", "Excess coconut oil in some preparations"],
+      "seasonal_foods": {
+        "summer": "Neer Mor (spiced buttermilk), Panagam, Raw mango rice, Tender coconut water",
+        "monsoon": "Bajji/Pakoda, Pepper rasam",
+        "festival": "Pongal, Payasam, Murukku, Laddu"
+      }
+    },
+
+    "east_indian": {
+      "region": "West Bengal, Odisha, Bihar, Jharkhand, Assam, Northeast states",
+      "staple_grains": ["Rice (overwhelmingly dominant)", "Puffed rice (muri/murmura) as snack"],
+      "primary_proteins": ["Fish (Hilsa, Rohu, Katla - Bengal, Assam, Odisha are major fish-eating regions)", "Mustard (used as paste)", "Posto (poppy seeds - Bengal)", "Sattu (roasted gram flour - Bihar)", "Lentils (masoor, moong)"],
+      "key_fats": ["Mustard oil (primary cooking medium)", "Fish oils (from frequent fish consumption)"],
+      "signature_dishes": ["Machher Jhol (fish curry)", "Shukto (bitter mixed veg)", "Dal-Bhaat-Machh-Sabzi", "Litti-Chokha (Bihar)", "Sattu Paratha/Drink (Bihar)", "Pakhala Bhata (fermented rice, Odisha)", "Bamboo shoot curry (NE)", "Dalma (Odisha)", "Chingri Malai Curry (prawn)"],
+      "typical_meal_pattern": {
+        "breakfast": "Luchi/Paratha or Muri (puffed rice) with tea, or Sattu drink (Bihar)",
+        "lunch": "Rice (generous portion) + Dal + Fish/Egg curry + Sabzi + Chutney (tomato/raw mango)",
+        "evening_snack": "Muri-chanachur/Jhal muri/Singara (samosa)/Chai",
+        "dinner": "Rice + lighter fish preparation or dal-sabzi"
+      },
+      "nutritional_strengths": ["Excellent omega-3 from fish and mustard oil", "Fermented foods (pakhala)", "Mustard oil provides MUFA + omega-3", "Bitter vegetables (shukto) - hepatoprotective", "Sattu - excellent plant protein"],
+      "nutritional_concerns": ["Very high rice consumption (carb-heavy)", "Deep frying common (luchi, singara)", "Low vegetable variety in some areas", "Excess sweets (mishti culture of Bengal)"],
+      "unique_superfoods": ["Sattu (roasted Bengal gram flour): 20g protein per 100g, cooling, sustained energy", "Bamboo shoots (NE): Low calorie, high fiber, antioxidants"]
+    },
+
+    "west_indian": {
+      "region": "Maharashtra, Gujarat, Goa, Rajasthan (west part)",
+      "staple_grains": ["Jowar (Maharashtra)", "Bajra (Gujarat, Rajasthan)", "Rice (Goa, coastal Maharashtra)", "Wheat (Gujarat)"],
+      "primary_proteins": ["Wide dal variety", "Sprouts (major in Maharashtra)", "Fish/Seafood (Goa, Konkan coast)", "Buttermilk/Shrikhand (Gujarat)", "Kokum"],
+      "key_fats": ["Groundnut oil (Gujarat, Maharashtra)", "Coconut oil (Goa, Konkan)", "Sesame oil"],
+      "signature_dishes": ["Puran Poli", "Misal Pav", "Vada Pav", "Pav Bhaji", "Thepla (Gujarat)", "Dhokla (Gujarat)", "Undhiyu (Gujarat)", "Fish Curry Rice (Goa)", "Vindaloo (Goa)", "Sol Kadhi (Konkan)", "Bhakri + Pitla (Maharashtra)", "Dal-Dhokli (Gujarat)"],
+      "typical_meal_pattern": {
+        "breakfast_maharashtra": "Poha/Sabudana Khichdi/Misal/Thalipeeth with chai",
+        "breakfast_gujarat": "Thepla/Dhokla/Fafda-Jalebi/Khakhra with chai",
+        "lunch": "Bhakri (jowar/bajra) or Roti/Rice + Dal + Sabzi + Koshimbir (salad) + Loncha (pickle) + Papad + (Goa: Fish curry rice)",
+        "dinner": "Roti/Rice, lighter preparations, khichdi"
+      },
+      "nutritional_strengths": ["Millets (jowar, bajra) as staples - higher protein, fiber, minerals than rice", "Sprout culture (Maharashtra) - enhanced nutrient bioavailability", "Kokum/Sol Kadhi - rich in hydroxycitric acid, antioxidants", "Fermented foods (dhokla, idli-like)", "Gujarat thali balanced with sweet-sour-spicy"],
+      "nutritional_concerns": ["Gujarat diet can be high in sugar (jaggery/sugar in savory dishes)", "Deep fried snacks common (fafda, vada pav, bhajiya)", "Goan diet can be high in coconut cream and alcohol"]
+    }
+  },
+
+  "section_4_nutrition_for_health_goals": {
+    "title": "Research-Backed Nutrition for Specific Health Goals",
+
+    "fat_loss_and_cholesterol_reduction": {
+      "goal": "Reduce body fat percentage and improve lipid profile (lower LDL, triglycerides; raise HDL)",
+
+      "key_principles": [
+        "Caloric deficit of 300-500 kcal/day for sustainable fat loss (0.5-1 kg/week)",
+        "High protein (1.2-1.6 g/kg) to preserve lean mass during deficit",
+        "High fiber (30-40g/day) for satiety and cholesterol binding",
+        "Reduce refined carbs and added sugars",
+        "Include soluble fiber sources to lower LDL cholesterol",
+        "Choose MUFA/PUFA-rich fats over saturated fats"
+      ],
+
+      "recommended_indian_foods": {
+        "top_foods": [
+          { "food": "Oats", "reason": "Beta-glucan soluble fiber lowers LDL by 5-10%; high satiety" },
+          { "food": "Dal (all varieties)", "reason": "High protein + fiber; low GI; pulses reduce LDL" },
+          { "food": "Methi seeds (soaked)", "reason": "Galactomannan fiber binds cholesterol; reduces triglycerides" },
+          { "food": "Flaxseed (ground)", "reason": "ALA omega-3 + lignans; reduces total and LDL cholesterol" },
+          { "food": "Rajma/Chole", "reason": "Soluble fiber binds bile acids; high satiety protein" },
+          { "food": "Barley (Jau)", "reason": "Beta-glucan even higher than oats; powerful LDL reducer" },
+          { "food": "Green leafy vegetables", "reason": "Very low calorie, high volume, fiber, micronutrients" },
+          { "food": "Almonds (10-12 daily)", "reason": "MUFA + fiber; reduces LDL without weight gain (if portion controlled)" },
+          { "food": "Garlic (2-3 raw cloves)", "reason": "Allicin reduces total cholesterol 10-12% in studies" },
+          { "food": "Amla/Indian gooseberry", "reason": "Comparable to statins in some studies for LDL reduction; 1 amla or amla juice daily" },
+          { "food": "Turmeric with black pepper", "reason": "Curcumin reduces inflammatory markers; modest LDL reduction" },
+          { "food": "Green tea / Kahwa", "reason": "Catechins (EGCG) boost fat oxidation 10-17%" },
+          { "food": "Bitter gourd (Karela)", "reason": "Reduces lipid levels; anti-obesity compounds" },
+          { "food": "Sprouts (moong, chana)", "reason": "Enhanced protein, reduced antinutrients, very low calorie" },
+          { "food": "Buttermilk (chaas)", "reason": "Probiotics, low calorie, replaces high-cal lassi" },
+          { "food": "Millets (jowar, bajra, ragi)", "reason": "Higher fiber and protein than rice; lower GI" }
+        ],
+
+        "foods_to_limit": [
+          "Refined flour (maida) products - naan, bhature, biscuits, white bread",
+          "Deep fried snacks - samosa, pakora, puri",
+          "Sugar - mithai, sweetened beverages, added sugar in chai",
+          "Excess ghee/butter (>2 tsp/day during fat loss)",
+          "White rice in large portions (switch to brown rice or millets)",
+          "Processed meats",
+          "Trans fats - vanaspati, margarine, bakery products"
+        ],
+
+        "optimal_macros_fat_loss": {
+          "protein_percent": "25-30%",
+          "carbs_percent": "40-45%",
+          "fat_percent": "25-30%",
+          "fiber_g_per_day": "30-40"
+        }
+      },
+
+      "references": [
+        "Bazzano LA et al., Non-soy legume consumption lowers cholesterol: meta-analysis, Nutr Metab Cardiovasc Dis, 2011",
+        "Ried K et al., Garlic for cardiovascular risk reduction, Cochrane Database, 2012",
+        "Pan A et al., Alpha-linolenic acid and cardiovascular outcomes, Am J Clin Nutr, 2012",
+        "Khosla P et al., Amla (Emblica officinalis) and lipid lowering, Eur J Clin Nutr, 2011"
+      ]
+    },
+
+    "muscle_building": {
+      "goal": "Increase lean muscle mass and strength through optimal nutrition",
+
+      "key_principles": [
+        "Caloric surplus of 300-500 kcal/day above maintenance",
+        "Protein: 1.6-2.2 g/kg body weight (ISSN recommendation)",
+        "Distribute protein across 4-5 meals (30-40g per meal for maximal MPS)",
+        "Combine plant proteins for complete amino acid profile",
+        "Adequate leucine (2.5-3g per meal) to trigger muscle protein synthesis",
+        "Carbs: 4-7 g/kg for glycogen replenishment and training fuel",
+        "Creatine monohydrate (3-5g/day) - most evidence-backed supplement"
+      ],
+
+      "recommended_indian_foods": {
+        "high_protein_sources": [
+          { "food": "Paneer", "protein_per_serving": "18g per 100g", "note": "Complete protein, casein (slow-digesting), ideal for night" },
+          { "food": "Eggs (anda)", "protein_per_serving": "6g per egg", "note": "Highest biological value protein, leucine-rich" },
+          { "food": "Chicken breast", "protein_per_serving": "31g per 100g", "note": "Lean, high leucine, most affordable animal protein" },
+          { "food": "Fish (Rohu/Surmai)", "protein_per_serving": "18-22g per 100g", "note": "Omega-3 reduces muscle soreness" },
+          { "food": "Soybean / Soy chunks", "protein_per_serving": "36-52g per 100g", "note": "Best plant protein; soy chunks (nutrela) 52g protein/100g" },
+          { "food": "Moong dal", "protein_per_serving": "24g per 100g raw", "note": "Most digestible dal, good leucine for a legume" },
+          { "food": "Rajma + Rice", "protein_per_serving": "8.5g per katori + 4g per cup rice", "note": "Complete protein when combined (lysine + methionine)" },
+          { "food": "Curd/Greek yoghurt", "protein_per_serving": "3-10g per 100g", "note": "Probiotics + protein; hung curd = higher protein" },
+          { "food": "Peanut butter", "protein_per_serving": "25g per 100g", "note": "Calorie-dense, good for surplus; pair with roti" },
+          { "food": "Sattu (roasted gram flour)", "protein_per_serving": "20g per 100g", "note": "Budget-friendly complete meal; Bihar superfood" },
+          { "food": "Sprouts (mixed)", "protein_per_serving": "7-9g per 100g", "note": "Enhanced digestibility, increased amino acids" },
+          { "food": "Chana dal", "protein_per_serving": "21g per 100g raw", "note": "Slow-digesting, fiber + protein" },
+          { "food": "Milk (500ml daily)", "protein_per_serving": "16g per 500ml", "note": "Casein + whey; calcium for bones under load" }
+        ],
+
+        "muscle_building_meal_plan_example": {
+          "description": "Sample day for 75kg male targeting 2800 kcal, 150g protein (vegetarian)",
+          "meal_1_7am": "4 egg whites + 2 whole eggs scramble with veggies + 2 multigrain rotis (Protein: 30g)",
+          "meal_2_10am": "Sattu shake (50g sattu + banana + milk) OR Sprout chaat (Protein: 20g)",
+          "meal_3_1pm": "2 rotis + 1 katori rajma/chole + rice + salad + curd (Protein: 25g)",
+          "meal_4_4pm_preworkout": "Peanut butter sandwich on multigrain bread + banana (Protein: 15g)",
+          "meal_5_7pm_postworkout": "Paneer bhurji (150g paneer) + 2 rotis OR Soy chunks curry + rice (Protein: 30g)",
+          "meal_6_10pm": "Glass of milk (300ml) + handful almonds + 1 scoop whey (if needed) (Protein: 25-30g)"
+        }
+      },
+
+      "key_micronutrients_for_muscle": {
+        "zinc": "Required for testosterone synthesis; pumpkin seeds, sesame, chicken",
+        "magnesium": "Muscle contraction, recovery, sleep; ragi, bajra, dark chocolate",
+        "vitamin_d": "Muscle function, testosterone; sunlight, fortified foods",
+        "iron": "Oxygen transport to muscles; bajra, spinach, dates, jaggery",
+        "b_vitamins": "Energy metabolism; whole grains, eggs, dairy"
+      },
+
+      "references": [
+        "Jager R et al., ISSN Position Stand: Protein and Exercise, J Int Soc Sports Nutr, 2017",
+        "Morton RW et al., Protein supplementation meta-analysis, Br J Sports Med, 2018",
+        "Kreider RB et al., ISSN Position Stand: Creatine Supplementation, J Int Soc Sports Nutr, 2017"
+      ]
+    },
+
+    "skin_health_and_glow": {
+      "goal": "Improve skin radiance, elasticity, reduce acne/aging signs through nutrition",
+
+      "key_principles": [
+        "Antioxidants neutralize free radicals causing skin aging",
+        "Vitamin C is essential for collagen synthesis",
+        "Omega-3 fatty acids reduce skin inflammation",
+        "Vitamin A / beta-carotene supports cell turnover",
+        "Zinc is critical for acne prevention and wound healing",
+        "Hydration (2.5-3L water/day) maintains skin turgor",
+        "Gut health directly impacts skin (gut-skin axis); probiotics help",
+        "Low glycemic diet reduces acne by lowering IGF-1"
+      ],
+
+      "recommended_indian_foods": [
+        { "food": "Amla (1 daily or amla juice)", "nutrients": "Vitamin C (600mg/100g), Gallic acid", "benefit": "Collagen synthesis, brightening, most potent Indian antioxidant" },
+        { "food": "Papaya", "nutrients": "Vitamin C, Vitamin A, Papain", "benefit": "Exfoliation, brightening, reduces pigmentation" },
+        { "food": "Carrot / Sweet potato", "nutrients": "Beta-carotene (provitamin A)", "benefit": "Natural glow from carotenoid deposition, cell renewal" },
+        { "food": "Tomato (cooked)", "nutrients": "Lycopene (enhanced by cooking + oil)", "benefit": "UV protection from inside, reduces sunburn by 40% (10 weeks)" },
+        { "food": "Turmeric + milk (Haldi Doodh)", "nutrients": "Curcumin + casein", "benefit": "Anti-inflammatory, reduces acne, brightens skin" },
+        { "food": "Walnuts", "nutrients": "Omega-3 ALA, Vitamin E, Zinc", "benefit": "Anti-inflammatory, moisture retention, anti-aging" },
+        { "food": "Flaxseed (ground)", "nutrients": "ALA omega-3, Lignans", "benefit": "Reduces skin roughness, improves hydration" },
+        { "food": "Saffron (Kesar)", "nutrients": "Crocin, Crocetin", "benefit": "Brightening, anti-pigmentation, traditional skin glow remedy" },
+        { "food": "Curd / Buttermilk", "nutrients": "Probiotics, Zinc, B vitamins", "benefit": "Gut-skin axis; reduces acne, eczema" },
+        { "food": "Spinach / Methi leaves", "nutrients": "Folate, Iron, Vitamin A, Vitamin C", "benefit": "Cell repair, anemia correction (which causes dull skin)" },
+        { "food": "Guava", "nutrients": "228mg Vitamin C per 100g", "benefit": "More Vitamin C than orange; collagen synthesis" },
+        { "food": "Almonds (10-12 daily)", "nutrients": "Vitamin E (25mg/100g), MUFA", "benefit": "UV protection, anti-aging, moisture" },
+        { "food": "Pomegranate", "nutrients": "Punicalagins, Ellagic acid", "benefit": "Anti-aging, collagen protection, sun damage repair" },
+        { "food": "Green tea", "nutrients": "EGCG catechins", "benefit": "UV protection, anti-acne, reduces sebum" },
+        { "food": "Coconut water + Coconut", "nutrients": "Cytokinins, Lauric acid, Electrolytes", "benefit": "Hydration, anti-microbial (acne), elasticity" }
+      ],
+
+      "foods_to_avoid_for_skin": [
+        "Refined sugar and sweets (spike insulin/IGF-1, worsen acne)",
+        "Dairy in excess (may worsen acne in some individuals due to IGF-1)",
+        "Deep fried foods (oxidized oils increase inflammation)",
+        "Processed/packaged foods (preservatives, excess sodium)",
+        "Excess alcohol (dehydration, liver burden, dull skin)"
+      ],
+
+      "references": [
+        "Stahl W et al., Lycopene-rich tomato paste and UV protection, J Nutr, 2001",
+        "Pullar JM et al., Role of Vitamin C in Skin Health, Nutrients, 2017",
+        "Bowe WP et al., Acne vulgaris, probiotics and the gut-brain-skin axis, Gut Pathog, 2011",
+        "Cao C et al., Diet and Skin Aging, Nutrients, 2020"
+      ]
+    },
+
+    "hair_fall_prevention": {
+      "goal": "Reduce hair fall, strengthen hair, promote growth through nutrition",
+
+      "key_principles": [
+        "Iron deficiency is the #1 nutritional cause of hair loss in Indian women",
+        "Protein deficiency causes telogen effluvium (diffuse hair loss)",
+        "Biotin (B7) is essential for keratin production",
+        "Zinc deficiency causes hair thinning and alopecia",
+        "Vitamin D deficiency (extremely common in India) linked to alopecia",
+        "Omega-3 nourishes hair follicles and reduces inflammation",
+        "Ferritin levels should be >70 ng/mL for optimal hair growth (not just >12)",
+        "DHT blocking foods help androgenetic alopecia"
+      ],
+
+      "recommended_indian_foods": [
+        { "food": "Curry leaves (Kadi Patta)", "nutrients": "Beta-carotene, Iron, Proteins, Amino acids", "benefit": "Traditional South Indian remedy; strengthens hair roots, prevents premature greying" },
+        { "food": "Amla (Indian gooseberry)", "nutrients": "Vitamin C (600mg), Iron, Antioxidants", "benefit": "Enhances iron absorption, strengthens follicles, Ayurvedic hair tonic" },
+        { "food": "Methi seeds (soaked/sprouted)", "nutrients": "Iron, Protein, Nicotinic acid, Lecithin, Diosgenin", "benefit": "Stimulates hair growth, conditions scalp, DHT blocking" },
+        { "food": "Spinach (Palak)", "nutrients": "Iron, Folate, Vitamin A, Vitamin C", "benefit": "Corrects iron deficiency; Vitamin A for sebum production" },
+        { "food": "Eggs", "nutrients": "Biotin, Protein (all essential amino acids), Zinc, Selenium", "benefit": "Complete protein for keratin; biotin prevents brittleness" },
+        { "food": "Pumpkin seeds", "nutrients": "Zinc (7.8mg/100g), Iron, Magnesium, DHT-blocking phytosterols", "benefit": "Zinc for hair growth cycle; blocks 5-alpha reductase (DHT)" },
+        { "food": "Sweet potato", "nutrients": "Beta-carotene / Vitamin A", "benefit": "Promotes sebum production; prevents dry, flaky scalp" },
+        { "food": "Dal (all types)", "nutrients": "Protein, Iron, Biotin, Zinc", "benefit": "Plant protein for keratin; prevents protein-deficiency hair loss" },
+        { "food": "Walnuts (Akhrot)", "nutrients": "Omega-3, Biotin, Vitamin E, Copper", "benefit": "Nourishes follicles, prevents breakage, natural hair darkening (copper)" },
+        { "food": "Sesame seeds (Til)", "nutrients": "Iron (14.6mg), Zinc, Copper, Calcium", "benefit": "Traditional remedy for hair growth and preventing greying; melanin support (copper)" },
+        { "food": "Coconut (and coconut oil topically)", "nutrients": "MCTs, Lauric acid, Iron, Vitamin E", "benefit": "Penetrates hair shaft, reduces protein loss, anti-dandruff (lauric acid)" },
+        { "food": "Jaggery (Gur)", "nutrients": "Iron (11mg/100g)", "benefit": "Excellent iron source; replaces sugar while boosting ferritin" },
+        { "food": "Bajra (pearl millet)", "nutrients": "Iron (8mg), Zinc, Protein", "benefit": "Iron-rich staple to prevent anemia-related hair loss" },
+        { "food": "Ashwagandha", "nutrients": "Withanolides", "benefit": "Reduces cortisol (stress-related hair loss), supports thyroid (hypothyroid alopecia)" },
+        { "food": "Fish / Fish oil", "nutrients": "Omega-3 EPA+DHA, Vitamin D, Protein", "benefit": "Anti-inflammatory; nourishes hair density; addresses Vitamin D deficiency" }
+      ],
+
+      "critical_blood_tests_for_hair": [
+        "Serum Ferritin (target >70 ng/mL for hair)",
+        "Hemoglobin (target >12 g/dL women, >14 men)",
+        "Vitamin D (25-OH, target >40 ng/mL)",
+        "Vitamin B12 (target >500 pg/mL)",
+        "TSH (thyroid function)",
+        "Zinc levels",
+        "Biotin"
+      ],
+
+      "references": [
+        "Rushton DH, Nutritional factors and hair loss, Clin Exp Dermatol, 2002",
+        "Almohanna HM et al., Role of Vitamins and Minerals in Hair Loss, Dermatol Ther, 2019",
+        "Cho YH et al., Effect of Pumpkin Seed Oil on Hair Growth, Evid Based Complement Alternat Med, 2014",
+        "Trost LB et al., Iron deficiency and hair loss, J Am Acad Dermatol, 2006"
+      ]
+    },
+
+    "sexual_health_improvement": {
+      "goal": "Improve libido, erectile function, fertility, and hormonal balance through nutrition",
+
+      "key_principles": [
+        "Nitric oxide (NO) production is key for erectile function - arginine-rich foods",
+        "Testosterone optimization: Zinc, Vitamin D, healthy fats, adequate sleep",
+        "Antioxidants protect sperm from oxidative damage",
+        "Blood flow and cardiovascular health directly impact sexual function",
+        "Stress (cortisol) is a major libido killer - adaptogenic foods help",
+        "Estrogen balance in women: phytoestrogens, healthy fats, iron"
+      ],
+
+      "recommended_indian_foods": [
+        { "food": "Ashwagandha", "nutrients": "Withanolides", "benefit": "Increases testosterone 15-17%, improves sperm count and motility by 167%, reduces cortisol 30%, enhances female sexual function", "evidence": "Ambiye VR et al., BioMed Research International, 2013; Ahmad MK et al., Fertil Steril, 2010" },
+        { "food": "Shilajit (Himalayan mineral pitch)", "nutrients": "Fulvic acid, Dibenzo-alpha-pyrones, 85+ minerals", "benefit": "Increases free testosterone by 20%, improves sperm count, traditional Rasayana", "evidence": "Pandit S et al., Andrologia, 2016" },
+        { "food": "Safed Musli (Chlorophytum borivilianum)", "nutrients": "Saponins, Polysaccharides", "benefit": "Ayurvedic Vajikarana herb; improves sperm count, libido, erectile function", "evidence": "Kenjale R et al., Pharmacogn Mag, 2008" },
+        { "food": "Pumpkin seeds", "nutrients": "Zinc (7.8mg), Magnesium, Tryptophan, Phytosterols", "benefit": "Zinc critical for testosterone synthesis; prostate health" },
+        { "food": "Watermelon", "nutrients": "Citrulline (converts to arginine in body)", "benefit": "Natural vasodilator; increases nitric oxide for blood flow; called 'natural Viagra'" },
+        { "food": "Pomegranate juice", "nutrients": "Punicalagins, Ellagic acid, Nitrate", "benefit": "Increases salivary testosterone 24% in studies; improves blood flow, reduces oxidative stress on sperm", "evidence": "Al-Dujaili E et al., Endocrine Abstracts, 2012" },
+        { "food": "Saffron (Kesar)", "nutrients": "Crocin, Safranal", "benefit": "Improves erectile function and libido in both genders; aphrodisiac in Ayurveda and clinical trials", "evidence": "Shamsa A et al., Phytomedicine, 2009" },
+        { "food": "Almonds and Walnuts", "nutrients": "Zinc, Arginine, Vitamin E, Omega-3 (walnuts)", "benefit": "Improve sperm morphology and motility; traditional bridal night food in Indian culture" },
+        { "food": "Garlic", "nutrients": "Allicin, Selenium", "benefit": "Improves blood flow, reduces blood pressure, increases NO production" },
+        { "food": "Eggs", "nutrients": "Cholesterol (testosterone precursor), Vitamin D, Zinc, B vitamins", "benefit": "Cholesterol is precursor for sex hormones; complete nutrition for fertility" },
+        { "food": "Dates + Milk", "nutrients": "Natural sugars, Flavonoids, Estradiol, Calcium", "benefit": "Traditional Indian aphrodisiac combination; energy, hormone support" },
+        { "food": "Sesame seeds + Honey", "nutrients": "Zinc, Lignans, Boron (honey)", "benefit": "Traditional Unani medicine for sexual vigor" },
+        { "food": "Fenugreek seeds", "nutrients": "Furostanolic saponins, Diosgenin", "benefit": "Increases free testosterone, libido, and sexual arousal in both sexes", "evidence": "Rao A et al., Phytother Res, 2016" },
+        { "food": "Beetroot juice", "nutrients": "Dietary nitrates", "benefit": "Converted to NO in body; improves endothelial function and blood flow" },
+        { "food": "Dark chocolate (70%+)", "nutrients": "Flavonoids, Phenylethylamine, Zinc, Magnesium", "benefit": "Improves blood flow, mood (PEA), reduces stress" }
+      ],
+
+      "foods_to_avoid": [
+        "Excess alcohol (depresses testosterone, impairs function)",
+        "Soy in very large quantities (phytoestrogens may impact men at extremely high intake)",
+        "Trans fats (reduce sperm quality)",
+        "Excess sugar (insulin resistance impairs hormone function)",
+        "Processed meats (xenoestrogens from processing)",
+        "BPA from plastic containers (endocrine disruptor - use steel/glass)"
+      ],
+
+      "references": [
+        "Ambiye VR et al., Ashwagandha root extract improves sexual function in healthy women, BioMed Res Int, 2013",
+        "Ahmad MK et al., Withania somnifera improves semen quality, Fertil Steril, 2010",
+        "Pandit S et al., Shilajit and testosterone in healthy volunteers, Andrologia, 2016",
+        "Rao A et al., Testofen (fenugreek) and male libido, Phytother Res, 2016"
+      ]
+    },
+
+    "sleep_improvement": {
+      "goal": "Improve sleep onset, duration, and quality through dietary interventions",
+
+      "key_principles": [
+        "Tryptophan -> Serotonin -> Melatonin pathway: consume tryptophan-rich foods",
+        "Magnesium is a natural muscle relaxant and GABA agonist",
+        "Glycine (from collagen/certain foods) improves sleep quality",
+        "Avoid caffeine after 2 PM (half-life 5-6 hours)",
+        "Last meal 2-3 hours before bed; heavy meals disrupt sleep",
+        "Ashwagandha and Brahmi are evidence-based Ayurvedic sleep aids",
+        "High GI meal 4 hours before bed may speed sleep onset (increases tryptophan ratio)"
+      ],
+
+      "recommended_indian_foods": [
+        { "food": "Warm milk (Haldi Doodh / plain)", "nutrients": "Tryptophan, Calcium, Casein, (Curcumin if with turmeric)", "benefit": "Tryptophan converts to melatonin; calcium helps brain use tryptophan; traditional bedtime drink", "timing": "30 min before bed" },
+        { "food": "Ashwagandha (with milk)", "nutrients": "Triethylene glycol, Withanolides", "benefit": "Reduces sleep latency, improves sleep quality and non-REM sleep; 300mg before bed", "evidence": "Langade D et al., Ashwagandha root extract improves sleep, Sleep Med, 2019" },
+        { "food": "Banana", "nutrients": "Tryptophan, Magnesium (27mg), Potassium (358mg), Vitamin B6", "benefit": "B6 converts tryptophan to serotonin; magnesium relaxes muscles; natural melatonin source" },
+        { "food": "Almonds", "nutrients": "Magnesium (270mg/100g), Melatonin, MUFA", "benefit": "Magnesium promotes deep sleep; almonds contain measurable melatonin" },
+        { "food": "Walnuts", "nutrients": "Melatonin (directly), Omega-3 (DHA -> serotonin), Tryptophan", "benefit": "Only common food with significant melatonin content" },
+        { "food": "Chamomile tea (Babune ka Phool)", "nutrients": "Apigenin (flavonoid)", "benefit": "Apigenin binds GABA-A receptors, inducing mild sedation", "evidence": "Srivastava JK et al., Mol Med Report, 2010" },
+        { "food": "Kesar (Saffron) in milk", "nutrients": "Crocin, Safranal", "benefit": "Safranal increases non-REM sleep; antidepressant effect helps sleep" },
+        { "food": "Cherry (Phalsa / tart cherry if available)", "nutrients": "Natural melatonin, Tryptophan, Anthocyanins", "benefit": "Tart cherry juice increases melatonin and sleep time by 84 minutes in studies" },
+        { "food": "Khus Khus / Poppy seeds (Posto)", "nutrients": "Alkaloids (trace morphine/codeine), Zinc, Magnesium, Calcium", "benefit": "Mild natural sedative; traditional Bengal remedy; add to warm milk" },
+        { "food": "Ragi (Finger millet)", "nutrients": "Tryptophan, Calcium (344mg/100g), Magnesium", "benefit": "Ragi malt at night is traditional South Indian sleep aid" },
+        { "food": "Jatamansi (Spikenard herb)", "nutrients": "Jatamansone, Sesquiterpenes", "benefit": "Ayurvedic sedative herb; reduces anxiety, improves sleep architecture" },
+        { "food": "Brahmi (Bacopa monnieri)", "nutrients": "Bacosides", "benefit": "Reduces anxiety (GABAergic), improves sleep quality; 300mg standardized extract" },
+        { "food": "Pumpkin seeds", "nutrients": "Tryptophan (576mg/100g), Zinc, Magnesium (592mg/100g)", "benefit": "Highest tryptophan common food; magnesium for deep sleep" },
+        { "food": "Cashews", "nutrients": "Tryptophan, Magnesium, Zinc", "benefit": "Good source of sleep-supporting tryptophan" }
+      ],
+
+      "sleep_disrupting_foods_to_avoid": [
+        "Coffee/Tea after 2 PM",
+        "Dark chocolate at night (caffeine + theobromine)",
+        "Spicy foods at dinner (raise core body temp, cause reflux)",
+        "Alcohol (disrupts REM sleep despite initial sedation)",
+        "Heavy, oily meals close to bedtime",
+        "High sugar foods at night (blood sugar spikes and crashes)"
+      ],
+
+      "ideal_bedtime_drink_recipe": {
+        "name": "Ayurvedic Sleep Milk (Nidra Doodh)",
+        "ingredients": ["1 cup warm milk (cow/almond)", "1/4 tsp Ashwagandha powder", "Pinch of nutmeg (Jaiphal)", "Pinch of saffron (3-4 strands)", "1/2 tsp honey or jaggery"],
+        "benefit": "Combines tryptophan + ashwagandha + saffron + nutmeg for synergistic sleep support"
+      },
+
+      "references": [
+        "Langade D et al., Ashwagandha root extract improves sleep quality, Sleep Med, 2019",
+        "Howatson G et al., Tart cherry juice and sleep, Eur J Nutr, 2012",
+        "Abbasi B et al., Magnesium and insomnia in elderly, J Res Med Sci, 2012",
+        "Pigeon WR et al., Chamomile and generalized anxiety/sleep, BMC Complement Altern Med, 2017"
+      ]
+    },
+
+    "stress_reduction": {
+      "goal": "Reduce physiological and psychological stress through dietary and nutritional interventions",
+
+      "key_principles": [
+        "Cortisol regulation through adaptogens (Ashwagandha, Tulsi, Brahmi)",
+        "Magnesium deficiency amplifies stress response - supplementation reduces cortisol",
+        "B vitamins (B5, B6, B12) are depleted during chronic stress",
+        "Omega-3 fatty acids reduce cortisol and inflammatory cytokines",
+        "Gut-brain axis: 95% of serotonin produced in gut; probiotics help mood",
+        "Blood sugar stability prevents cortisol spikes from hypoglycemia",
+        "Vitamin C is consumed rapidly during stress; adrenal glands have highest Vitamin C concentration"
+      ],
+
+      "recommended_indian_foods": [
+        { "food": "Ashwagandha", "nutrients": "Withanolides", "benefit": "Reduces cortisol 28-30%; reduces perceived stress and anxiety by 44% in RCTs", "dose": "300-600mg/day root extract (KSM-66 or Sensoril)", "evidence": "Chandrasekhar K et al., Indian J Psychol Med, 2012" },
+        { "food": "Tulsi (Holy Basil) tea", "nutrients": "Eugenol, Rosmarinic acid, Ursolic acid, Ocimumosides", "benefit": "Adaptogen; reduces cortisol, anxiety, fatigue; enhances cognition; 2-3 cups/day", "evidence": "Saxena RC et al., Tulsi for stress management, J Ayurveda Integr Med, 2012" },
+        { "food": "Brahmi (Bacopa monnieri)", "nutrients": "Bacosides A and B", "benefit": "Reduces cortisol, anxiety; improves memory under stress; 300mg/day", "evidence": "Benson S et al., Phytother Res, 2014" },
+        { "food": "Curd / Fermented foods", "nutrients": "Lactobacillus, Bifidobacterium", "benefit": "Gut-brain axis; probiotics reduce cortisol and anxiety. Include dahi, kanji, idli" },
+        { "food": "Dark chocolate (70%+)", "nutrients": "Flavonoids, Theobromine, Magnesium, Tryptophan", "benefit": "Reduces cortisol, improves mood via endorphin and serotonin" },
+        { "food": "Almonds + Walnuts", "nutrients": "Magnesium, Omega-3 (walnuts), Vitamin E, B vitamins", "benefit": "Magnesium is 'original chill pill'; omega-3 reduces cortisol" },
+        { "food": "Banana", "nutrients": "Vitamin B6, Tryptophan, Potassium, Magnesium", "benefit": "B6 converts tryptophan to serotonin; potassium reduces stress-related blood pressure" },
+        { "food": "Amla (Indian gooseberry)", "nutrients": "Vitamin C (600mg/100g)", "benefit": "Vitamin C directly lowers cortisol; adrenal glands require highest Vitamin C" },
+        { "food": "Oranges / Guava", "nutrients": "Vitamin C", "benefit": "Vitamin C reduces cortisol and subjective stress in RCTs" },
+        { "food": "Green tea (2-3 cups)", "nutrients": "L-Theanine (unique amino acid), EGCG", "benefit": "L-Theanine increases alpha brain waves (calm alertness), reduces anxiety without drowsiness; 100-200mg" },
+        { "food": "Ragi (Finger millet)", "nutrients": "Tryptophan, Calcium, Magnesium, Polyphenols", "benefit": "Serotonin precursor; calming minerals; traditional comfort food" },
+        { "food": "Jaggery (moderate)", "nutrients": "Iron, Magnesium, Potassium, B vitamins", "benefit": "Quick energy without refined sugar crash; mineral-rich" },
+        { "food": "Flaxseed", "nutrients": "ALA omega-3, Lignans, Magnesium", "benefit": "Anti-inflammatory omega-3 pathway reduces stress-linked inflammation" },
+        { "food": "Pumpkin seeds", "nutrients": "Magnesium (592mg/100g), Zinc, Tryptophan", "benefit": "Highest common food source of magnesium; addresses #1 mineral deficiency in stress" },
+        { "food": "Shankhpushpi (Convolvulus pluricaulis)", "nutrients": "Shankhapushpine, Flavonoids", "benefit": "Ayurvedic anxiolytic; improves mental calm; traditionally taken as powder in milk" }
+      ],
+
+      "anti_stress_daily_routine_foods": {
+        "morning": "Tulsi tea or Ashwagandha with warm water",
+        "breakfast": "Ragi dosa/porridge with jaggery; or oats with walnuts and banana",
+        "mid_morning": "Amla juice or a handful of almonds",
+        "lunch": "Dal-rice with leafy greens; curd; minimal processed food",
+        "evening": "Green tea; dark chocolate (2 squares); pumpkin seeds",
+        "dinner": "Light meal - khichdi or roti with simple sabzi",
+        "bedtime": "Warm milk with ashwagandha and saffron"
+      },
+
+      "references": [
+        "Chandrasekhar K et al., A Prospective, Randomized Double-Blind, Placebo-Controlled Study of Safety and Efficacy of Ashwagandha Root Extract, Indian J Psychol Med, 2012",
+        "Saxena RC et al., Efficacy of Ocimum tenuiflorum (OciBest) in stress management, J Ayurveda Integr Med, 2012",
+        "Hidese S et al., Effects of L-Theanine on Stress, Nutrients, 2019",
+        "Jacka FN et al., Gut microbiome and mental health, Mol Psychiatry, 2017"
+      ]
+    }
+  },
+
+  "section_5_indian_food_combinations": {
+    "title": "Indian Food Combinations for Optimal Nutrition (Food Synergies)",
+    "description": "Traditional Indian food pairings often have scientific rationale for enhanced nutrient absorption and complete nutrition. These ancestral food wisdoms are now being validated by modern nutrition science.",
+
+    "synergistic_combinations": [
+      {
+        "combination": "Dal + Rice (Chawal)",
+        "scientific_rationale": "Rice is deficient in lysine but rich in methionine. Legumes are rich in lysine but deficient in methionine. Together they form a complete protein with all essential amino acids, approaching the quality of animal protein (amino acid complementation).",
+        "traditional_context": "Staple combination across all of India (Rajma-Chawal, Dal-Chawal, Sambar-Rice, Dal-Bhaat)",
+        "optimal_ratio": "2:1 to 3:1 (rice:dal by volume cooked)",
+        "references": ["Young VR & Pellett PL, Am J Clin Nutr, 1994 - Plant protein complementation"]
+      },
+      {
+        "combination": "Turmeric (Haldi) + Black Pepper (Kali Mirch) + Fat",
+        "scientific_rationale": "Piperine in black pepper inhibits glucuronidation of curcumin in the liver, increasing curcumin bioavailability by 2000%. Fat (oil/ghee) further enhances absorption since curcumin is lipophilic. This triple combination is found naturally in many Indian curries.",
+        "traditional_context": "Every Indian curry contains this combination: turmeric + black pepper in an oil/ghee base",
+        "optimal_ratio": "1/4 tsp turmeric + pinch of black pepper + 1 tsp oil/ghee",
+        "references": ["Shoba G et al., Influence of Piperine on the Pharmacokinetics of Curcumin, Planta Med, 1998"]
+      },
+      {
+        "combination": "Iron-rich foods + Vitamin C (Lemon/Amla)",
+        "scientific_rationale": "Non-heme iron (plant-based) absorption is only 2-5%. Vitamin C (ascorbic acid) converts ferric iron (Fe3+) to ferrous iron (Fe2+), increasing absorption by 3-6 fold. This is critical for vegetarian Indians who rely on plant iron.",
+        "traditional_context": "Squeezing lemon on dal, salad with meals, amla pickle/chutney with food, lemon on sprouts",
+        "examples": [
+          "Lemon squeezed on Palak (spinach) dal",
+          "Amla chutney with iron-rich ragi roti",
+          "Lemon juice on sprouted moong (high iron + high C)",
+          "Tomato-based curry with leafy greens (tomato provides C)"
+        ],
+        "references": ["Hallberg L et al., Effect of ascorbic acid on iron absorption, Am J Clin Nutr, 1989"]
+      },
+      {
+        "combination": "Roti/Rice + Curd (Dahi)",
+        "scientific_rationale": "Curd provides probiotics (Lactobacillus) that improve gut health and mineral absorption. Lactic acid in curd enhances calcium and iron absorption from the meal. The combination also provides complete protein (cereal + dairy).",
+        "traditional_context": "Curd rice (Thayir Sadam in South India), Roti with dahi, Raita with biryani",
+        "additional_benefit": "Probiotics in curd break down phytates in cereals, releasing bound minerals"
+      },
+      {
+        "combination": "Fat-soluble Vitamins (A, D, E, K) + Fat/Oil",
+        "scientific_rationale": "Vitamins A, D, E, K are fat-soluble and require dietary fat for absorption. Cooking vegetables in oil or adding ghee dramatically increases carotenoid (provitamin A) absorption - up to 6x for beta-carotene.",
+        "traditional_context": "Indian sabzi is always cooked with oil/ghee tadka; carrots in gajar halwa (with ghee); palak paneer (fat from paneer and oil)",
+        "examples": [
+          "Gajar halwa (carrot + ghee = beta-carotene absorption 6x)",
+          "Palak cooked with oil/ghee (enhances Vitamin A/K absorption)",
+          "Tadka on dal with ghee (enhances vitamin absorption)",
+          "Tomato cooked in oil (lycopene becomes 4x more bioavailable)"
+        ],
+        "references": ["Brown MJ et al., Carotenoid bioavailability with fat, Am J Clin Nutr, 2004"]
+      },
+      {
+        "combination": "Jaggery (Gur) + Sesame seeds (Til)",
+        "scientific_rationale": "Jaggery is rich in iron (11mg/100g). Sesame provides iron (14.6mg) + calcium (975mg). Together they provide a significant dose of both minerals. Jaggery's natural sugars aid sesame mineral absorption.",
+        "traditional_context": "Til-Gur laddoo eaten during Makar Sankranti / winter - provides warmth and minerals during cold months",
+        "additional_benefit": "Sesame lignans (sesamin) have synergistic anti-inflammatory effects"
+      },
+      {
+        "combination": "Idli/Dosa batter (Rice + Urad dal, fermented)",
+        "scientific_rationale": "Fermentation by Leuconostoc mesenteroides and Lactobacillus (1) creates amino acid complementation between rice and urad dal, (2) increases B-vitamin content (especially B12 - rare in vegetarian foods), (3) reduces phytic acid by 50-60% increasing mineral bioavailability, (4) produces probiotics.",
+        "traditional_context": "South Indian staple breakfast; the fermentation process is the key nutritional enhancer",
+        "references": ["Reddy NR et al., Fermentation of cereals and legumes, CRC Critical Reviews in Food Science, 1982"]
+      },
+      {
+        "combination": "Rajma/Chole + Onion-Tomato + Lemon",
+        "scientific_rationale": "Legumes are high in non-heme iron but also high in phytates (which inhibit iron absorption). Onion and garlic (sulfur compounds) + Vitamin C from tomato and lemon counteract phytates and enhance iron absorption by 50-70%.",
+        "traditional_context": "Standard preparation method: Rajma/Chole curry with onion-tomato base, served with lemon wedge and onion rings",
+        "references": ["Gautam S et al., Higher bio-accessibility of iron from cysteine-rich foods, J Nutr, 2010"]
+      },
+      {
+        "combination": "Tea/Coffee consumed SEPARATELY from iron-rich meals",
+        "scientific_rationale": "Tannins in tea and polyphenols in coffee reduce non-heme iron absorption by 50-90%. Maintaining a 1-hour gap between iron-rich meals and tea/coffee dramatically improves iron status.",
+        "traditional_context": "Indians often drink chai immediately after meals - this is nutritionally counterproductive for iron absorption",
+        "recommendation": "Wait at least 1 hour after meals before drinking tea/coffee; or drink between meals"
+      },
+      {
+        "combination": "Coconut + Turmeric in curry (Kerala style)",
+        "scientific_rationale": "Coconut milk/oil provides MCTs that rapidly absorb curcumin. The fat in coconut is the delivery vehicle for the lipophilic curcumin. Combined with black pepper (standard in Kerala cuisine), this is a triple absorption enhancer.",
+        "traditional_context": "Kerala curries and Avial use coconut paste + turmeric + pepper"
+      },
+      {
+        "combination": "Amla + Turmeric + Honey (Ayurvedic combination)",
+        "scientific_rationale": "Amla's extremely high Vitamin C preserves and enhances curcumin's antioxidant activity. Honey provides osmotic antibacterial effects and enzymes. The combination creates a synergistic antioxidant and anti-inflammatory effect greater than any component alone.",
+        "traditional_context": "Chyawanprash contains this combination; also common Ayurvedic home remedy"
+      },
+      {
+        "combination": "Calcium-rich food + Vitamin D (sunlight)",
+        "scientific_rationale": "Vitamin D is essential for calcium absorption from the gut. Without adequate Vitamin D, only 10-15% of dietary calcium is absorbed. With adequate D, absorption increases to 30-40%.",
+        "traditional_context": "Ragi (high calcium) consumed by Karnataka farmers who work in sunlight; traditional practice of sun-drying foods",
+        "recommendation": "Get 15-20 minutes of midday sun on arms/face + consume ragi, sesame, dairy for calcium"
+      },
+      {
+        "combination": "Sabja seeds (Basil seeds) / Chia seeds in water/milk",
+        "scientific_rationale": "The mucilaginous fiber forms a gel that slows gastric emptying, reducing glycemic response of the meal by 30-40%. Also increases satiety. Soaking activates enzymes and reduces antinutrients.",
+        "traditional_context": "Falooda with sabja seeds; Ayurvedic practice of soaking seeds overnight"
+      }
+    ],
+
+    "combinations_to_avoid": [
+      {
+        "combination": "Milk + Citrus fruits (Orange, Lemon)",
+        "rationale": "Citric acid curdles casein in milk, potentially causing digestive discomfort. Ayurveda considers this Viruddha Ahara (incompatible food).",
+        "modern_nuance": "Mild curdling does not necessarily harm digestion in all people; yogurt-based drinks with citrus are consumed globally. Individual tolerance varies."
+      },
+      {
+        "combination": "Fish + Milk (same meal)",
+        "rationale": "Traditional Ayurvedic Viruddha Ahara. The scientific basis is debated; some suggest different digestion rates and potential for allergic reactions. Widely avoided in Indian households.",
+        "modern_nuance": "No strong modern evidence of harm; some cuisines combine fish and cream (e.g., Scandinavian). Cultural practice; follow individual tolerance."
+      },
+      {
+        "combination": "High oxalate foods (spinach, beetroot) as sole calcium source",
+        "rationale": "Oxalic acid binds calcium forming insoluble calcium oxalate, reducing calcium absorption to near zero. Spinach has high calcium on paper (99mg/100g) but <5% is bioavailable.",
+        "recommendation": "Do not rely on spinach for calcium. Use dairy, ragi, sesame, chia for calcium. Cook high-oxalate greens (blanching reduces oxalate 30-87%)."
+      },
+      {
+        "combination": "Tea with meals",
+        "rationale": "Tannins in tea chelate iron, reducing absorption by 50-90%. This is a major contributor to India's iron deficiency epidemic.",
+        "recommendation": "Drink tea at least 1 hour before or after meals; never with iron-rich foods."
+      }
+    ]
+  },
+
+  "section_6_glycemic_index_indian_foods": {
+    "title": "Glycemic Index (GI) of Common Indian Foods",
+    "description": "GI ranks foods 0-100 based on how quickly they raise blood glucose. Low GI (<55), Medium GI (56-69), High GI (70+). GL (Glycemic Load) = GI x carbs per serving / 100. Sources: International Tables of GI (Foster-Powell 2002, Atkinson 2008), Radhika G et al. 2010, and Henry CJ et al.",
+
+    "classification": {
+      "low_gi": "55 or below - slow, gradual rise in blood sugar",
+      "medium_gi": "56-69 - moderate rise",
+      "high_gi": "70 or above - rapid spike in blood sugar"
+    },
+
+    "gi_values": {
+      "cereals_and_grains": [
+        { "food": "White rice (polished, boiled)", "gi": 73, "category": "high", "gl_per_serving": 30, "serving": "150g cooked" },
+        { "food": "Brown rice (boiled)", "gi": 55, "category": "low", "gl_per_serving": 18, "serving": "150g cooked" },
+        { "food": "Basmati rice (white, boiled)", "gi": 58, "category": "medium", "gl_per_serving": 22, "serving": "150g cooked" },
+        { "food": "Parboiled rice (ponni)", "gi": 56, "category": "medium", "gl_per_serving": 21 },
+        { "food": "Wheat roti / chapati", "gi": 62, "category": "medium", "gl_per_serving": 12, "serving": "1 medium roti" },
+        { "food": "Whole wheat bread", "gi": 71, "category": "high", "gl_per_serving": 9, "serving": "1 slice" },
+        { "food": "White bread", "gi": 75, "category": "high", "gl_per_serving": 11 },
+        { "food": "Ragi (finger millet, porridge)", "gi": 54, "category": "low", "gl_per_serving": 13 },
+        { "food": "Jowar (sorghum roti)", "gi": 62, "category": "medium", "gl_per_serving": 14 },
+        { "food": "Bajra (pearl millet roti)", "gi": 54, "category": "low", "gl_per_serving": 13 },
+        { "food": "Foxtail millet", "gi": 50, "category": "low", "gl_per_serving": 11 },
+        { "food": "Barnyard millet", "gi": 50, "category": "low", "gl_per_serving": 10 },
+        { "food": "Oats porridge", "gi": 55, "category": "low", "gl_per_serving": 13 },
+        { "food": "Maize / Corn (fresh sweet)", "gi": 52, "category": "low", "gl_per_serving": 9 },
+        { "food": "Amaranth (Rajgira)", "gi": 35, "category": "low", "gl_per_serving": 7 },
+        { "food": "Semolina (Suji/Rava upma)", "gi": 66, "category": "medium", "gl_per_serving": 16 },
+        { "food": "Poha (flattened rice dish)", "gi": 64, "category": "medium", "gl_per_serving": 19 },
+        { "food": "Vermicelli (Sevai)", "gi": 58, "category": "medium", "gl_per_serving": 15 },
+        { "food": "Instant noodles (Maggi type)", "gi": 52, "category": "low", "gl_per_serving": 15, "note": "Low GI but ultra-processed; not recommended" }
+      ],
+
+      "pulses_and_legumes": [
+        { "food": "Chana dal (Bengal gram split)", "gi": 8, "category": "low", "gl_per_serving": 3, "note": "One of the lowest GI foods known" },
+        { "food": "Soybean", "gi": 16, "category": "low", "gl_per_serving": 1 },
+        { "food": "Peanut", "gi": 14, "category": "low", "gl_per_serving": 1 },
+        { "food": "Masoor dal (red lentil)", "gi": 27, "category": "low", "gl_per_serving": 5 },
+        { "food": "Rajma (kidney beans)", "gi": 28, "category": "low", "gl_per_serving": 7 },
+        { "food": "Kabuli chana (chickpeas)", "gi": 28, "category": "low", "gl_per_serving": 8 },
+        { "food": "Moong dal", "gi": 31, "category": "low", "gl_per_serving": 5 },
+        { "food": "Toor/Arhar dal", "gi": 29, "category": "low", "gl_per_serving": 5 },
+        { "food": "Moong whole (green gram)", "gi": 29, "category": "low", "gl_per_serving": 5 },
+        { "food": "Urad dal", "gi": 30, "category": "low", "gl_per_serving": 5 },
+        { "food": "Kala chana (black chickpea)", "gi": 30, "category": "low", "gl_per_serving": 6 },
+        { "food": "Horse gram (Kulthi)", "gi": 25, "category": "low", "gl_per_serving": 4 },
+        { "food": "Lobiya (black-eyed peas)", "gi": 33, "category": "low", "gl_per_serving": 6 }
+      ],
+
+      "prepared_indian_foods": [
+        { "food": "Idli (steamed)", "gi": 77, "category": "high", "gl_per_serving": 19, "note": "Fermented but high GI due to refined rice" },
+        { "food": "Dosa (plain)", "gi": 77, "category": "high", "gl_per_serving": 17 },
+        { "food": "Upma (rava)", "gi": 65, "category": "medium", "gl_per_serving": 16 },
+        { "food": "Khichdi (rice + moong dal)", "gi": 55, "category": "low", "gl_per_serving": 15, "note": "Dal reduces GI of rice" },
+        { "food": "Sambar", "gi": 30, "category": "low", "gl_per_serving": 4 },
+        { "food": "Rasam", "gi": 25, "category": "low", "gl_per_serving": 2 },
+        { "food": "Chole curry", "gi": 33, "category": "low", "gl_per_serving": 7 },
+        { "food": "Rajma curry", "gi": 28, "category": "low", "gl_per_serving": 6 },
+        { "food": "Aloo paratha", "gi": 68, "category": "medium", "gl_per_serving": 20 },
+        { "food": "Pav Bhaji", "gi": 70, "category": "high", "gl_per_serving": 25 },
+        { "food": "Puri (deep fried)", "gi": 72, "category": "high", "gl_per_serving": 14 },
+        { "food": "Dhokla", "gi": 45, "category": "low", "gl_per_serving": 9, "note": "Fermented, steamed - better than fried snacks" },
+        { "food": "Biryani (veg)", "gi": 65, "category": "medium", "gl_per_serving": 28 },
+        { "food": "Poha", "gi": 64, "category": "medium", "gl_per_serving": 19 },
+        { "food": "Paneer dishes", "gi": 20, "category": "low", "gl_per_serving": 2, "note": "Paneer itself is very low GI; depends on gravy" }
+      ],
+
+      "fruits": [
+        { "food": "Apple", "gi": 36, "category": "low", "gl_per_serving": 5 },
+        { "food": "Banana (ripe)", "gi": 51, "category": "low", "gl_per_serving": 13, "note": "GI increases with ripeness; raw banana GI is much lower (~30)" },
+        { "food": "Mango (ripe)", "gi": 51, "category": "low", "gl_per_serving": 8 },
+        { "food": "Papaya", "gi": 59, "category": "medium", "gl_per_serving": 10 },
+        { "food": "Watermelon", "gi": 76, "category": "high", "gl_per_serving": 4, "note": "High GI but very low GL (mostly water)" },
+        { "food": "Orange", "gi": 43, "category": "low", "gl_per_serving": 5 },
+        { "food": "Guava", "gi": 24, "category": "low", "gl_per_serving": 3 },
+        { "food": "Pomegranate", "gi": 35, "category": "low", "gl_per_serving": 6 },
+        { "food": "Grapes", "gi": 46, "category": "low", "gl_per_serving": 8 },
+        { "food": "Chikoo (Sapota)", "gi": 55, "category": "low", "gl_per_serving": 12 },
+        { "food": "Jamun", "gi": 25, "category": "low", "gl_per_serving": 4 },
+        { "food": "Pineapple", "gi": 59, "category": "medium", "gl_per_serving": 7 },
+        { "food": "Dates (dry)", "gi": 42, "category": "low", "gl_per_serving": 18, "note": "Low GI but high GL due to sugar density" },
+        { "food": "Jackfruit (ripe)", "gi": 75, "category": "high", "gl_per_serving": 16 },
+        { "food": "Litchi", "gi": 57, "category": "medium", "gl_per_serving": 9 },
+        { "food": "Coconut (fresh)", "gi": 45, "category": "low", "gl_per_serving": 2 }
+      ],
+
+      "vegetables": [
+        { "food": "Most non-starchy vegetables", "gi": "10-30", "category": "low", "note": "Leafy greens, gourds, cruciferous veg all have very low GI" },
+        { "food": "Potato (boiled)", "gi": 78, "category": "high", "gl_per_serving": 14 },
+        { "food": "Sweet potato", "gi": 63, "category": "medium", "gl_per_serving": 11, "note": "Lower GI than potato; even lower when boiled (54)" },
+        { "food": "Beetroot", "gi": 64, "category": "medium", "gl_per_serving": 5 },
+        { "food": "Carrot (raw)", "gi": 16, "category": "low", "gl_per_serving": 1 },
+        { "food": "Carrot (cooked)", "gi": 49, "category": "low", "gl_per_serving": 3 },
+        { "food": "Green peas", "gi": 48, "category": "low", "gl_per_serving": 3 },
+        { "food": "Corn (on the cob)", "gi": 52, "category": "low", "gl_per_serving": 9 },
+        { "food": "Pumpkin (cooked)", "gi": 64, "category": "medium", "gl_per_serving": 3, "note": "Medium GI but very low GL" },
+        { "food": "Yam/Suran", "gi": 54, "category": "low", "gl_per_serving": 13 }
+      ],
+
+      "sweets_and_beverages": [
+        { "food": "Table sugar (sucrose)", "gi": 65, "category": "medium" },
+        { "food": "Jaggery (gur)", "gi": 65, "category": "medium", "note": "Same GI as sugar but richer in minerals" },
+        { "food": "Honey", "gi": 61, "category": "medium" },
+        { "food": "Gulab Jamun", "gi": 75, "category": "high", "gl_per_serving": 24 },
+        { "food": "Jalebi", "gi": 82, "category": "high", "gl_per_serving": 30 },
+        { "food": "Kheer (rice)", "gi": 65, "category": "medium", "gl_per_serving": 20 },
+        { "food": "Rasgulla", "gi": 70, "category": "high", "gl_per_serving": 18 },
+        { "food": "Besan Laddu", "gi": 42, "category": "low", "gl_per_serving": 10, "note": "Besan (chickpea flour) base keeps GI lower" },
+        { "food": "Cola / Sugary drinks", "gi": 63, "category": "medium", "gl_per_serving": 16, "note": "Empty calories; avoid" },
+        { "food": "Chai (with sugar, 2 tsp)", "gi": 60, "category": "medium", "gl_per_serving": 6 },
+        { "food": "Coconut water", "gi": 54, "category": "low", "gl_per_serving": 3 }
+      ]
+    },
+
+    "tips_to_lower_glycemic_response": [
+      "Eat protein and fat before carbs in a meal (reduces glucose spike by 30-40%)",
+      "Add vinegar/lemon to meals (acetic acid slows starch digestion)",
+      "Cook and cool rice/potato (increases resistant starch, lowers GI by 10-15 points)",
+      "Replace white rice with brown rice, millets, or mix dal into rice",
+      "Add fenugreek (methi) seeds to flour or soak and eat before meals",
+      "Walk for 10-15 minutes after meals (GLUT4 translocation clears glucose)",
+      "Eat whole fruits instead of fruit juice (fiber slows sugar absorption)",
+      "Include cinnamon in meals/drinks (improves insulin sensitivity)",
+      "Pair high-GI foods with low-GI foods (e.g., rice + dal, idli + sambar)",
+      "Choose desi (Indian) chana varieties over kabuli for lower GI",
+      "Apple cider vinegar (1 tbsp in water before meals) reduces postprandial glucose"
+    ],
+
+    "references": [
+      "Foster-Powell K et al., International Tables of Glycemic Index and Glycemic Load Values, Am J Clin Nutr, 2002",
+      "Atkinson FS et al., International Tables of GI and GL Values: 2008, Diabetes Care, 2008",
+      "Radhika G et al., Glycaemic index of Indian flatbreads and rice preparations, Br J Nutr, 2010",
+      "Henry CJK et al., Glycaemic index of common foods in South Asian countries, Nutr Res Rev, 2008",
+      "Shobana S et al., Glycaemic index of Indian meals, Br J Nutr, 2011"
+    ]
+  },
+
+  "appendix": {
+    "indian_superfoods_summary": {
+      "description": "Foods that are exceptionally nutrient-dense, locally available, affordable, and backed by both traditional use and modern science",
+      "superfoods": [
+        {
+          "name": "Amla (Indian Gooseberry)",
+          "why": "Highest natural Vitamin C source (600mg/100g); powerful antioxidant; cholesterol reducer; hair tonic; skin brightener; immune booster. Comparable to Acai/Blueberry at fraction of cost."
+        },
+        {
+          "name": "Moringa (Drumstick leaves)",
+          "why": "2x protein of yogurt, 4x calcium of milk, 7x Vitamin C of oranges, 4x Vitamin A of carrots, 25x iron of spinach per weight. 'Miracle tree.'"
+        },
+        {
+          "name": "Turmeric (Haldi)",
+          "why": "Curcumin is the most studied phytocompound globally with 14,000+ studies. Anti-inflammatory comparable to ibuprofen without side effects."
+        },
+        {
+          "name": "Ragi (Finger Millet)",
+          "why": "Richest cereal in calcium (344mg/100g). Low GI. Tryptophan for sleep. Iron. Gluten-free. Perfect for growing children and elderly."
+        },
+        {
+          "name": "Sattu (Roasted Bengal Gram Flour)",
+          "why": "20g protein/100g, natural coolant, high fiber, affordable, sustained energy. Bihar's gift to Indian nutrition."
+        },
+        {
+          "name": "Ashwagandha",
+          "why": "Most evidence-backed adaptogen. Reduces cortisol 30%, increases testosterone 15-17%, improves sleep, muscle strength, and fertility."
+        },
+        {
+          "name": "Jackfruit (raw/unripe)",
+          "why": "Meat substitute for vegetarians (shredded texture mimics meat). High fiber, potassium, Vitamin B6. Sustainable crop."
+        },
+        {
+          "name": "Kokum",
+          "why": "Contains Hydroxycitric Acid (HCA) - natural appetite suppressant and fat metabolism enhancer. Antioxidant. Konkan superfood."
+        },
+        {
+          "name": "Black sesame seeds (Kala Til)",
+          "why": "975mg calcium/100g (8x milk per weight). Iron 14.6mg. Lignans for hormone balance. Anti-aging."
+        },
+        {
+          "name": "Tulsi (Holy Basil)",
+          "why": "Adaptogen, anti-stress, anti-microbial, anti-diabetic. India's most sacred plant is also a potent medicinal herb."
+        }
+      ]
+    },
+
+    "common_indian_nutritional_deficiencies": {
+      "description": "Widespread nutritional deficiencies in the Indian population and food-based solutions",
+      "deficiencies": [
+        {
+          "nutrient": "Iron",
+          "prevalence": "Over 50% of Indian women are anemic (NFHS-5, 2019-21)",
+          "food_solutions": "Bajra, ragi, dates, jaggery, amla (for absorption), green leafy vegetables, sesame seeds. Avoid tea with meals.",
+          "rda": "29mg women (menstruating), 19mg men"
+        },
+        {
+          "nutrient": "Vitamin D",
+          "prevalence": "70-90% of Indians are deficient despite living in a tropical country (indoor lifestyle, pollution, dark skin)",
+          "food_solutions": "Sun exposure 15-20 min midday, fortified milk, eggs, fish, mushrooms exposed to UV. Supplement 1000-2000 IU if deficient.",
+          "rda": "600 IU (consider 1000-2000 IU as practical target)"
+        },
+        {
+          "nutrient": "Vitamin B12",
+          "prevalence": "47% of North Indians deficient (high vegetarian population); B12 found only in animal foods",
+          "food_solutions": "Dairy, eggs, fermented foods (some B12 from bacterial synthesis in idli/dosa batter), fortified foods, nutritional yeast. Vegetarians should supplement.",
+          "rda": "2.2 mcg adults"
+        },
+        {
+          "nutrient": "Calcium",
+          "prevalence": "Average Indian intake ~400mg vs RDA 600-800mg",
+          "food_solutions": "Ragi (344mg/100g), sesame (975mg), dairy, chia seeds (631mg), moringa leaves, amaranth leaves. Ensure Vitamin D for absorption.",
+          "rda": "600-800mg adults"
+        },
+        {
+          "nutrient": "Protein",
+          "prevalence": "73% of Indians are protein deficient (IMRB survey). Average intake ~50g vs requirement ~55-65g",
+          "food_solutions": "2-3 servings dal daily, sprouts, paneer, eggs, soy chunks, sattu, peanuts, milk. Aim for protein in every meal.",
+          "rda": "54g men, 46g women (more for active individuals)"
+        },
+        {
+          "nutrient": "Zinc",
+          "prevalence": "Widespread subclinical deficiency; phytate-rich diets reduce absorption",
+          "food_solutions": "Pumpkin seeds, sesame, cashews, chickpeas, mushrooms, wheat germ, sprouting/soaking reduces phytates",
+          "rda": "12mg men, 10mg women"
+        },
+        {
+          "nutrient": "Omega-3 Fatty Acids",
+          "prevalence": "Very low intake in vegetarian populations; Indian omega-6:omega-3 ratio is 20-50:1 (should be 5-10:1)",
+          "food_solutions": "Flaxseed (richest plant source), walnuts, chia seeds, mustard oil (has some ALA), fatty fish (salmon, sardines, mackerel)",
+          "rda": "1.6g ALA men, 1.1g ALA women"
+        },
+        {
+          "nutrient": "Fiber",
+          "prevalence": "Average Indian intake ~15g/day vs recommendation 30-40g",
+          "food_solutions": "Whole grains instead of refined, all millets, rajma, whole chana, vegetables with every meal, fruits with skin, flaxseed, chia",
+          "rda": "30-40g per day"
+        }
+      ]
+    },
+
+    "oil_rotation_guide": {
+      "description": "ICMR recommends rotating cooking oils to achieve balanced fatty acid profile. No single oil is perfect.",
+      "recommended_rotation": [
+        { "combination": "Mustard oil + Sesame/Groundnut oil", "benefit": "Best n-6:n-3 ratio; covers MUFA + PUFA; traditional and affordable" },
+        { "combination": "Rice bran oil + Mustard oil", "benefit": "Oryzanol from rice bran + ALA from mustard; heart-healthy" },
+        { "combination": "Coconut oil + Groundnut oil + Flaxseed oil (cold)", "benefit": "MCTs + MUFA + Omega-3; South Indian household" },
+        { "combination": "Ghee (small amount for flavor) + Sesame oil (cooking) + Flaxseed oil (cold)", "benefit": "Butyrate + Lignans + ALA" }
+      ],
+      "daily_oil_limit": "3-4 teaspoons visible fat total (15-20ml) for sedentary adults",
+      "note": "ICMR strongly advises against using a single oil for all cooking. Blend or rotate monthly."
+    }
+  }
+}

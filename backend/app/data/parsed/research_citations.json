@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "authors": "Aparna P et al.",
+    "title": "Vitamin D deficiency in India",
+    "journal": "Journal of Family Medicine and Primary Care",
+    "year": 2018,
+    "pmid": "30271775",
+    "topic": "vitamin_d",
+    "key_finding": "Vitamin D deficiency is widespread across India affecting all age groups, geographies, and socioeconomic strata"
+  },
+  {
+    "id": 2,
+    "authors": "Ritu G, Gupta A",
+    "title": "Vitamin D deficiency in India: prevalence, causalities and interventions",
+    "journal": "Indian Journal of Medical Research",
+    "year": 2014,
+    "pmid": "24718393",
+    "topic": "vitamin_d",
+    "key_finding": "70-100% of Indians across all demographics are Vitamin D deficient (<20 ng/mL) or insufficient (20-30 ng/mL)"
+  },
+  {
+    "id": 3,
+    "authors": "Yajnik CS et al.",
+    "title": "Vitamin B12 and folate concentrations during pregnancy and insulin resistance in the offspring",
+    "journal": "Diabetologia",
+    "year": 2008,
+    "pmid": "17955209",
+    "topic": "vitamin_b12",
+    "key_finding": "Low B12 and high folate during pregnancy associated with insulin resistance in offspring; highlights B12 deficiency in Indian population"
+  },
+  {
+    "id": 4,
+    "authors": "Refsum H et al.",
+    "title": "Hyperhomocysteinemia and elevated methylmalonic acid indicate a high prevalence of cobalamin deficiency in Asian Indians",
+    "journal": "American Journal of Clinical Nutrition",
+    "year": 2001,
+    "pmid": "11684524",
+    "topic": "vitamin_b12",
+    "key_finding": "47-75% of Indian adults have low B12 levels (<200 pg/mL), primarily due to vegetarian diet"
+  },
+  {
+    "id": 5,
+    "authors": "Chandrasekhar K, Kapoor J, Anishetty S",
+    "title": "A prospective, randomized double-blind, placebo-controlled study of safety and efficacy of a high-concentration full-spectrum extract of Ashwagandha root in reducing stress and anxiety in adults",
+    "journal": "Indian Journal of Psychological Medicine",
+    "year": 2012,
+    "pmid": "23439798",
+    "topic": "ashwagandha",
+    "key_finding": "300 mg KSM-66 twice daily reduced serum cortisol by 27.9% and perceived stress significantly compared to placebo over 60 days"
+  },
+  {
+    "id": 6,
+    "authors": "Lopresti AL, Drummond PD, Smith SJ",
+    "title": "A randomized, double-blind, placebo-controlled, crossover study examining the hormonal and vitality effects of Ashwagandha in aging, overweight males",
+    "journal": "American Journal of Men's Health",
+    "year": 2019,
+    "pmid": "31466660",
+    "topic": "ashwagandha",
+    "key_finding": "300 mg KSM-66 twice daily increased testosterone by approximately 15% and improved sperm quality in men"
+  },
+  {
+    "id": 7,
+    "authors": "Wankhede S et al.",
+    "title": "Examining the effect of Withania somnifera supplementation on muscle strength and recovery: a randomized controlled trial",
+    "journal": "Journal of the International Society of Sports Nutrition",
+    "year": 2015,
+    "pmid": "26609282",
+    "topic": "ashwagandha",
+    "key_finding": "Participants taking 300 mg Ashwagandha twice daily gained significantly more muscle mass, lost more body fat, and increased bench press and leg extension strength"
+  },
+  {
+    "id": 8,
+    "authors": "Pratte MA et al.",
+    "title": "An alternative treatment for anxiety: a systematic review of human trial results reported for the Ayurvedic herb Ashwagandha",
+    "journal": "Systematic review",
+    "year": 2014,
+    "pmid": "25368609",
+    "topic": "ashwagandha",
+    "key_finding": "Systematic review of 5 RCTs showed significant anxiolytic (anti-anxiety) effects of Ashwagandha"
+  },
+  {
+    "id": 9,
+    "authors": "Langade D et al.",
+    "title": "Efficacy and safety of Ashwagandha root extract in insomnia and anxiety: a double-blind, randomized, placebo-controlled study",
+    "journal": "Cureus",
+    "year": 2019,
+    "pmid": "31728244",
+    "topic": "ashwagandha",
+    "key_finding": "300 mg twice daily improved sleep quality significantly in both healthy subjects and patients with insomnia"
+  },
+  {
+    "id": 10,
+    "authors": "Sharma AK, Basu I, Singh S",
+    "title": "Efficacy and safety of Ashwagandha root extract in subclinical hypothyroid patients",
+    "journal": "Journal of Alternative and Complementary Medicine",
+    "year": 2018,
+    "pmid": "29091573",
+    "topic": "ashwagandha",
+    "key_finding": "600 mg/day Ashwagandha for 8 weeks normalized thyroid hormones (TSH, T3, T4) in subclinical hypothyroid patients"
+  },
+  {
+    "id": 11,
+    "authors": "Pandit S et al.",
+    "title": "Clinical evaluation of purified Shilajit on testosterone levels in healthy volunteers",
+    "journal": "Andrologia",
+    "year": 2016,
+    "pmid": "26395129",
+    "topic": "shilajit",
+    "key_finding": "Purified Shilajit 250 mg twice daily increased total testosterone by 20.45% and free testosterone by 19.14% in healthy men aged 45-55 over 90 days"
+  },
+  {
+    "id": 12,
+    "authors": "Biswas TK et al.",
+    "title": "Clinical evaluation of spermatogenic activity of processed Shilajit in oligospermia",
+    "journal": "Andrologia",
+    "year": 2010,
+    "pmid": "20078516",
+    "topic": "shilajit",
+    "key_finding": "Shilajit improved sperm count, motility, and testosterone levels in infertile men"
+  },
+  {
+    "id": 13,
+    "authors": "Surapaneni DK et al.",
+    "title": "Shilajit attenuates behavioral symptoms of chronic fatigue syndrome by modulating the hypothalamic-pituitary-adrenal axis and mitochondrial bioenergetics",
+    "journal": "Research study",
+    "year": 2012,
+    "pmid": "23733436",
+    "topic": "shilajit",
+    "key_finding": "Fulvic acid and dibenzo-alpha-pyrones in Shilajit may enhance mitochondrial energy production and CoQ10 function"
+  },
+  {
+    "id": 14,
+    "authors": "Pase MP et al.",
+    "title": "The cognitive-enhancing effects of Bacopa monnieri: a systematic review of randomized, controlled human clinical trials",
+    "journal": "Journal of Alternative and Complementary Medicine",
+    "year": 2012,
+    "pmid": "22747190",
+    "topic": "brahmi",
+    "key_finding": "Meta-analysis of 6 RCTs showed Bacopa monnieri significantly improved attention, cognitive processing speed, and working memory"
+  },
+  {
+    "id": 15,
+    "authors": "Stringer S et al.",
+    "title": "Bacopa monnieri and memory enhancement",
+    "journal": "Research study",
+    "year": 2015,
+    "pmid": "25591016",
+    "topic": "brahmi",
+    "key_finding": "300 mg/day Bacopa for 12 weeks improved memory acquisition and retention"
+  },
+  {
+    "id": 16,
+    "authors": "Roodenrys S et al.",
+    "title": "Chronic effects of Brahmi (Bacopa monnieri) on human memory",
+    "journal": "Neuropsychopharmacology",
+    "year": 2002,
+    "pmid": "12093601",
+    "topic": "brahmi",
+    "key_finding": "300 mg/day Bacopa improved speed of visual information processing, learning rate, and memory consolidation"
+  },
+  {
+    "id": 17,
+    "authors": "Wessells KR, Brown KH",
+    "title": "Estimating the global prevalence of zinc deficiency: results based on zinc availability in national food supplies and the prevalence of stunting",
+    "journal": "PLoS ONE",
+    "year": 2012,
+    "pmid": "22693455",
+    "topic": "zinc",
+    "key_finding": "Approximately 25-30% of Indian adults have zinc deficiency, higher in vegetarian populations due to phytate interference"
+  },
+  {
+    "id": 18,
+    "authors": "Moretti D et al.",
+    "title": "Oral iron supplements increase hepcidin and decrease iron absorption from daily or twice-daily doses in iron-depleted young women",
+    "journal": "Lancet Haematology",
+    "year": 2015,
+    "pmid": "26686373",
+    "topic": "iron",
+    "key_finding": "Alternate-day iron dosing may actually improve absorption due to hepcidin regulation compared to daily dosing"
+  },
+  {
+    "id": 19,
+    "authors": "Miller ER et al.",
+    "title": "Meta-analysis: high-dosage vitamin E supplementation may increase all-cause mortality",
+    "journal": "Annals of Internal Medicine",
+    "year": 2005,
+    "pmid": "15642702",
+    "topic": "vitamin_e",
+    "key_finding": "High-dose Vitamin E supplementation (>400 IU/day) may be associated with increased all-cause mortality, though the finding is debated"
+  },
+  {
+    "id": 20,
+    "authors": "Antonio J et al.",
+    "title": "A high protein diet has no harmful effects: a one-year crossover study in resistance-trained males",
+    "journal": "Journal of the International Society of Sports Nutrition",
+    "year": 2016,
+    "pmid": "27807393",
+    "topic": "protein",
+    "key_finding": "No evidence that high protein intake harms healthy kidneys in resistance-trained individuals"
+  },
+  {
+    "id": 21,
+    "authors": "Messina M",
+    "title": "Soy and health update: evaluation of the clinical and epidemiologic literature",
+    "journal": "Fertility and Sterility",
+    "year": 2016,
+    "pmid": "26268987",
+    "topic": "protein",
+    "key_finding": "Concerns about soy estrogen effects are overblown at moderate intake (2-3 servings/day is safe for men)"
+  },
+  {
+    "id": 22,
+    "authors": "Schoenfeld BJ",
+    "title": "The mechanisms of muscle hypertrophy and their application to resistance training",
+    "journal": "Journal of Strength and Conditioning Research",
+    "year": 2010,
+    "pmid": "20847704",
+    "topic": "exercise",
+    "key_finding": "Defined mechanisms of muscle hypertrophy: mechanical tension, metabolic stress, and muscle damage with progressive overload"
+  },
+  {
+    "id": 23,
+    "authors": "Schoenfeld BJ et al.",
+    "title": "Effects of resistance training frequency on measures of muscle hypertrophy: a systematic review and meta-analysis",
+    "journal": "Sports Medicine",
+    "year": 2016,
+    "pmid": "27102172",
+    "topic": "exercise",
+    "key_finding": "Training each muscle group 2x/week is superior to 1x/week for hypertrophy"
+  },
+  {
+    "id": 24,
+    "authors": "Hall KD et al.",
+    "title": "Energy balance and its components: implications for body weight regulation",
+    "journal": "American Journal of Clinical Nutrition",
+    "year": 2012,
+    "pmid": "22258267",
+    "topic": "fat_loss",
+    "key_finding": "Caloric deficit is non-negotiable for fat loss; exercise supports fat loss but diet drives it"
+  },
+  {
+    "id": 25,
+    "authors": "Dorey G et al.",
+    "title": "Pelvic floor exercises for erectile dysfunction",
+    "journal": "BJU International",
+    "year": 2005,
+    "pmid": "16042729",
+    "topic": "sexual_health",
+    "key_finding": "40% of men with erectile dysfunction regained normal erectile function with pelvic floor exercises alone"
+  },
+  {
+    "id": 26,
+    "authors": "Gerbild H et al.",
+    "title": "Physical activity to improve erectile function: a systematic review of intervention studies",
+    "journal": "Sexual Medicine",
+    "year": 2018,
+    "pmid": "29396112",
+    "topic": "sexual_health",
+    "key_finding": "40 minutes of moderate cardiovascular exercise 4x/week significantly reduces erectile dysfunction"
+  },
+  {
+    "id": 27,
+    "authors": "Koyama T et al.",
+    "title": "Standardized scalp massage results in increased hair thickness by inducing stretching forces to dermal papilla cells in the subcutaneous tissue",
+    "journal": "Research study",
+    "year": 2016,
+    "pmid": "26690487",
+    "topic": "hair_health",
+    "key_finding": "Standardized scalp massage 4 min/day significantly increased hair thickness"
+  },
+  {
+    "id": 28,
+    "authors": "Hirshkowitz M et al.",
+    "title": "National Sleep Foundation's sleep time duration recommendations: methodology and results summary",
+    "journal": "Sleep Health",
+    "year": 2015,
+    "pmid": "29073412",
+    "topic": "sleep",
+    "key_finding": "Adults need 7-9 hours of sleep per night for optimal health"
+  },
+  {
+    "id": 29,
+    "authors": "Blume C et al.",
+    "title": "Effects of light on human circadian rhythms, sleep and mood",
+    "journal": "Somnologie",
+    "year": 2019,
+    "pmid": "31584698",
+    "topic": "sleep",
+    "key_finding": "Morning bright light exposure is critical for setting circadian clock and maintaining healthy sleep-wake cycles"
+  },
+  {
+    "id": 30,
+    "authors": "Gooley JJ et al.",
+    "title": "Exposure to room light before bedtime suppresses melatonin onset and shortens melatonin duration in humans",
+    "journal": "Journal of Clinical Endocrinology and Metabolism",
+    "year": 2011,
+    "pmid": "21415172",
+    "topic": "sleep",
+    "key_finding": "Room light exposure before bedtime suppresses melatonin production by more than 50%"
+  },
+  {
+    "id": 31,
+    "authors": "Mason IC et al.",
+    "title": "Light exposure during sleep impairs cardiometabolic function",
+    "journal": "Proceedings of the National Academy of Sciences (PNAS)",
+    "year": 2022,
+    "pmid": "N/A (2022 study)",
+    "topic": "sleep",
+    "key_finding": "Even dim light during sleep increased insulin resistance and heart rate, impairing glucose metabolism and cardiovascular function"
+  },
+  {
+    "id": 32,
+    "authors": "Okamoto-Mizuno K, Mizuno K",
+    "title": "Effects of thermal environment on sleep and circadian rhythm",
+    "journal": "Journal of Physiological Anthropology",
+    "year": 2012,
+    "pmid": "22738673",
+    "topic": "sleep",
+    "key_finding": "Core body temperature must drop approximately 1 degree Celsius to initiate sleep; cool bedroom temperature (18-20°C) is optimal"
+  },
+  {
+    "id": 33,
+    "authors": "Haghayegh S et al.",
+    "title": "Before-bedtime passive body heating by warm shower or bath to improve sleep: a systematic review and meta-analysis",
+    "journal": "Sleep Medicine Reviews",
+    "year": 2019,
+    "pmid": "31102877",
+    "topic": "sleep",
+    "key_finding": "Warm bath or shower 1-2 hours before bed improved sleep onset latency by approximately 10 minutes through paradoxical body cooling"
+  },
+  {
+    "id": 34,
+    "authors": "Drake C et al.",
+    "title": "Caffeine effects on sleep taken 0, 3, or 6 hours before going to bed",
+    "journal": "Journal of Clinical Sleep Medicine",
+    "year": 2013,
+    "pmid": "N/A (2013 JCSM study)",
+    "topic": "sleep",
+    "key_finding": "Caffeine consumed 6 hours before bed still reduced total sleep time by approximately 1 hour"
+  },
+  {
+    "id": 35,
+    "authors": "Ebrahim IO et al.",
+    "title": "Alcohol and sleep I: effects on normal sleep",
+    "journal": "Alcoholism: Clinical and Experimental Research",
+    "year": 2013,
+    "pmid": "23347102",
+    "topic": "sleep",
+    "key_finding": "Even 1-2 alcoholic drinks reduce sleep quality by 24%, fragment sleep, and suppress REM sleep"
+  },
+  {
+    "id": 36,
+    "authors": "Ferracioli-Oda E et al.",
+    "title": "Meta-analysis: melatonin for the treatment of primary sleep disorders",
+    "journal": "PLoS ONE",
+    "year": 2013,
+    "pmid": "23691095",
+    "topic": "sleep",
+    "key_finding": "Meta-analysis showed exogenous melatonin reduced sleep onset latency by 7 minutes and increased total sleep time by 8 minutes"
+  },
+  {
+    "id": 37,
+    "authors": "Abbasi B et al.",
+    "title": "The effect of magnesium supplementation on primary insomnia in elderly: a double-blind placebo-controlled clinical trial",
+    "journal": "Journal of Research in Medical Sciences",
+    "year": 2012,
+    "pmid": "23853635",
+    "topic": "sleep",
+    "key_finding": "Magnesium supplementation significantly improved sleep quality, sleep efficiency, sleep time, and sleep onset latency in elderly with insomnia"
+  },
+  {
+    "id": 38,
+    "authors": "Rao TP et al.",
+    "title": "In search of a safe natural sleep aid",
+    "journal": "Journal of the American College of Nutrition",
+    "year": 2015,
+    "pmid": "25759004",
+    "topic": "sleep",
+    "key_finding": "L-Theanine (200 mg) improved sleep quality without sedation in healthy adults"
+  },
+  {
+    "id": 39,
+    "authors": "Goyal M et al.",
+    "title": "Meditation programs for psychological stress and well-being: a systematic review and meta-analysis",
+    "journal": "JAMA Internal Medicine",
+    "year": 2014,
+    "pmid": "24395196",
+    "topic": "meditation",
+    "key_finding": "Meta-analysis of 47 RCTs with 3,515 participants showed mindfulness meditation had moderate evidence for improving anxiety (ES 0.38), depression (0.30), and pain (0.33)"
+  },
+  {
+    "id": 40,
+    "authors": "Zaccaro A et al.",
+    "title": "How breath-control can change your life: a systematic review on psycho-physiological correlates of slow breathing",
+    "journal": "Frontiers in Human Neuroscience",
+    "year": 2018,
+    "pmid": "30245619",
+    "topic": "pranayama",
+    "key_finding": "Systematic review showed slow breathing techniques reduce anxiety, improve heart rate variability, and modulate the autonomic nervous system"
+  },
+  {
+    "id": 41,
+    "authors": "Manzoni GM et al.",
+    "title": "Relaxation training for anxiety: a ten-years systematic review with meta-analysis",
+    "journal": "BMC Psychiatry",
+    "year": 2008,
+    "pmid": "18752854",
+    "topic": "stress_management",
+    "key_finding": "Meta-analysis showed progressive muscle relaxation and other relaxation techniques produce significant anxiety reduction"
+  },
+  {
+    "id": 42,
+    "authors": "Park BJ et al.",
+    "title": "The physiological effects of Shinrin-yoku (taking in the forest atmosphere or forest bathing)",
+    "journal": "Environmental Health and Preventive Medicine",
+    "year": 2010,
+    "pmid": "20074458",
+    "topic": "stress_management",
+    "key_finding": "Walking in nature (forest bathing) reduces cortisol levels by 12-16% compared to urban walking"
+  },
+  {
+    "id": 43,
+    "authors": "Kredlow MA et al.",
+    "title": "The effects of physical activity on sleep: a meta-analytic review",
+    "journal": "Journal of Behavioral Medicine",
+    "year": 2015,
+    "pmid": "25596964",
+    "topic": "exercise_sleep",
+    "key_finding": "Regular moderate aerobic exercise significantly improves sleep quality and increases slow-wave (deep) sleep"
+  },
+  {
+    "id": 44,
+    "authors": "Kreider RB et al.",
+    "title": "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine",
+    "journal": "Journal of the International Society of Sports Nutrition",
+    "year": 2017,
+    "pmid": "28615996",
+    "topic": "creatine",
+    "key_finding": "Creatine monohydrate is the most researched supplement in sports nutrition; safe and effective for increasing strength, muscle mass, and exercise performance"
+  },
+  {
+    "id": 45,
+    "authors": "NFHS-5",
+    "title": "National Family Health Survey-5 (2019-21)",
+    "journal": "Government of India, Ministry of Health and Family Welfare",
+    "year": 2021,
+    "pmid": "N/A",
+    "topic": "iron_anemia",
+    "key_finding": "~50% of Indian women (15-49 years), ~25% of men, and ~40% of children under 5 are anemic, with iron deficiency as the primary cause"
+  },
+  {
+    "id": 46,
+    "authors": "Sharma VK et al.",
+    "title": "Effect of fast and slow pranayama on perceived stress and cardiovascular parameters in young health-care students",
+    "journal": "International Journal of Yoga",
+    "year": 2013,
+    "pmid": "23445810",
+    "topic": "pranayama",
+    "key_finding": "Anulom Vilom (alternate nostril breathing) reduced perceived stress and improved cardiovascular parameters"
+  },
+  {
+    "id": 47,
+    "authors": "Kuppusamy M et al.",
+    "title": "Effects of Bhramari Pranayama on health - a systematic review",
+    "journal": "Journal of Traditional and Complementary Medicine",
+    "year": 2018,
+    "pmid": "29395866",
+    "topic": "pranayama",
+    "key_finding": "Bhramari (bee breathing) pranayama significantly reduced blood pressure and heart rate in study participants"
+  },
+  {
+    "id": 48,
+    "authors": "Crane JD et al.",
+    "title": "Exercise-stimulated interleukin-15 is controlled by AMPK and regulates skin metabolism and aging",
+    "journal": "Aging Cell",
+    "year": 2015,
+    "pmid": "N/A",
+    "topic": "skin_health",
+    "key_finding": "Regular exercise reversed skin aging markers through increased IL-15 and improved skin metabolism"
+  },
+  {
+    "id": 49,
+    "authors": "Alam M et al.",
+    "title": "Association of facial exercise with the appearance of aging",
+    "journal": "JAMA Dermatology",
+    "year": 2018,
+    "pmid": "N/A",
+    "topic": "skin_health",
+    "key_finding": "30 minutes/day of facial exercises for 20 weeks made participants look approximately 3 years younger based on dermatologist ratings"
+  },
+  {
+    "id": 50,
+    "authors": "Longvah T et al.",
+    "title": "Indian Food Composition Tables",
+    "journal": "National Institute of Nutrition (NIN), Hyderabad",
+    "year": 2017,
+    "pmid": "N/A",
+    "topic": "nutrition",
+    "key_finding": "Comprehensive food composition data for Indian foods; primary reference for nutritional values in Indian dietary planning"
+  },
+  {
+    "id": 51,
+    "authors": "ICMR-NIN Expert Group",
+    "title": "Recommended Dietary Allowances for Indians",
+    "journal": "Indian Council of Medical Research - National Institute of Nutrition",
+    "year": 2020,
+    "pmid": "N/A",
+    "topic": "nutrition",
+    "key_finding": "Updated RDA values for Indian population including increased protein recommendations (effective 1.0-1.2 g/kg for mixed Indian diet) and emphasis on millets"
+  },
+  {
+    "id": 52,
+    "authors": "ICMR-NIN",
+    "title": "Dietary Guidelines for Indians (2024 update)",
+    "journal": "National Institute of Nutrition, Hyderabad",
+    "year": 2024,
+    "pmid": "N/A",
+    "topic": "nutrition",
+    "key_finding": "Updated dietary guidelines emphasizing millets, increased protein, fat quality guidance, and specific guidance on ultra-processed food avoidance"
+  },
+  {
+    "id": 53,
+    "authors": "Foster-Powell K et al.",
+    "title": "International table of glycemic index and glycemic load values",
+    "journal": "American Journal of Clinical Nutrition",
+    "year": 2002,
+    "pmid": "N/A",
+    "topic": "glycemic_index",
+    "key_finding": "Comprehensive reference for glycemic index values of foods worldwide"
+  },
+  {
+    "id": 54,
+    "authors": "Atkinson FS et al.",
+    "title": "International tables of glycemic index and glycemic load values: 2008",
+    "journal": "Diabetes Care",
+    "year": 2008,
+    "pmid": "N/A",
+    "topic": "glycemic_index",
+    "key_finding": "Updated comprehensive glycemic index and glycemic load values database"
+  },
+  {
+    "id": 55,
+    "authors": "Radhika G et al.",
+    "title": "Glycaemic index of Indian flatbreads (rotis) prepared using six Indian wheat varieties",
+    "journal": "British Journal of Nutrition",
+    "year": 2010,
+    "pmid": "N/A",
+    "topic": "glycemic_index",
+    "key_finding": "Determined glycemic index values specific to Indian food preparations and wheat varieties"
+  },
+  {
+    "id": 56,
+    "authors": "Brook RD et al.",
+    "title": "Beyond medications and diet: alternative approaches to lowering blood pressure",
+    "journal": "Hypertension",
+    "year": 2013,
+    "pmid": "N/A",
+    "topic": "meditation",
+    "key_finding": "Transcendental Meditation shown to reduce blood pressure, anxiety, and PTSD symptoms in clinical studies"
+  },
+  {
+    "id": 57,
+    "authors": "Srivastava JK et al.",
+    "title": "Chamomile: A herbal medicine of the past with a bright future",
+    "journal": "Molecular Medicine Reports",
+    "year": 2010,
+    "pmid": "N/A",
+    "topic": "sleep",
+    "key_finding": "Chamomile has mild sedative and anxiolytic properties, supporting its traditional use as a sleep aid"
+  }
+]

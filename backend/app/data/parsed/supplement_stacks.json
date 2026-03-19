@@ -1,0 +1,350 @@
+{
+  "average_male_professional": {
+    "name": "Basic Male Health Stack",
+    "description": "For the average Indian professional male, 25-45, sedentary to moderately active. Addresses the most common deficiencies in Indian men.",
+    "supplements": [
+      {
+        "name": "Vitamin B12",
+        "dosage": "500 mcg/day (methylcobalamin)",
+        "when": "Morning with breakfast",
+        "why": "47-75% of Indian adults are deficient, especially vegetarians"
+      },
+      {
+        "name": "Omega-3",
+        "dosage": "1000 mg fish oil (or 1 tbsp ground flaxseeds)",
+        "when": "Morning with breakfast",
+        "why": "Indian diets have poor omega-6:omega-3 ratio (15-20:1 vs ideal 2-4:1)"
+      },
+      {
+        "name": "Vitamin D3 + K2",
+        "dosage": "1000-2000 IU D3 + 100 mcg K2 (MK-7)",
+        "when": "Afternoon with lunch (fat-containing meal)",
+        "why": "70-100% of Indians are Vitamin D deficient"
+      },
+      {
+        "name": "Magnesium Glycinate",
+        "dosage": "200-400 mg",
+        "when": "Evening with dinner or before bed",
+        "why": "50-80% of Indians don't meet magnesium RDA; supports sleep and muscle recovery"
+      }
+    ],
+    "optional_add_ons": [
+      {
+        "name": "Ashwagandha KSM-66",
+        "dosage": "300 mg",
+        "when": "Before bed",
+        "condition": "If stressed or poor sleep"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15-25 mg",
+        "when": "Away from meals",
+        "condition": "If vegetarian"
+      },
+      {
+        "name": "Probiotic",
+        "dosage": "10 billion CFU",
+        "when": "Before breakfast",
+        "condition": "If digestive issues or post-antibiotics"
+      }
+    ],
+    "monthly_cost_inr": "800-1500"
+  },
+  "average_female_professional": {
+    "name": "Basic Female Health Stack",
+    "description": "For the average Indian professional female, 25-45. Addresses higher iron needs, bone health, and common deficiencies.",
+    "supplements": [
+      {
+        "name": "Vitamin B12",
+        "dosage": "500 mcg/day (methylcobalamin)",
+        "when": "Morning with breakfast",
+        "why": "Critical for vegetarian women; deficiency causes anemia and nerve issues"
+      },
+      {
+        "name": "Iron (ferrous bisglycinate) + Vitamin C",
+        "dosage": "15-30 mg iron + 200 mg Vitamin C",
+        "when": "Morning on empty stomach",
+        "why": "~50% of Indian women are anemic. ONLY if blood test confirms deficiency or heavy menstruation."
+      },
+      {
+        "name": "Vitamin D3 + K2",
+        "dosage": "1000-2000 IU D3 + 100 mcg K2 (MK-7)",
+        "when": "Afternoon with lunch",
+        "why": "Women especially affected by Vitamin D deficiency in India"
+      },
+      {
+        "name": "Omega-3",
+        "dosage": "1000 mg fish oil or algae-based EPA/DHA",
+        "when": "Afternoon with lunch",
+        "why": "Heart health, anti-inflammation, mood support"
+      },
+      {
+        "name": "Magnesium Glycinate",
+        "dosage": "200-400 mg",
+        "when": "Evening with dinner",
+        "why": "Helps with PMS symptoms, sleep, anxiety, and bone health"
+      },
+      {
+        "name": "Calcium Citrate",
+        "dosage": "500 mg",
+        "when": "Evening (separate from iron by 2 hours)",
+        "why": "If dairy intake is low; critical for bone density"
+      }
+    ],
+    "optional_add_ons": [
+      {
+        "name": "Ashwagandha",
+        "dosage": "300 mg",
+        "when": "Before bed",
+        "condition": "If stressed"
+      },
+      {
+        "name": "Probiotic",
+        "dosage": "10 billion CFU",
+        "when": "Before breakfast",
+        "condition": "If digestive issues"
+      }
+    ],
+    "monthly_cost_inr": "1000-2000"
+  },
+  "male_gym_goer": {
+    "name": "Active Male / Gym-Goer Stack",
+    "description": "For active/gym-going Indian males. Includes base stack plus performance supplements. Supports muscle building, recovery, and higher activity demands.",
+    "supplements": [
+      {
+        "name": "Vitamin B12",
+        "dosage": "500 mcg/day",
+        "when": "Morning with breakfast",
+        "why": "Base deficiency coverage"
+      },
+      {
+        "name": "Vitamin D3 + K2",
+        "dosage": "2000 IU D3 + 100 mcg K2",
+        "when": "With lunch",
+        "why": "Supports testosterone, bone health, and immune function"
+      },
+      {
+        "name": "Omega-3",
+        "dosage": "1000-2000 mg fish oil",
+        "when": "With meals",
+        "why": "Anti-inflammatory support for recovery"
+      },
+      {
+        "name": "Whey/Plant Protein",
+        "dosage": "1-2 scoops/day (to meet 1.6-2.0 g/kg target)",
+        "when": "Post-workout and/or morning",
+        "why": "Most Indians don't meet protein targets; critical for muscle building"
+      },
+      {
+        "name": "Creatine Monohydrate",
+        "dosage": "3-5 g/day",
+        "when": "Any time (consistency matters more than timing)",
+        "why": "Most researched supplement in sports nutrition; safe, effective for strength and muscle"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15-30 mg/day",
+        "when": "Away from meals",
+        "why": "Lost in sweat; supports testosterone and recovery"
+      },
+      {
+        "name": "Magnesium Glycinate",
+        "dosage": "200-400 mg",
+        "when": "Before bed",
+        "why": "Lost in sweat; supports sleep, recovery, reduces cramps"
+      }
+    ],
+    "optional_add_ons": [
+      {
+        "name": "Ashwagandha KSM-66",
+        "dosage": "600 mg/day (300 mg twice)",
+        "when": "Morning and evening",
+        "condition": "For testosterone support and recovery"
+      },
+      {
+        "name": "Caffeine",
+        "dosage": "200 mg pre-workout",
+        "when": "30 min before training",
+        "condition": "For performance boost (avoid after 1 PM)"
+      }
+    ],
+    "monthly_cost_inr": "2500-4500"
+  },
+  "female_active": {
+    "name": "Active Female Stack",
+    "description": "For active Indian women who exercise regularly. Addresses higher nutrient demands from exercise and common female-specific deficiencies.",
+    "supplements": [
+      {
+        "name": "Vitamin B12",
+        "dosage": "500 mcg/day",
+        "when": "Morning with breakfast",
+        "why": "Base coverage"
+      },
+      {
+        "name": "Vitamin D3 + K2",
+        "dosage": "2000 IU D3 + 100 mcg K2",
+        "when": "With lunch",
+        "why": "Bone health, immune function, muscle recovery"
+      },
+      {
+        "name": "Iron (if deficient)",
+        "dosage": "15-30 mg ferrous bisglycinate + 200 mg Vitamin C",
+        "when": "Morning on empty stomach",
+        "why": "Higher iron needs from menstruation + exercise. Blood test first."
+      },
+      {
+        "name": "Whey/Plant Protein",
+        "dosage": "1-2 scoops/day",
+        "when": "Post-workout and/or morning",
+        "why": "Women often under-consume protein; 1.4-1.8 g/kg recommended for active women"
+      },
+      {
+        "name": "Omega-3",
+        "dosage": "1000 mg fish oil or algae-based",
+        "when": "With meals",
+        "why": "Anti-inflammatory, joint support, mood"
+      },
+      {
+        "name": "Calcium Citrate",
+        "dosage": "500 mg",
+        "when": "Evening (separate from iron)",
+        "why": "Bone density protection, especially important for active women"
+      },
+      {
+        "name": "Magnesium Glycinate",
+        "dosage": "200-400 mg",
+        "when": "Before bed",
+        "why": "Sleep, recovery, PMS support, cramp prevention"
+      }
+    ],
+    "optional_add_ons": [
+      {
+        "name": "Creatine Monohydrate",
+        "dosage": "3-5 g/day",
+        "when": "Any time",
+        "condition": "Equally beneficial for women; no virilizing effects"
+      }
+    ],
+    "monthly_cost_inr": "2000-3500"
+  },
+  "stress_sleep_stack": {
+    "name": "Stress & Sleep Recovery Stack",
+    "description": "Targeted stack for Indian professionals dealing with chronic stress, anxiety, and poor sleep quality.",
+    "supplements": [
+      {
+        "name": "Ashwagandha KSM-66",
+        "dosage": "600 mg/day (300 mg morning + 300 mg before bed)",
+        "when": "Morning with breakfast and before bed",
+        "why": "Reduces cortisol by 27.9%, improves sleep quality, reduces anxiety"
+      },
+      {
+        "name": "Magnesium Glycinate",
+        "dosage": "400 mg",
+        "when": "Before bed",
+        "why": "Calms nervous system, improves sleep quality, reduces anxiety and muscle tension"
+      },
+      {
+        "name": "L-Theanine",
+        "dosage": "200 mg",
+        "when": "Before bed (or 100 mg with morning tea for calm focus)",
+        "why": "Promotes relaxation without sedation, improves sleep quality"
+      },
+      {
+        "name": "Omega-3",
+        "dosage": "1000-2000 mg (higher EPA for mood)",
+        "when": "With meals",
+        "why": "EPA has anti-depressive and anti-inflammatory effects"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "2000 IU",
+        "when": "With lunch",
+        "why": "Deficiency linked to depression and poor mood"
+      },
+      {
+        "name": "Vitamin B12",
+        "dosage": "500 mcg",
+        "when": "Morning",
+        "why": "Deficiency contributes to fatigue and mood disturbance"
+      }
+    ],
+    "optional_add_ons": [
+      {
+        "name": "Melatonin",
+        "dosage": "0.3-1 mg (low dose!)",
+        "when": "30-60 min before bed",
+        "condition": "For sleep onset difficulty (short-term use preferred)"
+      },
+      {
+        "name": "Brahmi (Bacopa monnieri)",
+        "dosage": "300 mg",
+        "when": "Morning with breakfast",
+        "condition": "If experiencing brain fog alongside stress"
+      },
+      {
+        "name": "Chamomile Tea",
+        "dosage": "1-2 cups",
+        "when": "Before bed",
+        "condition": "Natural relaxant"
+      }
+    ],
+    "monthly_cost_inr": "1200-2000"
+  },
+  "skin_hair_stack": {
+    "name": "Skin & Hair Health Stack",
+    "description": "Targeted stack for skin and hair health concerns, common among Indian professionals due to stress, pollution, and nutritional gaps.",
+    "supplements": [
+      {
+        "name": "Vitamin D3",
+        "dosage": "2000 IU",
+        "when": "With lunch",
+        "why": "Deficiency linked to hair loss and poor skin health; 70-100% Indians are deficient"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "500 mg",
+        "when": "Morning with breakfast",
+        "why": "Collagen synthesis, antioxidant, protects skin from UV and pollution damage"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "200-400 IU",
+        "when": "With a fat-containing meal",
+        "why": "Skin antioxidant protection, works synergistically with Vitamin C"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15-25 mg",
+        "when": "Away from meals",
+        "why": "Critical for hair follicle health, wound healing, acne reduction"
+      },
+      {
+        "name": "Omega-3",
+        "dosage": "1000 mg fish oil",
+        "when": "With meals",
+        "why": "Anti-inflammatory; supports skin hydration and reduces acne"
+      },
+      {
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "2500-5000 mcg",
+        "when": "Morning with breakfast",
+        "why": "Supports keratin production for hair and nails. Note: can interfere with some lab tests - inform your doctor."
+      },
+      {
+        "name": "Iron (if deficient)",
+        "dosage": "15-30 mg",
+        "when": "Morning on empty stomach with Vitamin C",
+        "why": "Iron deficiency is the most common nutritional cause of hair loss in Indian women. Blood test required."
+      }
+    ],
+    "lifestyle_additions": [
+      "Scalp massage 4 min/day (Koyama et al., 2016: increased hair thickness)",
+      "Adequate protein intake (hair is made of keratin, a protein)",
+      "Stress management (cortisol is the #1 modifiable factor for hair loss)",
+      "Adequate hydration (2-3 liters/day in Indian climate)",
+      "Sunscreen SPF 30+ for skin protection",
+      "Wash face immediately after exercise"
+    ],
+    "monthly_cost_inr": "1000-1800"
+  }
+}

@@ -1,0 +1,343 @@
+{
+  "chest": [
+    {
+      "name": "Standard Push-ups",
+      "difficulty": "beginner",
+      "muscles": ["pectorals", "anterior_deltoid", "triceps"],
+      "sets_reps": "3x10-15",
+      "instructions": "Start in high plank with hands shoulder-width apart. Lower your body until chest nearly touches the floor, keeping core tight and body in a straight line. Push back up to starting position."
+    },
+    {
+      "name": "Incline Push-ups",
+      "difficulty": "beginner",
+      "muscles": ["lower_pectorals", "anterior_deltoid", "triceps"],
+      "sets_reps": "3x12-20",
+      "instructions": "Place hands on an elevated surface (bench, chair, or wall). Perform push-up motion with body at an incline. Easier variation for beginners building toward standard push-ups."
+    },
+    {
+      "name": "Decline Push-ups",
+      "difficulty": "intermediate",
+      "muscles": ["upper_pectorals", "anterior_deltoid", "triceps"],
+      "sets_reps": "3x8-12",
+      "instructions": "Place feet on an elevated surface (chair, bed, or bench) with hands on the floor. Perform push-up with body at a decline angle. Emphasizes upper chest."
+    },
+    {
+      "name": "Diamond Push-ups",
+      "difficulty": "intermediate",
+      "muscles": ["inner_chest", "triceps"],
+      "sets_reps": "3x8-12",
+      "instructions": "Place hands close together under chest, forming a diamond shape with thumbs and index fingers. Perform push-up while keeping elbows close to body."
+    },
+    {
+      "name": "Wide Push-ups",
+      "difficulty": "beginner",
+      "muscles": ["outer_chest", "anterior_deltoid"],
+      "sets_reps": "3x10-15",
+      "instructions": "Place hands wider than shoulder-width apart. Perform push-up with a wider grip to emphasize the outer chest muscles."
+    },
+    {
+      "name": "Archer Push-ups",
+      "difficulty": "advanced",
+      "muscles": ["chest_unilateral", "triceps", "core"],
+      "sets_reps": "3x5-8/side",
+      "instructions": "Start in wide push-up position. As you lower, shift weight to one arm while extending the other arm straight out. Push back up. Alternate sides. Path to one-arm push-up."
+    },
+    {
+      "name": "Pseudo Planche Push-ups",
+      "difficulty": "advanced",
+      "muscles": ["upper_chest", "anterior_deltoids"],
+      "sets_reps": "3x5-10",
+      "instructions": "Place hands by your hips with fingers pointing toward feet or out to the sides. Lean forward so shoulders are well past hands. Perform push-up in this position."
+    },
+    {
+      "name": "One-arm Push-ups",
+      "difficulty": "elite",
+      "muscles": ["chest", "core", "triceps"],
+      "sets_reps": "3x3-5/side",
+      "instructions": "Assume push-up position with feet wide. Place one hand behind back. Lower body with control and push back up using single arm. Requires significant core and upper body strength."
+    }
+  ],
+  "back": [
+    {
+      "name": "Superman / Back Extensions",
+      "difficulty": "beginner",
+      "muscles": ["erector_spinae", "lower_back"],
+      "sets_reps": "3x12-15",
+      "instructions": "Lie face down with arms extended overhead. Simultaneously lift arms, chest, and legs off the floor. Hold for 2-3 seconds at the top, then lower with control."
+    },
+    {
+      "name": "Reverse Snow Angels",
+      "difficulty": "beginner",
+      "muscles": ["rhomboids", "rear_deltoids"],
+      "sets_reps": "3x10-12",
+      "instructions": "Lie face down with arms at sides, palms down. Lift chest slightly and sweep arms overhead in an arc (like a snow angel in reverse). Return to sides."
+    },
+    {
+      "name": "Towel Rows (using door)",
+      "difficulty": "beginner",
+      "muscles": ["lats", "rhomboids", "biceps"],
+      "sets_reps": "3x10-15",
+      "instructions": "Loop a towel around a sturdy door handle. Grip both ends, lean back with arms extended, feet near the door. Pull yourself toward the door by squeezing shoulder blades together."
+    },
+    {
+      "name": "Inverted Rows (under table)",
+      "difficulty": "intermediate",
+      "muscles": ["lats", "rhomboids", "biceps", "rear_deltoids"],
+      "sets_reps": "3x8-12",
+      "instructions": "Lie under a sturdy table. Grip the edge with both hands. Keep body straight and pull chest up to the table edge. Lower with control."
+    },
+    {
+      "name": "Pull-ups (door-frame bar)",
+      "difficulty": "intermediate_advanced",
+      "muscles": ["lats", "biceps", "forearms"],
+      "sets_reps": "3x5-12",
+      "instructions": "Hang from a pull-up bar with overhand grip slightly wider than shoulder-width. Pull yourself up until chin clears the bar. Lower with control. The king of bodyweight back exercises."
+    },
+    {
+      "name": "Chin-ups",
+      "difficulty": "intermediate",
+      "muscles": ["lats", "biceps"],
+      "sets_reps": "3x5-12",
+      "instructions": "Hang from bar with underhand (supinated) grip, hands shoulder-width apart. Pull up until chin clears bar. More bicep emphasis than pull-ups."
+    },
+    {
+      "name": "Australian Pull-ups (low bar)",
+      "difficulty": "beginner_intermediate",
+      "muscles": ["back", "biceps"],
+      "sets_reps": "3x8-15",
+      "instructions": "Set a bar at waist height (or use a sturdy table). Hang underneath with body straight, heels on ground. Pull chest to bar, squeezing shoulder blades. Great pull-up progression."
+    }
+  ],
+  "shoulders": [
+    {
+      "name": "Pike Push-ups",
+      "difficulty": "intermediate",
+      "muscles": ["anterior_deltoid", "medial_deltoid"],
+      "sets_reps": "3x8-12",
+      "instructions": "Start in downward dog position with hips high. Bend elbows and lower head toward the floor between hands. Push back up. Mimics overhead press movement."
+    },
+    {
+      "name": "Hindu Push-ups (Dand)",
+      "difficulty": "intermediate",
+      "muscles": ["shoulders", "chest", "triceps"],
+      "sets_reps": "3x10-15",
+      "instructions": "Start in downward dog. Dive forward, swooping chest near the floor, then push up into upward dog. Reverse the motion. Traditional Indian exercise for shoulder flexibility and strength."
+    },
+    {
+      "name": "Wall Handstand Hold",
+      "difficulty": "intermediate",
+      "muscles": ["deltoids", "traps", "core"],
+      "sets_reps": "3x20-60 sec",
+      "instructions": "Kick up into a handstand with feet resting against a wall. Keep arms locked, core tight, and body as straight as possible. Hold for time."
+    },
+    {
+      "name": "Handstand Push-ups (wall-assisted)",
+      "difficulty": "advanced",
+      "muscles": ["deltoids", "triceps", "traps"],
+      "sets_reps": "3x3-8",
+      "instructions": "Get into a wall handstand. Lower yourself by bending elbows until head gently touches the floor. Push back up to full lockout."
+    },
+    {
+      "name": "Lateral Raises (water bottles)",
+      "difficulty": "beginner",
+      "muscles": ["medial_deltoids"],
+      "sets_reps": "3x12-15",
+      "instructions": "Stand holding water bottles or any weighted objects at your sides. Raise arms out to the sides until parallel with the floor. Lower with control."
+    },
+    {
+      "name": "YTW Raises (prone)",
+      "difficulty": "beginner",
+      "muscles": ["rear_deltoids", "rotator_cuff"],
+      "sets_reps": "3x10 each position",
+      "instructions": "Lie face down. Lift arms into Y position (overhead), then T position (straight out), then W position (elbows bent, hands by ears). Excellent for shoulder health and posture."
+    }
+  ],
+  "legs": [
+    {
+      "name": "Bodyweight Squats",
+      "difficulty": "beginner",
+      "muscles": ["quads", "glutes", "hamstrings"],
+      "sets_reps": "3x15-20",
+      "instructions": "Stand with feet shoulder-width apart. Push hips back and bend knees to lower into a squat. Keep chest up and knees tracking over toes. Stand back up."
+    },
+    {
+      "name": "Hindu Squats (Baithak)",
+      "difficulty": "beginner_intermediate",
+      "muscles": ["quads", "calves"],
+      "sets_reps": "3x20-50",
+      "instructions": "Traditional Indian exercise. Stand with feet together or shoulder-width apart. Squat down while rising onto toes and swinging arms back. Stand up swinging arms forward. Builds endurance and quad strength."
+    },
+    {
+      "name": "Lunges (forward/reverse/walking)",
+      "difficulty": "beginner",
+      "muscles": ["quads", "glutes", "hamstrings"],
+      "sets_reps": "3x10-12/leg",
+      "instructions": "Step forward into a lunge, lowering back knee toward floor. Both knees should form ~90 degree angles. Push back to start. Can be performed forward, reverse, or walking."
+    },
+    {
+      "name": "Bulgarian Split Squats (foot on chair)",
+      "difficulty": "intermediate",
+      "muscles": ["quads", "glutes"],
+      "sets_reps": "3x8-12/leg",
+      "instructions": "Stand with one foot elevated behind you on a chair or bench. Lower into a single-leg squat on the front leg. Excellent for building unilateral leg strength with heavy loading."
+    },
+    {
+      "name": "Pistol Squats",
+      "difficulty": "advanced",
+      "muscles": ["quads", "glutes", "balance"],
+      "sets_reps": "3x3-8/leg",
+      "instructions": "Stand on one leg with other leg extended forward. Squat all the way down on the standing leg while keeping the extended leg off the floor. Stand back up. Requires significant strength and balance."
+    },
+    {
+      "name": "Glute Bridges",
+      "difficulty": "beginner",
+      "muscles": ["glutes", "hamstrings"],
+      "sets_reps": "3x15-20",
+      "instructions": "Lie on back with knees bent, feet flat on floor. Push through heels and squeeze glutes to lift hips toward ceiling. Hold briefly at top, then lower."
+    },
+    {
+      "name": "Single-leg Glute Bridges",
+      "difficulty": "intermediate",
+      "muscles": ["glutes_unilateral"],
+      "sets_reps": "3x10-15/leg",
+      "instructions": "Same as glute bridge but with one leg extended. Push through the planted foot to lift hips. Develops unilateral glute strength and addresses imbalances."
+    },
+    {
+      "name": "Calf Raises (on stairs)",
+      "difficulty": "beginner",
+      "muscles": ["gastrocnemius", "soleus"],
+      "sets_reps": "3x15-25",
+      "instructions": "Stand on the edge of a stair with heels hanging off. Rise up onto toes as high as possible, then lower heels below the stair level for a full stretch."
+    },
+    {
+      "name": "Wall Sit",
+      "difficulty": "beginner",
+      "muscles": ["quads"],
+      "sets_reps": "3x30-60 sec",
+      "instructions": "Lean against a wall and slide down until thighs are parallel to the floor and knees at 90 degrees. Hold the position. Isometric quad exercise."
+    },
+    {
+      "name": "Jump Squats",
+      "difficulty": "intermediate",
+      "muscles": ["quads", "glutes", "calves"],
+      "sets_reps": "3x10-15",
+      "instructions": "Perform a bodyweight squat, then explode upward into a jump. Land softly and immediately descend into the next squat. Builds explosive power."
+    },
+    {
+      "name": "Step-ups (on chair/bench)",
+      "difficulty": "beginner",
+      "muscles": ["quads", "glutes"],
+      "sets_reps": "3x10-12/leg",
+      "instructions": "Step onto a sturdy chair or bench with one foot. Drive through the heel to stand up fully on the platform. Step back down and repeat. Functional unilateral exercise."
+    }
+  ],
+  "arms": [
+    {
+      "name": "Diamond Push-ups",
+      "difficulty": "intermediate",
+      "muscles": ["triceps"],
+      "sets_reps": "3x8-12",
+      "instructions": "Perform push-ups with hands close together in a diamond shape. This variation primarily targets the triceps. Keep elbows close to body."
+    },
+    {
+      "name": "Bench/Chair Dips",
+      "difficulty": "beginner_intermediate",
+      "muscles": ["triceps", "anterior_deltoid"],
+      "sets_reps": "3x10-15",
+      "instructions": "Place hands on edge of a chair or bench behind you, legs extended or bent. Lower body by bending elbows to ~90 degrees. Push back up."
+    },
+    {
+      "name": "Chin-ups (underhand)",
+      "difficulty": "intermediate",
+      "muscles": ["biceps", "lats"],
+      "sets_reps": "3x5-12",
+      "instructions": "Hang from bar with underhand grip. Pull up until chin clears bar. The underhand grip places more emphasis on the biceps than standard pull-ups."
+    },
+    {
+      "name": "Towel Curls (isometric)",
+      "difficulty": "beginner",
+      "muscles": ["biceps"],
+      "sets_reps": "3x10-15",
+      "instructions": "Stand on the middle of a towel, hold both ends. Curl upward against the resistance of the towel while pressing down with your foot. Provides isometric bicep tension."
+    },
+    {
+      "name": "Water Bottle/Backpack Curls",
+      "difficulty": "beginner",
+      "muscles": ["biceps"],
+      "sets_reps": "3x12-15",
+      "instructions": "Use water bottles, filled backpacks, or any household weighted objects. Perform standard bicep curls with controlled movement."
+    }
+  ],
+  "core": [
+    {
+      "name": "Plank (forearm)",
+      "difficulty": "beginner",
+      "muscles": ["entire_core", "transverse_abdominis"],
+      "sets_reps": "3x30-60 sec",
+      "instructions": "Rest on forearms and toes, body in a straight line from head to heels. Engage core, squeeze glutes, and hold. Don't let hips sag or pike up."
+    },
+    {
+      "name": "Side Plank",
+      "difficulty": "beginner_intermediate",
+      "muscles": ["obliques", "core"],
+      "sets_reps": "3x20-45 sec/side",
+      "instructions": "Lie on one side, prop up on forearm with elbow under shoulder. Lift hips so body forms a straight line. Hold. Targets the obliques."
+    },
+    {
+      "name": "Dead Bug",
+      "difficulty": "beginner",
+      "muscles": ["deep_core", "hip_flexors"],
+      "sets_reps": "3x10/side",
+      "instructions": "Lie on back with arms extended toward ceiling and knees at 90 degrees. Slowly extend opposite arm and leg toward the floor while keeping lower back pressed into the ground. Return and alternate."
+    },
+    {
+      "name": "Bird Dog",
+      "difficulty": "beginner",
+      "muscles": ["core", "erector_spinae", "glutes"],
+      "sets_reps": "3x10/side",
+      "instructions": "Start on hands and knees. Extend one arm forward and the opposite leg back simultaneously. Hold briefly, then return. Alternate sides. Excellent for core stability and lower back health."
+    },
+    {
+      "name": "Mountain Climbers",
+      "difficulty": "intermediate",
+      "muscles": ["core", "hip_flexors"],
+      "sets_reps": "3x20-30",
+      "instructions": "Start in high plank position. Rapidly alternate driving knees toward chest, as if running in place in plank position. Combines core work with cardio."
+    },
+    {
+      "name": "Bicycle Crunches",
+      "difficulty": "intermediate",
+      "muscles": ["rectus_abdominis", "obliques"],
+      "sets_reps": "3x15-20/side",
+      "instructions": "Lie on back, hands behind head. Bring opposite elbow to opposite knee while extending the other leg. Alternate in a pedaling motion."
+    },
+    {
+      "name": "Hanging Leg Raises (pull-up bar)",
+      "difficulty": "advanced",
+      "muscles": ["lower_abs", "hip_flexors"],
+      "sets_reps": "3x8-12",
+      "instructions": "Hang from a pull-up bar with arms extended. Raise straight legs up to hip level or higher while keeping the movement controlled. Avoid swinging."
+    },
+    {
+      "name": "L-sit (floor or bars)",
+      "difficulty": "advanced",
+      "muscles": ["core", "hip_flexors", "triceps"],
+      "sets_reps": "3x10-30 sec",
+      "instructions": "Sit on the floor with legs extended. Place hands beside hips and push up, lifting entire body off the floor with legs held straight and parallel to ground. Hold."
+    },
+    {
+      "name": "Ab Wheel Rollout",
+      "difficulty": "advanced",
+      "muscles": ["entire_core", "lats"],
+      "sets_reps": "3x8-12",
+      "instructions": "Kneel with ab wheel in front of you. Roll the wheel forward, extending body while keeping core tight and hips from sagging. Roll back to start position."
+    },
+    {
+      "name": "Dragon Flags",
+      "difficulty": "elite",
+      "muscles": ["entire_core"],
+      "sets_reps": "3x3-8",
+      "instructions": "Lie on a bench, grip the edge behind your head. Lift entire body up to shoulder blades, keeping body rigid and straight. Lower with control without letting hips bend. Made famous by Bruce Lee."
+    }
+  ]
+}

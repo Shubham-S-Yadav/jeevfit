@@ -1,0 +1,276 @@
+{
+  "stress_anxiety": [
+    {
+      "name": "Child's Pose",
+      "sanskrit": "Balasana",
+      "hold_time": "1-3 min",
+      "benefits": "Calms nervous system, releases back tension",
+      "difficulty": "beginner",
+      "instructions": "Kneel on the floor, sit back on your heels, and fold forward with arms extended or by your sides. Rest forehead on the floor. Breathe deeply."
+    },
+    {
+      "name": "Legs Up The Wall",
+      "sanskrit": "Viparita Karani",
+      "hold_time": "5-15 min",
+      "benefits": "Parasympathetic activation, reduces anxiety",
+      "difficulty": "beginner",
+      "instructions": "Sit sideways next to a wall, then swing legs up the wall as you lie back. Keep arms at sides, palms up. Close eyes and breathe deeply. One of the most effective restorative poses."
+    },
+    {
+      "name": "Corpse Pose",
+      "sanskrit": "Shavasana",
+      "hold_time": "5-10 min",
+      "benefits": "Deep relaxation, body scan meditation",
+      "difficulty": "beginner",
+      "instructions": "Lie flat on your back with arms at sides, palms up, and legs comfortably apart. Close eyes and systematically relax each body part from toes to head."
+    },
+    {
+      "name": "Cat-Cow",
+      "sanskrit": "Marjaryasana-Bitilasana",
+      "hold_time": "1-2 min",
+      "benefits": "Spinal flexibility, stress relief",
+      "difficulty": "beginner",
+      "instructions": "Start on hands and knees. Inhale, arch back and look up (Cow). Exhale, round spine and tuck chin (Cat). Flow between the two with breath."
+    },
+    {
+      "name": "Standing Forward Bend",
+      "sanskrit": "Uttanasana",
+      "hold_time": "1-3 min",
+      "benefits": "Calms mind, hamstring stretch",
+      "difficulty": "beginner",
+      "instructions": "Stand with feet hip-width apart. Fold forward from hips, letting head and arms hang. Bend knees if hamstrings are tight. Let gravity do the work."
+    },
+    {
+      "name": "Bridge Pose",
+      "sanskrit": "Setu Bandhasana",
+      "hold_time": "30-60 sec",
+      "benefits": "Opens chest, reduces anxiety",
+      "difficulty": "beginner",
+      "instructions": "Lie on back with knees bent, feet flat. Press feet into floor, lift hips toward ceiling. Clasp hands under back or keep arms at sides. Breathe deeply."
+    },
+    {
+      "name": "Reclining Bound Angle",
+      "sanskrit": "Supta Baddha Konasana",
+      "hold_time": "3-5 min",
+      "benefits": "Hip opening, deep relaxation",
+      "difficulty": "beginner",
+      "instructions": "Lie on back, bring soles of feet together and let knees drop open to sides. Place pillows under knees for support if needed. Arms at sides, palms up."
+    }
+  ],
+  "strength_tone": [
+    {
+      "name": "Plank Pose",
+      "sanskrit": "Phalakasana",
+      "hold_time": "30-60 sec",
+      "benefits": "Core, arms, shoulders",
+      "difficulty": "beginner",
+      "instructions": "Start in push-up position. Keep body in a straight line from head to heels. Engage core, squeeze glutes, and hold. Don't let hips sag."
+    },
+    {
+      "name": "Chaturanga",
+      "sanskrit": "Chaturanga Dandasana",
+      "hold_time": "Transition (hold 5-10 sec)",
+      "benefits": "Triceps, chest, core",
+      "difficulty": "intermediate",
+      "instructions": "From plank, lower body halfway down (like bottom of a push-up), keeping elbows close to ribs and body in a straight line. Key transition in Sun Salutations."
+    },
+    {
+      "name": "Warrior I",
+      "sanskrit": "Virabhadrasana I",
+      "hold_time": "30-60 sec each side",
+      "benefits": "Legs, core, balance, hip flexor stretch",
+      "difficulty": "beginner",
+      "instructions": "Step one foot back into a lunge. Back foot angled 45 degrees. Square hips forward, raise arms overhead. Front knee at 90 degrees."
+    },
+    {
+      "name": "Warrior II",
+      "sanskrit": "Virabhadrasana II",
+      "hold_time": "30-60 sec each side",
+      "benefits": "Legs, core, hip opening, stamina",
+      "difficulty": "beginner",
+      "instructions": "From a wide stance, turn front foot forward and back foot perpendicular. Bend front knee to 90 degrees. Extend arms parallel to floor, gaze over front hand."
+    },
+    {
+      "name": "Warrior III",
+      "sanskrit": "Virabhadrasana III",
+      "hold_time": "30-60 sec each side",
+      "benefits": "Balance, legs, core, back strength",
+      "difficulty": "intermediate",
+      "instructions": "From standing, hinge forward at hips while lifting back leg until body forms a T shape. Arms extended forward or at sides. Engage standing leg and core."
+    },
+    {
+      "name": "Chair Pose",
+      "sanskrit": "Utkatasana",
+      "hold_time": "30-60 sec",
+      "benefits": "Quads, glutes, endurance",
+      "difficulty": "beginner",
+      "instructions": "Stand with feet together. Bend knees and lower hips as if sitting in an invisible chair. Raise arms overhead. Keep weight in heels."
+    },
+    {
+      "name": "Boat Pose",
+      "sanskrit": "Navasana",
+      "hold_time": "30-60 sec",
+      "benefits": "Core, hip flexors",
+      "difficulty": "intermediate",
+      "instructions": "Sit with knees bent. Lean back slightly and lift feet off floor. Extend legs (or keep bent for modification). Arms parallel to floor. Balance on sit bones."
+    },
+    {
+      "name": "Crow Pose",
+      "sanskrit": "Bakasana",
+      "hold_time": "10-30 sec",
+      "benefits": "Arms, core, balance",
+      "difficulty": "advanced",
+      "instructions": "Squat with hands on floor shoulder-width apart. Place knees on backs of upper arms. Lean forward, shifting weight to hands, and lift feet off floor."
+    },
+    {
+      "name": "Side Plank",
+      "sanskrit": "Vasisthasana",
+      "hold_time": "20-40 sec/side",
+      "benefits": "Obliques, shoulders",
+      "difficulty": "intermediate",
+      "instructions": "From plank, shift weight to one hand and rotate body to side. Stack feet or stagger them. Raise top arm to ceiling. Engage entire core."
+    }
+  ],
+  "flexibility_mobility": [
+    {
+      "name": "Downward Dog",
+      "sanskrit": "Adho Mukha Svanasana",
+      "hold_time": "1-3 min",
+      "benefits": "Hamstrings, calves, shoulders",
+      "difficulty": "beginner",
+      "instructions": "From hands and knees, tuck toes and lift hips high, forming an inverted V. Press hands into floor, push hips back and up. Pedal feet if hamstrings are tight."
+    },
+    {
+      "name": "Pigeon Pose",
+      "sanskrit": "Eka Pada Rajakapotasana",
+      "hold_time": "1-3 min/side",
+      "benefits": "Hip flexors, external rotators",
+      "difficulty": "intermediate",
+      "instructions": "From downward dog, bring one knee forward behind the wrist. Extend back leg behind you. Square hips and fold forward over front shin."
+    },
+    {
+      "name": "Seated Forward Bend",
+      "sanskrit": "Paschimottanasana",
+      "hold_time": "1-3 min",
+      "benefits": "Hamstrings, spine",
+      "difficulty": "beginner",
+      "instructions": "Sit with legs extended. Inhale to lengthen spine, exhale to fold forward from hips. Reach for feet or shins. Don't round the back; lead with the chest."
+    },
+    {
+      "name": "Cobra / Upward Dog",
+      "sanskrit": "Bhujangasana / Urdhva Mukha Svanasana",
+      "hold_time": "30-60 sec",
+      "benefits": "Spine extension, hip flexors, chest opening",
+      "difficulty": "beginner",
+      "instructions": "Lie face down, place hands under shoulders. Press up, lifting chest while keeping hips on floor (Cobra) or lifting everything off floor (Upward Dog). Open chest."
+    },
+    {
+      "name": "Butterfly",
+      "sanskrit": "Baddha Konasana",
+      "hold_time": "1-3 min",
+      "benefits": "Inner thighs, hips",
+      "difficulty": "beginner",
+      "instructions": "Sit with soles of feet together, knees dropped to sides. Hold feet and sit tall. Gently press knees toward floor using elbows or allow gravity to open hips."
+    },
+    {
+      "name": "Spinal Twist",
+      "sanskrit": "Ardha Matsyendrasana",
+      "hold_time": "1 min/side",
+      "benefits": "Spinal rotation, digestion",
+      "difficulty": "beginner",
+      "instructions": "Sit with one leg extended, cross other foot over to outside of extended knee. Twist torso toward bent knee, using opposite elbow on outside of knee for leverage."
+    },
+    {
+      "name": "Triangle Pose",
+      "sanskrit": "Trikonasana",
+      "hold_time": "30-60 sec/side",
+      "benefits": "Hamstrings, IT band, obliques",
+      "difficulty": "beginner",
+      "instructions": "Stand in wide stance, front foot forward, back foot perpendicular. Extend arms, then hinge at hip to reach front hand toward floor/shin. Top arm extends to ceiling."
+    }
+  ],
+  "better_sleep": [
+    {
+      "name": "Legs Up The Wall",
+      "sanskrit": "Viparita Karani",
+      "hold_time": "5-15 min",
+      "benefits": "The #1 sleep yoga pose. Activates parasympathetic nervous system, drains lymphatic fluid from legs, reduces anxiety.",
+      "difficulty": "beginner",
+      "instructions": "Sit sideways next to a wall, swing legs up the wall as you lie back. Close eyes, breathe deeply, and allow complete relaxation."
+    },
+    {
+      "name": "Supine Spinal Twist",
+      "sanskrit": "Supta Matsyendrasana",
+      "hold_time": "2-3 min/side",
+      "benefits": "Releases spinal tension, calms the nervous system",
+      "difficulty": "beginner",
+      "instructions": "Lie on back, draw one knee to chest and guide it across the body to the opposite side. Extend arms in T position. Turn head opposite to knee. Breathe deeply."
+    },
+    {
+      "name": "Happy Baby",
+      "sanskrit": "Ananda Balasana",
+      "hold_time": "1-3 min",
+      "benefits": "Hip release, calming, lower back relief",
+      "difficulty": "beginner",
+      "instructions": "Lie on back, draw knees toward armpits. Grab the outer edges of feet with hands. Gently rock side to side for a soothing stretch."
+    },
+    {
+      "name": "Forward Fold (seated)",
+      "sanskrit": "Paschimottanasana",
+      "hold_time": "2-3 min",
+      "benefits": "Activates parasympathetic nervous system, calms the mind",
+      "difficulty": "beginner",
+      "instructions": "Sit with legs extended. Fold forward from hips, resting on thighs. Hold and breathe deeply. The forward fold signals the body to rest."
+    },
+    {
+      "name": "Shavasana with body scan",
+      "sanskrit": "Shavasana",
+      "hold_time": "10 min",
+      "benefits": "Progressive relaxation, direct transition into sleep",
+      "difficulty": "beginner",
+      "instructions": "Lie flat on back. Starting from toes, progressively relax each body part. Bring awareness to each area, tense briefly, then release. Let go completely."
+    }
+  ],
+  "digestive_health": [
+    {
+      "name": "Wind Relieving Pose",
+      "sanskrit": "Pawanmuktasana",
+      "hold_time": "30-60 sec/side",
+      "benefits": "Gas and bloating relief, abdominal massage",
+      "difficulty": "beginner",
+      "instructions": "Lie on back, draw one knee to chest and hug it close. Press thigh gently into abdomen. Hold and breathe. Repeat on other side, then both knees together."
+    },
+    {
+      "name": "Seated Twist",
+      "sanskrit": "Ardha Matsyendrasana",
+      "hold_time": "1 min/side",
+      "benefits": "Stimulates digestion, massages abdominal organs",
+      "difficulty": "beginner",
+      "instructions": "Sit with one leg extended, cross other foot over. Twist torso toward bent knee. The wringing action stimulates digestive organs."
+    },
+    {
+      "name": "Bow Pose",
+      "sanskrit": "Dhanurasana",
+      "hold_time": "20-30 sec",
+      "benefits": "Abdominal massage, stimulates digestive fire",
+      "difficulty": "intermediate",
+      "instructions": "Lie face down, bend knees, reach back and grab ankles. Lift chest and thighs off the floor simultaneously, creating a bow shape. Rock gently."
+    },
+    {
+      "name": "Camel Pose",
+      "sanskrit": "Ustrasana",
+      "hold_time": "20-30 sec",
+      "benefits": "Stretches digestive organs, opens chest and abdomen",
+      "difficulty": "intermediate",
+      "instructions": "Kneel with knees hip-width apart. Place hands on lower back for support. Arch back, reaching hands toward heels. Open chest toward ceiling."
+    },
+    {
+      "name": "Deep Squat",
+      "sanskrit": "Malasana",
+      "hold_time": "1-2 min",
+      "benefits": "Natural defecation posture, hip opening, stimulates elimination",
+      "difficulty": "beginner",
+      "instructions": "Stand with feet wider than hips, toes turned out. Squat down as deep as possible. Press elbows against inner knees, palms together in prayer position."
+    }
+  ]
+}
