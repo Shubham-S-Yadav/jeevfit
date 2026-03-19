@@ -121,7 +121,7 @@ class FoodSynergiesResponse(BaseModel):
 
 class DailyTipResponse(BaseModel):
     tip: str
-    category: str
+    category: str = "general"
     source: str | None = None
 
 
